@@ -89,7 +89,7 @@ with tf.Session() as sess:
             end = (i+1)*batch
             image = np.asarray(train_images[start:end])
             label = np.asarray(train_labels[start:end])
-            l, tr, accur = sess.run([loss, train, accuracy], feed_dict={x:image, y_:label, keep_prob:0.5})
+            l, tr, accur = sess.run([loss, train, accuracy], feed_dict={x:image, y_:label, keep_prob:0.7})
             if i%100 == 0:
                  print "step =", i, "loss =", l, "accuracy =", accur
 
