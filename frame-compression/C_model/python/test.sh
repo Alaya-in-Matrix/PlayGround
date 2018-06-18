@@ -1,2 +1,0 @@
-python test_recompression.py
-python test_hardware_recompression.py
