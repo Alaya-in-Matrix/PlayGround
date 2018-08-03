@@ -1,36 +1,52 @@
-import numpy as np
-from scipy.optimize import fmin_l_bfgs_b
+import autograd.numpy as np
+from activations import *
+import cPickle as pickle
+from GP_model import GP_model
 from autograd import grad
 
 
-'''
-def chol_inv(L, y):
-    v = np.linalg.solve(L, y)
-    return np.linalg.solve(L.T, v)
 
-m = 20
-num_train = 100
-Phi = np.random.randn(m, num_train)
-A = np.dot(Phi, Phi.T) + 0.01 * np.eye(m)
-LA = np.linalg.cholesky(A)
+act = [relu, relu, relu]
+layer_sizes = [100,100,100]
 
-A_inv = chol_inv(LA, np.eye(m))
+with open('./test_bench/enb/enb.pickle','rb') as f:
+    dataset = pickle.load(f)
 
-I = np.dot(A_inv, A)
-print I
-'''
+train_x = dataset['train_x']
+train_y = dataset['train_y']
+test_x = dataset['test_x']
+test_y = dataset['test_y']
 
-def ll(x):
-    y = x*x*x*x + x*x + 2*x + 1
-    print 'x:',x,'y:',y
-    return y
+model = GP_model(train_x, train_y[0], layer_sizes, act)
+theta = model.rand_theta()
+
+w = theta[2+model.dim:]
+Phi = model.calc_Phi(w, model.train_x)
+
+print 'num_layers:',model.num_layers
+print 'dim:',model.dim
+print 'num_train:',model.num_train
+print 'layer_sizes:',model.layer_sizes
+print 'm:',model.m
+print 'num_param:',model.num_param
+print 'mean:',model.mean
+print 'std:',np.std(model.train_y)
 
 
-gll = grad(ll)
+loss = model.log_likelihood(theta)
+print loss
 
-fmin_l_bfgs_b(ll, 0.0, gll, maxiter=1000, m=100, iprint=1)
+model.fit(theta)
 
-
+py, ps2 = model.predict(test_x)
+m = np.mean(py)
+t = np.mean(ps2) + np.mean(py * py) - m * m
+print 'test mean:',py
+print 'test_y:', test_y[0]
+delta = py - test_y[0]
+print 'delta:', delta
+print np.mean(delta)
+print np.std(delta)
 
 
 
