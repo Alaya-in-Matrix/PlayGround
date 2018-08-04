@@ -150,7 +150,16 @@ class GP_model:
         ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
         return py, ps2
 
+    def test(self):
+        theta = self.rand_theta()
+        
+        def loss(theta_tmp):
+            nlz = self.log_likelihood(theta_tmp)
+            return nlz
 
+        gloss = grad(loss)
+        H = gloss(theta)
+        print H[:20]
 
 
 

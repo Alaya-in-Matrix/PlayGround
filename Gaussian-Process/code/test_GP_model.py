@@ -3,7 +3,7 @@ from activations import *
 import cPickle as pickle
 from GP_model import GP_model
 from autograd import grad
-
+from scipy.optimize import fmin_l_bfgs_b
 
 
 act = [relu, relu, relu]
@@ -35,7 +35,7 @@ print 'std:',np.std(model.train_y)
 
 loss = model.log_likelihood(theta)
 print loss
-
+'''
 model.fit(theta)
 
 py, ps2 = model.predict(test_x)
@@ -47,7 +47,24 @@ delta = py - test_y[0]
 print 'delta:', delta
 print np.mean(delta)
 print np.std(delta)
+'''
 
+'''
+theta0 = np.copy(theta)
+model.loss = np.inf
+model.theta = theta0
+
+def loss(theta):
+    nlz = model.log_likelihood(theta)
+    return nlz
+
+gloss = grad(loss)
+print gloss(theta0)
+
+fmin_l_bfgs_b(loss, theta0, gloss, model.bfgs_iter, m=100, iprint=1)
+'''
+
+model.test()
 
 
 
