@@ -73,39 +73,32 @@ class GP_model:
         A = np.dot(Phi, Phi.T) + (self.m * sn2 / sp2) * np.eye(self.m) # A.shape: (self.m, self.m)
         LA = np.linalg.cholesky(A)
 
-        neg_likelihood = np.inf
         logDetA = 0
         for i in range(self.m):
             logDetA = 2 * np.log(LA[i][i])
 
         data_fit = (np.dot(self.train_y_zero, self.train_y_zero.T) - np.dot(Phi_y.T, chol_inv(LA, Phi_y))) / sn2
         neg_likelihood = 0.5 * (data_fit + logDetA + self.num_train * np.log(2 * np.pi * sn2) - self.m * np.log(self.m * sn2 / sp2))
-        
         if(np.isnan(neg_likelihood)):
             neg_likelihood = np.inf
 
-        w_nobias = self.nn.w_nobias(w, self.dim)
-        l1_reg = self.l1 * np.abs(w_nobias).sum()
-        l2_reg = self.l2 * np.dot(w_nobias, w_nobias.T)
-        neg_likelihood += l1_reg + l2_reg
-
-        print neg_likelihood
-        if neg_likelihood < self.loss:
-            self.loss = neg_likelihood
-            self.A = np.copy(A)
-            self.LA = np.copy(LA)
-            self.theta = np.copy(theta)
-        
         return neg_likelihood
 
     def fit(self, theta):
         theta0 = np.copy(theta)
         self.loss = np.inf
-        self.theta = theta0
         
         def loss(theta_tmp):
             nlz = self.log_likelihood(theta_tmp)
+            w_nobias = self.nn.w_nobias(w, self.dim)
+            l1_reg = self.l1 * np.abs(w_nobias).sum()
+            l2_reg = self.l2 * np.dot(w_nobias, w_nobias.T)
+            nlz += l1_reg + l2_reg
+            if nlz < self.loss:
+                self.loss = nlz
+                self.theta = np.copy(theta_tmp)
             return nlz
+        print 'get loss function'
         gloss = grad(loss)
 
         try:
@@ -136,6 +129,8 @@ class GP_model:
         sn2 = np.exp(2*log_sn)
         sp2 = np.exp(2*log_sp)
         Phi = self.calc_Phi(w, scale_x(log_lscale, self.train_x))
+        self.A = np.dot(Phi, Phi.T) + (self.m * sn2 / sp2) * np.eye(self.m) # A.shape: (self.m, self.m)
+        self.LA = np.linalg.cholesky(self.A)
         self.alpha = chol_inv(self.LA, np.dot(Phi, self.train_y_zero.T))
 
     def predict(self, test_x):
