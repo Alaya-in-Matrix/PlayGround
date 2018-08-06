@@ -33,10 +33,8 @@ class GP_model:
         self.mean = np.mean(self.train_y)
         self.train_y_zero = self.train_y - self.mean
         self.loss = np.inf
-        print 'self.train_y.shape', self.train_y.shape
-        print 'self.train_y_zero.shape:', self.train_y_zero.shape
 
-    def rand_theta(self, scale=0.1):
+    def rand_theta(self, scale=1):
         '''
         generate an initial theta, the weights of NN are randomly initialized
         '''
@@ -130,9 +128,11 @@ class GP_model:
         sn2, sp2, log_lscale, w = self.split_theta(self.theta)
         Phi = self.calc_Phi(w, scale_x(log_lscale, self.train_x))
         self.alpha = chol_inv(self.LA, np.dot(Phi, self.train_y_zero.T))
-        
 
-
-
-
-
+    def predict(self, test_x):
+        sn2, sp2, log_lscale, w = self.split_theta(self.theta)
+        scaled_x = scale_x(log_lscale, test_x)
+        Phi_test = self.calc_Phi(w, scaled_x)
+        py = self.mean + np.dot(Phi_test.T, self.alpha)
+        ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
+        return py, ps2

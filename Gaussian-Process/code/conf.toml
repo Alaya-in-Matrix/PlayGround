@@ -1,10 +1,8 @@
-num_shared_layer     = 4
-num_non_shared_layer = 0
-hidden_shared        = 100
-hidden_non_shared    = 50
 l1                   = 0.0
 l2                   = 0.0
-scale                = 1
+scale                = 0.4
 max_iter             = 100
-K                    = 4
 activation           = "relu"
+num_layers           = 3
+layer_size           = 50
+directory            = "./test_bench/enb/enb.pickle"
