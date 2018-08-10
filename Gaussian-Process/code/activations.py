@@ -1,7 +1,5 @@
 import autograd.numpy as np
 
-
-
 def tanh(x):
     return np.tanh(x)
 
@@ -49,4 +47,4 @@ def erf(x):
 
 def cdf(x, mu, theta):
     x = (x-mu)/theta
-    return 0.5 + erf(np.sqrt(2)/2 * x)/2
+    return 0.5 + erf(x/np.sqrt(2))/2
