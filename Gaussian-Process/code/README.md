@@ -26,7 +26,7 @@ def cdf(x):
 def pdf(x):
     return np.exp(-x**2 / 2)/np.sqrt(2 * np.pi) 
 ```
-* Considering the fact that scipy.special doesn't work for autograd, we decide implement erf function in autograd.numpy. The code comes from website: [erf function code in numpy](www.johndcook.com/blog/python_erf/).
+* Considering the fact that scipy.special doesn't work for autograd, we decide implement erf function in autograd.numpy. The code comes from website: ![erf function in numpy](www.johndcook.com/blog/python_erf/).
 
 ### debug
 
