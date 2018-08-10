@@ -1,8 +1,8 @@
 l1                   = 0.0
 l2                   = 0.0
-scale                = 1.0
-max_iter             = 200
+scale                = 0.4
+max_iter             = 100
 activation           = "relu"
 num_layers           = 3
 layer_size           = 50
-directory            = "./test_bench/optCase/test.pickle"
+directory            = "./test_bench/enb/enb.pickle"

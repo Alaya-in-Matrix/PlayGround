@@ -51,5 +51,7 @@ print 'ps2'
 print ps2
 print 'delta'
 delta = py - test_y
+print delta
+print 'square error'
 print np.dot(delta, delta.T)
 
