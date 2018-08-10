@@ -1,8 +1,17 @@
-l1                   = 0.0
-l2                   = 0.0
-scale                = 1.0
-max_iter             = 200
-activation           = "relu"
-num_layers           = 3
-layer_size           = 50
-directory            = "./test_bench/optCase/test.pickle"
+l1 = 0.0
+l2 = 0.0
+scale = 0.4
+max_iter = 200
+activation = "relu"
+num_layers = 3
+layer_size = 100
+
+constrain_l1 = 0.0
+constrain_l2 = 0.0
+constrain_scale = 1.0
+constrain_max_iter = 50
+constrain_activation = "tanh"
+constrain_num_layers = 2
+constrain_layer_size = 50
+
+directory = "./test_bench/optCase/"

@@ -4,48 +4,96 @@ import cPickle as pickle
 from activations import *
 from autograd import grad
 from scipy.optimize import fmin_l_bfgs_b
+import toml
+import sys
 
-with open('./test_bench/optCase/test.pickle','rb') as f:
-    dataset = pickle.load(f)
+def get_act_f(act):
+    act_f = relu
+    if act == 'tanh':
+        act_f = tanh
+    elif act == 'sigmoid':
+        act_f = sigmoid
+    return act_f
 
-train_x = dataset['train_x']
-train_y = dataset['train_y'][0]
-test_x = dataset['test_x']
-test_y = dataset['test_y'][0]
+def construct_model(funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
+    with open(directory+funct+'.pickle','rb') as f:
+        dataset = pickle.load(f)
 
-num_layers = 3
-layer_size = 100
-scale = 0.4
+    train_x = dataset['train_x']
+    train_y = dataset['train_y'][0]
+    test_x = dataset['test_x']
+    test_y = dataset['test_y'][0]
 
-layer_sizes = [layer_size] * num_layers
-activation = [relu] * num_layers
+    activations = [get_act_f(act)]*num_layers
+    layer_sizes = [layer_size]*num_layers
 
-model = GP_model(train_x, train_y, layer_sizes, activation, bfgs_iter=200, l1=0.0, l2=0.0, debug=True)
+    main = GP_model(train_x, train_y, layer_sizes=layer_sizes, activations=activations, bfgs_iter=max_iter, l1=l1, l2=l2, debug=True)
+    theta0 = main.rand_theta()
+    main.fit(theta0)
 
-theta0 = model.rand_theta(scale=scale)
+    py, ps2 = main.predict(test_x)
+    print 'py'
+    print py
+    print 'ps2'
+    print ps2
+    print 'delta'
+    delta = py - test_y
+    print delta
+    print 'square error', np.dot(delta, delta.T)
 
-model.fit(theta0)
+    return main
 
-py, ps2 = model.predict(test_x)
+argv = sys.argv[1:]
+conf = toml.load(argv[0])
 
-print 'delta'
-delta = py - test_y
-print delta
+# configurations
+l1 = conf['l1']
+l2 = conf['l2']
+scale = conf['scale']
+max_iter = conf['max_iter']
+act = conf['activation']
+num_layers = conf['num_layers']
+layer_size = conf['layer_size']
 
-print 'square error'
-print np.dot(delta, delta.T)
+constrain_l1 = conf['constrain_l1']
+constrain_l2 = conf['constrain_l2']
+constrain_scale = conf['constrain_scale']
+constrain_max_iter = conf['constrain_max_iter']
+constrain_act = conf['constrain_activation']
+constrain_num_layers = conf['constrain_num_layers']
+constrain_layer_size = conf['constrain_layer_size']
 
-x = np.random.randn(train_x.shape[0],1)
-x[0] = x[0]*5
-x[1] = x[1]*3
-x[2] = x[2]*2.5
+directory = conf['directory']
 
-'''
-model.optimize(x)
+## main
 
-print model.opt
-print model.py
-print model.x
-print model.predict(x)
-'''
+main = construct_model('main_function', directory, num_layers, layer_size, act, max_iter, l1, l2)
+
+## constrain1
+
+construct_model('constrain1',directory, constrain_num_layers, constrain_layer_size, constrain_act, constrain_max_iter, constrain_l1, constrain_l2)
+
+## constrain2
+
+construct_model('constrain2',directory, constrain_num_layers, constrain_layer_size, constrain_act, constrain_max_iter, constrain_l1, constrain_l2)
+
+## constrain3
+
+construct_model('constrain3',directory, constrain_num_layers, constrain_layer_size, constrain_act, constrain_max_iter, constrain_l1, constrain_l2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
