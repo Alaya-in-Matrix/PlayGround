@@ -1,4 +1,9 @@
 import autograd.numpy as np
+import traceback
+import sys
+from autograd import grad
+from scipy.optimize import fmin_l_bfgs_b
+
 
 def tanh(x):
     return np.tanh(x)
@@ -9,8 +14,8 @@ def relu(x):
 def sigmoid(x):
     return 1.0 / (1.0 + np.exp(-x))
 
-def pdf(x, mu, theta):
-    x = (x-mu)/theta
+def pdf(x):
+    # x = (x-mu)/theta
     return np.exp(-x**2 / 2)/np.sqrt(2*np.pi)
 
 
@@ -45,6 +50,34 @@ def erf(x):
                                                                     
     return sign*y
 
-def cdf(x, mu, theta):
-    x = (x-mu)/theta
+def cdf(x):
+    # x = (x-mu)/theta
     return 0.5 + erf(x/np.sqrt(2))/2
+
+'''
+x0 = [0.5, 1.0, 2.0]
+
+def loss(x):
+    nlz = cdf(x[0], x[1], x[2])
+    print x, nlz
+    return nlz
+
+gloss = grad(loss)
+
+try:
+    fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m=100, iprint=1)
+except np.linalg.LinAlgError:
+    print('Increase noise term and re-optimization')
+    x0 = 0.3
+    try:
+        fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m=10, iprint=1)
+    except:
+        print('Exception caught, L-BFGS early stopping...')
+        print(traceback.format_exc())
+except:
+    print('Exception caught, L-BFGS early stopping...')
+    print(traceback.format_exc())
+                
+'''
+
+

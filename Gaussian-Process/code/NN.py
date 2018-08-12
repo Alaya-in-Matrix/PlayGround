@@ -68,8 +68,3 @@ class NN:
             prev_size = layer_size
         return out
 
-
-
-
-
-

@@ -2,7 +2,7 @@ import numpy as np
 import cPickle as pickle
 
 def main_func(x):
-    return x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)
+    return x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)*(x[2]+2)
 
 def constrain1(x):
     return x**2 - 25

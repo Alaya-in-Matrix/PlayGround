@@ -31,5 +31,7 @@ def pdf(x):
 ### debug
 
 * remember to use `import autograd.numpy as np` instead of `import numpy as np` for furthur grad computation 
-
-
+* there is no way to get `grad(np.diagonal)`. Considering the fact that ps2.shape=(self.num_test, self.num_test), we just reduce np.diagonal function. And we can get the same ps2 as before.
+* autograd only works for function that has one parameter. Thus, we need to change `cdf(x, mu, theta)` and `pdf(x, mu, theta)` into `cdf(x)` and `pdf(x)`. Compute `x=(x-mu)/theta` before feed it to `cdf` or `pdf` function.
+* autograd only works for function whose parameter.ndim is 1
+* use `np.sqrt(np.sum())` instead of `np.sqrt().sum()` to greatly reduce the computation complexity

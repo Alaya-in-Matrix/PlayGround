@@ -137,45 +137,4 @@ class GP_model:
         ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
         return py, ps2
 
-    def optimize(self, x):
-        x = x.reshape(self.dim, x.size/self.dim)
-        self.x = np.copy(x)
-        py, ps2 = self.predict(x)
-        self.opt = py.sum()
-        self.py = np.copy(py)
-
-        def loss(x):
-            x = x.reshape(self.dim, x.size/self.dim)
-            py, ps2 = self.predict(x)
-            if py.sum() < self.opt:
-                self.opt = py.sum()
-                self.py = py.copy()
-            return py.sum()
-        
-        gloss = grad(loss)
-        
-        try:
-            fmin_l_bfgs_b(loss, x, gloss, maxiter=self.bfgs_iter, m=100, iprint=1)
-        except np.linalg.LinAlgError:
-            print('Increase noise term and re-optimization')
-            x0 = np.copy(self.x)
-            x0[0] += 0.5
-            try:
-                fmin_l_bfgs_b(loss, x0, gloss, maxiter=self.bfgs_iter, m=10, iprint=1)
-            except:
-                print('Exception caught, L-BFGS early stopping...')
-                if self.debug:
-                    print(traceback.format_exc())
-        except:
-            print('Exception caught, L-BFGS early stopping...')
-            if self.debug:
-                print(traceback.format_exc())
-                
-        print('Optimized input is %g' % self.opt)
-        if(np.isinf(self.opt) or np.isnan(self.opt)):
-            print('Fail to optimize the input')
-            sys.exit(1)
-        
-
-        
 
