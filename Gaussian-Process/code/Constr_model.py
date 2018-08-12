@@ -224,11 +224,11 @@ class Constr_model:
         # main function input dimension
         self.dim = self.main_function.dim
 
-    def rand_x(self):
+    def rand_x(self, scale=1.0):
         '''
         randomly generate a initial input
         '''
-        return np.random.randn(self.dim,1)
+        return scale * np.random.randn(self.dim,1)
 
     def construct_model(self, funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
         def get_act_f(act):
@@ -272,32 +272,34 @@ class Constr_model:
         x0 = np.copy(x)
         self.x = x0
         self.loss = np.inf
-        self.best_y = np.array([100])
-        # self.tmp_py = 100
+        self.best_y = 0.0
+        self.tmp_py = np.array([0.0])
         '''
         we need one particular variable self.tmp_py to store best_y temperately
         and set self.best_y = self.tmp_py in the next loop 
-        
+        '''
         def loss(x):
-            self.best_py = self.tmp_py
+            self.best_y = self.tmp_py.sum()
             x = x.reshape(self.dim, x.size/self.dim)
-            py, ps2 = self.main_function.predict(x)
-            tmp_py = py.sum()
-            print tmp_py
+            tmp_py, ps2 = self.main_function.predict(x)
+            py = tmp_py.sum()
             ps = np.sqrt(ps2.sum())
-            tmp = (self.best_y - tmp_py)/ps
-            EI = -(self.best_y - tmp_py)*cdf(tmp) - ps*pdf(tmp)
+            tmp = (self.best_y - py)/ps
+            EI = (self.best_y - py)*cdf(tmp) + ps*pdf(tmp)
+            EI = -np.log(EI)
             for i in range(len(self.constr_list)):
                 py, ps2 = self.constr_list[i].predict(x[i:i+1])
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
-                EI = EI*cdf(-py/ps)
+                EI -= 0.1*np.log(cdf(-py/ps))
+            print 'loss x',x
             if EI < self.loss:
                 self.loss = EI
-                self.tmp_py = tmp_py
+                self.tmp_py = tmp_py.copy()
+                self.x = np.copy(x)
             return EI
+        
         '''
-
         def loss(x):
             x = x.reshape(self.dim, x.size/self.dim)
             tmp_py, ps2 = self.main_function.predict(x)
@@ -315,7 +317,7 @@ class Constr_model:
                 self.loss = EI
                 self.best_y = tmp_py
             return EI
-
+        '''
         gloss = grad(loss)
 
         try:

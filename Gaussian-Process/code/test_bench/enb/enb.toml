@@ -6,3 +6,4 @@ activation           = "relu"
 num_layers           = 3
 layer_size           = 50
 directory            = "./test_bench/enb/"
+funct                = "enb"

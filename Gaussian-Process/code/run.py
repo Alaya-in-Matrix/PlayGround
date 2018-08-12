@@ -56,7 +56,8 @@ num_layers = conf['num_layers']
 layer_size = conf['layer_size']
 max_iter = conf['max_iter']
 directory = conf['directory']
+funct = conf['funct']
 
-model = construct_model('enb',directory,num_layers, layer_size, activation, max_iter, l1, l2, debug=True)
+model = construct_model(funct,directory,num_layers, layer_size, activation, max_iter, l1, l2, debug=True)
 
 
