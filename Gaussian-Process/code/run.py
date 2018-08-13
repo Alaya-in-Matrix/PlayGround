@@ -7,14 +7,6 @@ import cPickle as pickle
 from GP_model import scale_x
 import matplotlib.pyplot as plt
 
-def get_act_f(act):
-    act_f = relu
-    if act == 'tanh':
-        act_f = tanh
-    elif act == 'sigmoid':
-        act_f = sigmoid
-    return act_f
-
 def construct_model(funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
     with open(directory+funct+'.pickle','rb') as f:
         dataset = pickle.load(f)

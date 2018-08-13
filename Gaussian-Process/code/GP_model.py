@@ -134,7 +134,8 @@ class GP_model:
         scaled_x = scale_x(log_lscale, test_x)
         Phi_test = self.calc_Phi(w, scaled_x)
         py = self.mean + np.dot(Phi_test.T, self.alpha)
-        ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
+        # ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
+        ps2 = sn2 + sn2 * np.dot(Phi_test.T, chol_inv(self.LA, Phi_test))
         return py, ps2
 
 

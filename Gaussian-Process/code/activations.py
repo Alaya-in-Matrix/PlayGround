@@ -4,6 +4,15 @@ import sys
 from autograd import grad
 from scipy.optimize import fmin_l_bfgs_b
 
+def get_act_f(act):
+    act_f = relu
+    if act == 'tanh':
+        act_f = tanh
+    elif act == 'sigmoid':
+        act_f = sigmoid
+    elif act == 'erf':
+        act_f = erf
+    return act_f
 
 def tanh(x):
     return np.tanh(x)
@@ -79,5 +88,4 @@ except:
     print(traceback.format_exc())
                 
 '''
-
 
