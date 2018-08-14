@@ -7,7 +7,21 @@ import cPickle as pickle
 from GP_model import scale_x
 import matplotlib.pyplot as plt
 
-def construct_model(funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
+## optCase main_function
+def main_f(x):
+    return x[0]*x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)*(x[2]+2)
+
+## test bench branin
+def branin(x):
+    a = 1.0
+    b = 5.1/(4*np.pi*np.pi)
+    c = 5.0/np.pi
+    r = 6.0
+    s = 10.0
+    t = 1/(8*np.pi)
+    return a * ((x[1]-b*x[0]*x[0]+c*x[0]-r)**2) + s*(1-t)*np.cos(x[0]) + s
+
+def construct_model(funct, directory, bounds, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
     with open(directory+funct+'.pickle','rb') as f:
         dataset = pickle.load(f)
 
@@ -35,7 +49,8 @@ def construct_model(funct, directory, num_layers, layer_size, act, max_iter=200,
     
     for i in range(5):
         x = np.random.randn(main.dim,1)
-        main.optimize(x)
+        main.optimize(x, bounds)
+        print 'true',main_f(main.x)
 
     return main
 
@@ -53,6 +68,7 @@ layer_size = conf['layer_size']
 max_iter = conf['max_iter']
 directory = conf['directory']
 funct = conf['main_funct']
+bounds = conf['bounds']
 
-model = construct_model(funct,directory,num_layers, layer_size, activation, max_iter, l1, l2, debug=True)
+model = construct_model(funct,directory,bounds,num_layers, layer_size, activation, max_iter, l1, l2, debug=True)
 

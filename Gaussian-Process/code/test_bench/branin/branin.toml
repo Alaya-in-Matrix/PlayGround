@@ -2,7 +2,7 @@ l1 = 0.0
 l2 = 0.0
 scale = 0.4
 num_layers = 3
-layer_size = 20
+layer_size = 30
 activation = "tanh"
 max_iter = 300
 
@@ -14,7 +14,7 @@ constrain_layer_size = 100
 constrain_activation = "relu"
 constrain_max_iter = 200
 
-directory = "./test_bench/optCase/"
-main_funct = "main_function"
+directory = "./test_bench/branin/"
+main_funct = "branin"
 constr = []
-bounds = [[-5,5],[-3,3],[-2.5,2.5]]
+bounds = [[-5,10],[0,15]]

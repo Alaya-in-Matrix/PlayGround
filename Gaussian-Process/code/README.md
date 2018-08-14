@@ -4,6 +4,11 @@
 
 * It turned out that scale=0.4 has the smallest mean and std after cross-validation
 
+### branin
+
+* The test bench should be uniformly distributed. `np.random.uniform`
+* layer_size = 30, num_layers = 3
+
 ### cdf
 
 * In order to furthur calculate the integration of **Probability Distribution Function(PDF)**, which is the **Cumulative Distribution Function(CDF)**, we import sympy for experiment.

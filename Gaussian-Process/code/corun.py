@@ -27,8 +27,8 @@ constr = conf['constr']
 
 model = Constr_model(main_funct, constr, directory, num_layers, layer_size, act, max_iter, l1, l2)
 
-x0 = model.rand_x(scale=0.2)
-model.fit(x0)
-
+for i in range(5):
+    x0 = model.rand_x(scale=2.0)
+    model.fit(x0)
 
 

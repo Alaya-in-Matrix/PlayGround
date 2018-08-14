@@ -29,7 +29,7 @@ class Constr_model:
         '''
         randomly generate a initial input
         '''
-        return scale * np.random.randn(self.dim,1)
+        return scale * np.random.rand(self.dim,1)
 
     def construct_model(self, funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
         with open(directory+funct+'.pickle','rb') as f:
@@ -61,7 +61,7 @@ class Constr_model:
 
     def fit(self, x):
         x0 = np.copy(x)
-        self.x = x0
+        self.x = np.copy(x)
         self.loss = np.inf
         self.best_y = 0.0
         self.tmp_py = np.array([0.0])
@@ -81,11 +81,11 @@ class Constr_model:
             EI = (self.best_y - py)*cdf(tmp) + ps*pdf(tmp)
             EI = -np.log(EI)
             for i in range(len(self.constr_list)):
-                py, ps2 = self.constr_list[i].predict(x[i:i+1])
+                py, ps2 = self.constr_list[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
-                EI -= 0.1*np.log(cdf(-py/ps))
-            print 'loss x',x
+                EI -= np.log(cdf(-py/ps))
+                # EI = EI * cdf(-py/ps)
             if EI < self.loss:
                 self.loss = EI
                 # self.tmp_py = tmp_py.copy()

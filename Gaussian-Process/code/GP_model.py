@@ -6,15 +6,6 @@ import traceback
 import sys
 
 
-def branin(x):
-    a = 1.0
-    b = 5.1/(4*np.pi*np.pi)
-    c = 5.0/np.pi
-    r = 6.0
-    s = 10.0
-    t = 1/(8*np.pi)
-    return a * ((x[1]-b*x[0]*x[0]+c*x[0]-r)**2) + s*(1-t)*np.cos(x[0]) + s
-
 def scale_x(log_lscale, x):
     lscale = np.exp(log_lscale).repeat(x.shape[1], axis=0).reshape(x.shape)
     return x/lscale
@@ -147,7 +138,7 @@ class GP_model:
         ps2 = sn2 + sn2 * np.dot(Phi_test.T, chol_inv(self.LA, Phi_test))
         return py, ps2
 
-    def optimize(self, x):
+    def optimize(self, x, bounds):
         x0 = np.copy(x)
         self.x = np.copy(x)
         self.loss = np.inf
@@ -164,13 +155,13 @@ class GP_model:
         gloss = grad(loss)
 
         try:
-            fmin_l_bfgs_b(loss, x0, gloss, bounds=[(-5,10),(0,5)], maxiter=200, m = 100, iprint=1)
+            fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m = 100, iprint=1)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
             theta0 = np.copy(self.theta)
             theta0[0] += 1.0
             try:
-                fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m = 10, iprint=1)
+                fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m = 10, iprint=1)
             except:
                 print('Exception caught, L-BFGS early stopping...')
                 print(traceback.format.exc())
@@ -186,7 +177,6 @@ class GP_model:
         print('best_x',self.x)
         print('predict',self.predict(self.x))
         print('loss',self.loss)
-        print('true',branin(self.x))
 
 
 
