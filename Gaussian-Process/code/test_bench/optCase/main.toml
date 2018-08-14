@@ -8,13 +8,13 @@ max_iter = 300
 
 constrain_l1 = 0.0
 constrain_l2 = 0.0
-constrain_scale = 1.0
-constrain_num_layers = 3
-constrain_layer_size = 100
-constrain_activation = "relu"
-constrain_max_iter = 200
+constrain_scale = 0.4
+constrain_num_layers = 2
+constrain_layer_size = 20
+constrain_activation = "tanh"
+constrain_max_iter = 50
 
 directory = "./test_bench/optCase/"
 main_funct = "main_function"
-constr = []
+constr = ['constrain1']
 bounds = [[-5,5],[-3,3],[-2.5,2.5]]

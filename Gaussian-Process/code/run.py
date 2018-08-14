@@ -7,6 +7,26 @@ import cPickle as pickle
 from GP_model import scale_x
 import matplotlib.pyplot as plt
 
+## hartmann
+def hartmann6(x):
+    x = x.reshape(6)
+    A = np.array([[10.0,3.0,17.0,3.5,1.7,8.0],
+        [0.05,10.0,17.0,0.1,8.0,14.0],
+        [3.0,3.5,1.7,10.0,17.0,8.0],
+        [17.0,8.0,0.05,10.0,0.1,14.0]])
+    P = np.array([[0.1312,0.1696,0.5569,0.0124,0.8283,0.5886],
+        [0.2329,0.4135,0.8307,0.3736,0.1004,0.9991],
+        [0.2348,0.1451,0.3522,0.2883,0.3047,0.665],
+        [0.4047,0.8828,0.8732,0.5743,0.1091,0.0381]])
+    alpha = np.array([[1.0,1.2,3.0,3.2]])
+
+
+    tmp = (A*np.square(x - P)).sum(axis=1)
+    radian = np.exp(-tmp).reshape(tmp.size,1)
+    result = -np.dot(alpha,radian).sum()
+
+    return result
+
 ## optCase main_function
 def main_f(x):
     return x[0]*x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)*(x[2]+2)
@@ -50,7 +70,7 @@ def construct_model(funct, directory, bounds, num_layers, layer_size, act, max_i
     for i in range(5):
         x = np.random.randn(main.dim,1)
         main.optimize(x, bounds)
-        print 'true',main_f(main.x)
+        print 'true',hartmann6(main.x)
 
     return main
 

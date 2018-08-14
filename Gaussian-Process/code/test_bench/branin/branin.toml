@@ -6,14 +6,6 @@ layer_size = 30
 activation = "tanh"
 max_iter = 300
 
-constrain_l1 = 0.0
-constrain_l2 = 0.0
-constrain_scale = 1.0
-constrain_num_layers = 3
-constrain_layer_size = 100
-constrain_activation = "relu"
-constrain_max_iter = 200
-
 directory = "./test_bench/branin/"
 main_funct = "branin"
 constr = []
