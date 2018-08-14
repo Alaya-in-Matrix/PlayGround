@@ -1,5 +1,8 @@
 import numpy as np
 import cPickle as pickle
+from matplotlib import pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
 
 def branin(x):
     a = 1.0
@@ -11,12 +14,12 @@ def branin(x):
     return a * ((x[1]-b*x[0]*x[0]+c*x[0]-r)**2) + s*(1-t)*np.cos(x[0]) + s
 
 num_train = 10000
-num_test = 100
+num_test = 200
 dim = 2
-train_x = np.random.randn(num_train, dim)
+train_x = np.random.uniform(-5,10,(num_train, dim))
 train_y = np.array([branin(train_x[i].reshape(dim)) for i in range(num_train)]) 
 
-test_x = np.random.randn(num_test, dim)
+test_x = np.random.uniform(0,15,(num_test, dim))
 test_y = np.array([branin(test_x[i].reshape(dim)) for i in range(num_test)])
 
 dataset = {}

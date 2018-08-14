@@ -17,17 +17,17 @@ num_train = 10000
 num_test = 100
 dim = 3
 
-x1 = np.random.randn(num_train) * 5
-x2 = np.random.randn(num_train) * 3
-x3 = np.random.randn(num_train) * 2.5
+x1 = np.random.rand(num_train) * 10 - 5
+x2 = np.random.rand(num_train) * 6 - 3
+x3 = np.random.rand(num_train) * 5 - 2.5
 
 train_x = np.array([x1, x2, x3])
 train_y = np.array([main_func(train_x[:,i]) for i in range(num_train)])
 
 
-x1 = np.random.randn(num_test) * 5
-x2 = np.random.randn(num_test) * 3
-x3 = np.random.randn(num_test) * 2.5
+x1 = np.random.rand(num_test) * 10 - 5
+x2 = np.random.rand(num_test) * 6 - 3
+x3 = np.random.rand(num_test) * 5 - 2.5
 
 test_x = np.array([x1, x2, x3])
 test_y = np.array([main_func(test_x[:,i]) for i in range(num_test)])
@@ -46,9 +46,9 @@ dataset['test_y'] = test_y.reshape(1,test_y.size)
 with open('main_function.pickle','wb') as f:
     pickle.dump(dataset, f)
 
-train_x = np.array([np.random.randn(num_train*2)*10])
+train_x = np.array([np.random.rand(num_train*2)*10-5])
 train_y = np.array([constrain1(train_x[:,i]) for i in range(2*num_train)])
-test_x = np.array([np.random.randn(num_test*2) * 10])
+test_x = np.array([np.random.rand(num_test*2)*10-5])
 test_y = np.array([constrain1(test_x[:,i]) for i in range(2*num_test)])
 
 print train_x.shape
@@ -66,9 +66,9 @@ with open('constrain1.pickle','wb') as f:
     pickle.dump(dataset, f)
 
 
-train_x = np.array([np.random.randn(num_train*2)*6])
+train_x = np.array([np.random.rand(num_train*2)*6-3])
 train_y = np.array([constrain1(train_x[:,i]) for i in range(2*num_train)])
-test_x = np.array([np.random.randn(num_test*2) * 6])
+test_x = np.array([np.random.rand(num_test*2)*6-3])
 test_y = np.array([constrain1(test_x[:,i]) for i in range(2*num_test)])
 
 print train_x.shape
@@ -86,9 +86,9 @@ with open('constrain2.pickle','wb') as f:
     pickle.dump(dataset, f)
 
 
-train_x = np.array([np.random.randn(num_train*2)*5])
+train_x = np.array([np.random.rand(num_train*2)*5 - 2.5])
 train_y = np.array([constrain1(train_x[:,i]) for i in range(2*num_train)])
-test_x = np.array([np.random.randn(num_test*2) * 5])
+test_x = np.array([np.random.rand(num_test*2)*5 - 2.5])
 test_y = np.array([constrain1(test_x[:,i]) for i in range(2*num_test)])
 
 print train_x.shape

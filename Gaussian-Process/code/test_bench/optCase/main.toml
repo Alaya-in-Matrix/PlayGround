@@ -1,10 +1,19 @@
 l1 = 0.0
 l2 = 0.0
 scale = 0.4
-max_iter = 300
-activation = "relu"
 num_layers = 3
-layer_size = 100
-funct = "main_function"
-directory = "./test_bench/optCase/"
+layer_size = 20
+activation = "tanh"
+max_iter = 300
 
+constrain_l1 = 0.0
+constrain_l2 = 0.0
+constrain_scale = 1.0
+constrain_num_layers = 3
+constrain_layer_size = 10
+constrain_activation = "relu"
+constrain_max_iter = 200
+
+directory = "./test_bench/optCase/"
+main_funct = "main_function"
+constr = []
