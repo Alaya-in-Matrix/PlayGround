@@ -12,7 +12,7 @@ constrain_scale = 0.4
 constrain_num_layers = 2
 constrain_layer_size = 20
 constrain_activation = "tanh"
-constrain_max_iter = 20
+constrain_max_iter = 50
 
 directory = "./test_bench/optCase/"
 main_funct = "main_function"

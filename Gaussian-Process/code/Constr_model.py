@@ -79,12 +79,12 @@ class Constr_model:
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
             EI = (self.best_y - py)*cdf(tmp) + ps*pdf(tmp)
-            EI = -np.log(EI)
+            EI = -np.log(EI+0.0001)
             for i in range(len(self.constr_list)):
                 py, ps2 = self.constr_list[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
-                EI -= np.log(cdf(-py/ps))
+                EI -= np.log(cdf(-py/ps)+0.0001)
                 # EI = EI * cdf(-py/ps)
             if EI < self.loss:
                 self.loss = EI

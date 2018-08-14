@@ -16,7 +16,7 @@ def constrain3(x):
 '''
 
 def constrain1(x):
-    return x[2]-x[1]*x[1]
+    return x[2]-0.7*x[1]*x[1]
 
 num_train = 10000
 num_test = 100

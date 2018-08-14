@@ -9,6 +9,11 @@
 * The test bench should be uniformly distributed. `np.random.uniform`
 * layer_size = 30, num_layers = 3
 
+### optCase
+
+* the EI and PI is too small, thus, we use -np.log(EIxPI)
+* we use -np.log(EI+0.0001)-np.log(PI+0.0001) just in case EI or PI is 0
+
 ### cdf
 
 * In order to furthur calculate the integration of **Probability Distribution Function(PDF)**, which is the **Cumulative Distribution Function(CDF)**, we import sympy for experiment.
