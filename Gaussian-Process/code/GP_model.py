@@ -74,7 +74,6 @@ class GP_model:
         logDetA = 0
         for i in range(self.m):
             logDetA = 2 * np.log(LA[i][i])
-
         datafit = (np.dot(self.train_y_zero, self.train_y_zero.T) - np.dot(Phi_y.T, chol_inv(LA, Phi_y))) / sn2
         neg_likelihood = 0.5 * (datafit + self.num_train * np.log(2 * np.pi * sn2) + logDetA - self.m * np.log(self.m * sn2 / sp2))
         if(np.isnan(neg_likelihood)):
@@ -137,5 +136,47 @@ class GP_model:
         # ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
         ps2 = sn2 + sn2 * np.dot(Phi_test.T, chol_inv(self.LA, Phi_test))
         return py, ps2
+
+    def optimize(self, x):
+        x0 = np.copy(x)
+        self.x = np.copy(x)
+        self.loss = np.inf
+        
+        def loss(x):
+            x = x.reshape(self.dim, x.size/self.dim)
+            py, ps2 = self.predict(x)
+            py = py.sum()
+            if py < self.loss:
+                self.loss = py
+                self.x = x.copy()
+            return py
+
+        gloss = grad(loss)
+
+        try:
+            fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m = 100, iprint=1)
+        except np.linalg.LinAlgError:
+            print('Increase noise term and re-optimization')
+            theta0 = np.copy(self.theta)
+            theta0[0] += 1.0
+            try:
+                fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m = 10, iprint=1)
+            except:
+                print('Exception caught, L-BFGS early stopping...')
+                print(traceback.format.exc())
+        except:
+            print('Exception caught, L-BFGS early stopping...')
+            print(traceback.format_exc())
+
+        print('Optimized loss is %g' % self.loss)
+        if(np.isinf(self.loss) or np.isnan(self.loss)):
+            print('Fail to build GP model')
+            sys.exit(1)
+
+        print('best_x',self.x)
+        print('predict',self.predict(self.x))
+        print('loss',self.loss)
+
+
 
 

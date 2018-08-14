@@ -32,6 +32,10 @@ def construct_model(funct, directory, num_layers, layer_size, act, max_iter=200,
     delta = py - test_y
     print delta
     print 'square error', np.dot(delta, delta.T)
+    
+    for i in range(5):
+        x = np.random.randn(main.dim,1)
+        main.optimize(x)
 
     return main
 
@@ -48,8 +52,7 @@ num_layers = conf['num_layers']
 layer_size = conf['layer_size']
 max_iter = conf['max_iter']
 directory = conf['directory']
-funct = conf['funct']
+funct = conf['main_funct']
 
 model = construct_model(funct,directory,num_layers, layer_size, activation, max_iter, l1, l2, debug=True)
-
 

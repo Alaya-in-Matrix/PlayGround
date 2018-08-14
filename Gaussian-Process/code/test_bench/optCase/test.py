@@ -2,7 +2,7 @@ import numpy as np
 import cPickle as pickle
 
 def main_func(x):
-    return x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)*(x[2]+2)
+    return x[0]*x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)*(x[2]+2)
 
 def constrain1(x):
     return x**2 - 25
@@ -13,8 +13,8 @@ def constrain2(x):
 def constrain3(x):
     return x**2 - 6.25
 
-num_train = 1000
-num_test = 68
+num_train = 10000
+num_test = 100
 dim = 3
 
 x1 = np.random.randn(num_train) * 5
