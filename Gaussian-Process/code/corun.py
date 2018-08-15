@@ -9,6 +9,9 @@ import sys
 import traceback
 from Constr_model import Constr_model
 
+## test bench optCase main_function
+def main_function(x):
+    return x[0]*x[0]+(x[1]-1)*(x[1]-1)+(x[2]+1)*(x[2]+1)*(x[2]-1)*(x[2]+2)
 
 argv = sys.argv[1:]
 conf = toml.load(argv[0])
@@ -24,11 +27,13 @@ l1 = [conf['l1'], conf['constrain_l1']]
 l2 = [conf['l2'], conf['constrain_l2']]
 main_funct = conf['main_funct']
 constr = conf['constr']
+bounds = conf['bounds']
 
 model = Constr_model(main_funct, constr, directory, num_layers, layer_size, act, max_iter, l1, l2)
 
 for i in range(5):
-    x0 = model.rand_x(scale=1.0)
-    model.fit(x0)
+    x0 = model.rand_x(scale=0.1)
+    model.fit(x0, bounds)
+    print('true',main_function(model.x))
 
 

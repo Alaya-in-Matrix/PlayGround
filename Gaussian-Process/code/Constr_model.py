@@ -29,7 +29,7 @@ class Constr_model:
         '''
         randomly generate a initial input
         '''
-        return scale * np.random.rand(self.dim,1)
+        return scale * np.random.randn(self.dim,1)
 
     def construct_model(self, funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
         with open(directory+funct+'.pickle','rb') as f:
@@ -59,7 +59,7 @@ class Constr_model:
 
         return model
 
-    def fit(self, x):
+    def fit(self, x, bounds):
         x0 = np.copy(x)
         self.x = np.copy(x)
         self.loss = np.inf
@@ -79,12 +79,12 @@ class Constr_model:
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
             EI = (self.best_y - py)*cdf(tmp) + ps*pdf(tmp)
-            EI = -np.log(EI+0.0001)
+            EI = -100*np.log(EI+0.000001)
             for i in range(len(self.constr_list)):
                 py, ps2 = self.constr_list[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
-                EI -= np.log(cdf(-py/ps)+0.0001)
+                EI -= np.log(cdf(-py/ps)+0.000001)
                 # EI = EI * cdf(-py/ps)
             if EI < self.loss:
                 self.loss = EI
@@ -92,35 +92,16 @@ class Constr_model:
                 self.x = np.copy(x)
             return EI
         
-        '''
-        def loss(x):
-            x = x.reshape(self.dim, x.size/self.dim)
-            tmp_py, ps2 = self.main_function.predict(x)
-            py = tmp_py.sum()
-            ps = np.sqrt(ps2.sum())
-            k = self.best_y.sum()
-            tmp = (k - py)/ps
-            EI = -(k - py)*cdf(tmp) - ps*pdf(tmp)
-            for i in range(len(self.constr_list)):
-                py, ps2 = self.constr_list[i].predict(x[i:i+1])
-                py = py.sum()
-                ps = np.sqrt(ps2.sum())
-                EI = EI*cdf(-py/ps)
-            if EI < self.loss:
-                self.loss = EI
-                self.best_y = tmp_py
-            return EI
-        '''
         gloss = grad(loss)
 
         try:
-            fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m=100, iprint=1)
+            fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m=100, iprint=1)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
             x0 = np.copy(self.x)
             x0[0] += 0.01
             try:
-                fmin_l_bfgs_b(loss, x0, gloss, maxiter=200, m=10, iprint=1)
+                fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m=10, iprint=1)
             except:
                 print('Exception caught, L-BFGS early stopping...')
                 print(traceback.format_exc())

@@ -158,8 +158,8 @@ class GP_model:
             fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m = 100, iprint=1)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
-            theta0 = np.copy(self.theta)
-            theta0[0] += 1.0
+            x0 = np.copy(self.x)
+            x0[0] += 1.0
             try:
                 fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m = 10, iprint=1)
             except:
