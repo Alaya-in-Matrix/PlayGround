@@ -70,7 +70,7 @@ def construct_model(funct, directory, bounds, num_layers, layer_size, act, max_i
     for i in range(5):
         x = np.random.randn(main.dim,1)
         main.optimize(x, bounds)
-        print 'true',hartmann6(main.x)
+        print 'true',branin(main.x)
 
     return main
 
