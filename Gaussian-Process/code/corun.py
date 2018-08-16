@@ -27,13 +27,13 @@ l1 = [conf['l1'], conf['constrain_l1']]
 l2 = [conf['l2'], conf['constrain_l2']]
 main_funct = conf['main_funct']
 constr = conf['constr']
-bounds = conf['bounds']
+bounds = np.array(conf['bounds'])
 
-model = Constr_model(main_funct, constr, directory, num_layers, layer_size, act, max_iter, l1, l2)
+model = Constr_model(main_funct, constr, directory, bounds, num_layers, layer_size, act, max_iter, l1, l2)
 
 for i in range(5):
     x0 = model.rand_x(scale=0.1)
-    model.fit(x0, bounds)
+    model.fit(x0)
     print('true',main_function(model.x))
 
 

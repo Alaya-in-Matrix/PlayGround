@@ -13,8 +13,8 @@
 
 * the EI and PI is too small, thus, we use -np.log(EIxPI)
 * we use -np.log(EI+0.000001)-np.log(PI+0.000001) just in case EI or PI is 0
-* We found that use -10000*np.log(EI+0.000001) instead of -np.log(EI+0.000001) works much better. It is because that EI is much more important than constrain1 in some way, thus, EI should have much larger weight.
-* As the -10000*np.log(EI+0.000001) is still not as good as GP_model.optimize function, we use 100*py as EI. It turned out to work just as good as GP_model.optimize. Thus, just minimize f(x) works much better than maximize EI*PI in some testing case. 
+* We found that use -10000xnp.log(EI+0.000001) instead of -np.log(EI+0.000001) works much better. It is because that EI is much more important than constrain1 in some way, thus, EI should have much larger weight.
+* As the -10000xnp.log(EI+0.000001) is still not as good as GP_model.optimize function, we use 100xpy as EI. It turned out to work just as good as GP_model.optimize. Thus, just minimize f(x) works much better than maximize EI*PI in some testing case. 
 
 ### cdf
 

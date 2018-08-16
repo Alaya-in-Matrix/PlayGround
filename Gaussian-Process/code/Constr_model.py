@@ -7,10 +7,11 @@ import sys
 import cPickle as pickle
 from NN import NN
 from GP_model import GP_model
+import random
 
 
 class Constr_model:
-    def __init__(self, main_funct, constr, directory, num_layers, layer_size, act, max_iter, l1, l2):
+    def __init__(self, main_funct, constr, directory, bounds, num_layers, layer_size, act, max_iter, l1, l2):
         '''
         generate the main function model
         '''
@@ -24,12 +25,19 @@ class Constr_model:
             self.constr_list.append(model)
         # main function input dimension
         self.dim = self.main_function.dim
+        self.bounds = np.copy(bounds)
 
     def rand_x(self, scale=1.0):
         '''
         randomly generate a initial input
         '''
-        return scale * np.random.randn(self.dim,1)
+        if self.bounds.ndim == 1:
+            return scale * np.random.randn(self.dim,1)
+        else:
+            x = np.zeros((self.dim,1))
+            for i in range(self.dim):
+                x[i] = random.uniform(self.bounds[i,0],self.bounds[i,1])
+            return x
 
     def construct_model(self, funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
         with open(directory+funct+'.pickle','rb') as f:
@@ -59,7 +67,7 @@ class Constr_model:
 
         return model
 
-    def fit(self, x, bounds):
+    def fit(self, x):
         x0 = np.copy(x)
         self.x = np.copy(x)
         self.loss = np.inf
@@ -76,18 +84,21 @@ class Constr_model:
             py = tmp_py.sum()
             if py < self.tmp_py.sum():
                 self.tmp_py = tmp_py.copy()
+                # self.best_y = tmp_py.copy()
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
             EI = (self.best_y - py)*cdf(tmp) + ps*pdf(tmp)
-            EI = -100*np.log(EI+0.000001)
+            PI = 1.0
             for i in range(len(self.constr_list)):
                 py, ps2 = self.constr_list[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
-                EI -= np.log(cdf(-py/ps)+0.000001)
-                # EI = EI * cdf(-py/ps)
-            if EI < self.loss:
-                self.loss = EI
+                PI = PI * cdf(-py/ps)
+                if py > 0:
+                    EI = 1.0
+            loss = - 1000*np.log(EI+0.000001) - np.log(PI+0.000001)
+            if loss < self.loss:
+                self.loss = loss
                 # self.tmp_py = tmp_py.copy()
                 self.x = np.copy(x)
             return EI
@@ -95,13 +106,13 @@ class Constr_model:
         gloss = grad(loss)
 
         try:
-            fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m=100, iprint=1)
+            fmin_l_bfgs_b(loss, x0, gloss, bounds=self.bounds, maxiter=200, m=100, iprint=1)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
             x0 = np.copy(self.x)
             x0[0] += 0.01
             try:
-                fmin_l_bfgs_b(loss, x0, gloss, bounds=bounds, maxiter=200, m=10, iprint=1)
+                fmin_l_bfgs_b(loss, x0, gloss, bounds=self.bounds, maxiter=200, m=10, iprint=1)
             except:
                 print('Exception caught, L-BFGS early stopping...')
                 print(traceback.format_exc())
@@ -114,8 +125,12 @@ class Constr_model:
             print('Fail to build GP model')
             sys.exit(1)
 
-        print self.x
-        print self.loss
-        print self.best_y
+        print 'x',self.x
+        print 'loss',self.loss
+        print 'best_y',self.best_y
+        print 'constrain1',
+        for const in self.constr_list:
+            print const.predict(self.x),
+        print
 
 
