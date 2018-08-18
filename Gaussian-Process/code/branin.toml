@@ -1,0 +1,13 @@
+l1 = [0]
+l2 = [0]
+scale = [0.4]
+num_layers = [3]
+layer_size = [30]
+activation = ["tanh"]
+max_iter = [45]
+funct = "branin"
+bounds = [[-5,10],[0,15]]
+num_train = 20
+num_test = 2
+dim = 2
+outdim = 1

@@ -1,136 +1,157 @@
 import autograd.numpy as np
 from autograd import grad
-import traceback
 from scipy.optimize import fmin_l_bfgs_b
-from activations import * 
-import sys
 import cPickle as pickle
-from NN import NN
+from activations import *
 from GP_model import GP_model
 import random
 
-
 class Constr_model:
-    def __init__(self, main_funct, constr, directory, bounds, num_layers, layer_size, act, max_iter, l1, l2):
-        '''
-        generate the main function model
-        '''
-        self.main_function = self.construct_model(main_funct, directory, num_layers=num_layers[0], layer_size=layer_size[0], act=act[0], max_iter=max_iter[0], l1=l1[0], l2=l2[0])
-        '''
-        generate the constrain model
-        '''
-        self.constr_list = []
-        for i in constr:
-            model = self.construct_model(i, directory, num_layers=num_layers[1], layer_size=layer_size[1], act=act[1], max_iter=max_iter[1], l1=l1[1], l2=l2[1])
-            self.constr_list.append(model)
-        # main function input dimension
-        self.dim = self.main_function.dim
+    def __init__(self, main_f, dataset, dim, outdim, bounds, scale, num_layers, layer_size, act, max_iter, l1=0, l2=0, debug=True):
+        self.dim = dim
+        self.main_f = main_f
+        self.outdim = outdim
+        self.l1 = np.copy(l1)
+        self.l2 = np.copy(l2)
+        self.scale = np.copy(scale)
+        self.num_layers = np.copy(num_layers)
+        self.layer_size = np.copy(layer_size)
+        self.act = np.copy(act)
+        self.max_iter = np.copy(max_iter)
         self.bounds = np.copy(bounds)
+        self.train_x = dataset['train_x'].copy()
+        self.test_x = dataset['test_x'].copy()
+        self.train_y = dataset['train_y'].copy()
+        self.test_y = dataset['test_y'].copy()
 
-    def rand_x(self, scale=1.0):
-        '''
-        randomly generate a initial input
-        '''
-        if self.bounds.ndim == 1:
-            return scale * np.random.randn(self.dim,1)
-        else:
-            x = np.zeros((self.dim,1))
-            for i in range(self.dim):
-                x[i] = random.uniform(self.bounds[i,0],self.bounds[i,1])
-            return x
+        self.main_function = self.construct_model(0)
+        self.constr_list = []
+        for i in range(1,self.outdim):
+            self.constr_list.append(self.construct_model(i))
 
-    def construct_model(self, funct, directory, num_layers, layer_size, act, max_iter=200, l1=0.0, l2=0.0, debug=True):
-        with open(directory+funct+'.pickle','rb') as f:
-            dataset = pickle.load(f)
+    def init_dataset(self):
+        train_x = np.zeros((self.dim, self.num_train))
+        test_x = np.zeros((self.dim, self.num_test))
+        for i in range(self.dim):
+            train_x[i] = np.random.uniform(self.bounds[i,0], self.bounds[i,1],(self.num_train))
+            test_x[i] = np.random.uniform(self.bounds[i,0], self.bounds[i,1],(self.num_test))
+        self.train_x = train_x
+        self.test_x = test_x
+        
+        train_y = np.zeros((self.outdim,self.num_train))
+        test_y = np.zeros((self.outdim,self.num_test))
+        for i in range(self.outdim):
+            train_y[i] = np.array([self.main_f(train_x[:,j],i) for j in range(self.num_train)])
+            test_y[i] = np.array([self.main_f(test_x[:,j],i) for j in range(self.num_test)])
+        self.train_y = train_y
+        self.test_y = test_y
 
-        train_x = dataset['train_x']
-        train_y = dataset['train_y'][0]
-        test_x = dataset['test_x']
-        test_y = dataset['test_y'][0]
+    def construct_model(self,idx):
+        l1 = self.l1[idx]
+        l2 = self.l2[idx]
+        layer_sizes = [self.layer_size[idx]]*self.num_layers[idx]
+        activations = [get_act_f(self.act[idx])]*self.num_layers[idx]
+        model = GP_model(self.train_x, self.train_y[idx], layer_sizes, activations, bfgs_iter=self.max_iter[idx], l1=self.l1[idx], l2=self.l2[idx], debug=True)
 
-        activations = [get_act_f(act)]*num_layers
-        layer_sizes = [layer_size]*num_layers
-
-        model = GP_model(train_x, train_y, layer_sizes=layer_sizes, activations=activations, bfgs_iter=max_iter, l1=l1, l2=l2, debug=True)
-        theta0 = model.rand_theta()
+        theta0 = model.rand_theta(scale=self.scale[idx])
         model.fit(theta0)
-
-        py, ps2 = model.predict(test_x)
-        print 'py'
-        print py
-        print 'ps2'
-        print ps2
-        print 'delta'
-        delta = py - test_y
-        print delta
-        print 'square error',np.dot(delta, delta.T)
-
         return model
 
-    def fit(self, x):
+    def rand_x(self):
+        x = np.zeros((self.dim, 1))
+        for i in range(self.dim):
+            x[i] = random.uniform(self.bounds[i,0], self.bounds[i,1])
+        return x
+
+    def fit(self,x):
         x0 = np.copy(x)
         self.x = np.copy(x)
         self.loss = np.inf
-        self.best_y = 0.0
-        self.tmp_py = np.array([0.0])
-        '''
-        we need one particular variable self.tmp_py to store best_y temperately
-        and set self.best_y = self.tmp_py in the next loop 
-        '''
+        self.best_y = self.train_y[0].min()
+
         def loss(x):
-            self.best_y = self.tmp_py.sum()
             x = x.reshape(self.dim, x.size/self.dim)
-            tmp_py, ps2 = self.main_function.predict(x)
-            py = tmp_py.sum()
-            if py < self.tmp_py.sum():
-                self.tmp_py = tmp_py.copy()
-                # self.best_y = tmp_py.copy()
+            py, ps2 = self.main_function.predict(x)
+            py = py.sum()
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
-            EI = (self.best_y - py)*cdf(tmp) + ps*pdf(tmp)
+            EI = ps*(tmp*cdf(tmp)+pdf(tmp))
+            print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
+            # py, ps2 = self.main_function.predict(np.array([[0.20169,0.150011,0.476874,0.275332,0.311652,0.6573]]).T)
+            py, ps2 = self.main_function.predict(np.array([[9.42478,2.475]]).T)
+            py = py.sum()
+            ps = np.sqrt(ps2.sum())
+            tmp = (self.best_y - py)/ps
+            tmp_EI = ps*(tmp*cdf(tmp)+pdf(tmp))
+            # print('best py',py,'ps',ps,'best_y',-3.32,'EI',tmp_EI)
+            # print('best py',py,'ps',ps,'best_y',-0.397887,'EI',tmp_EI)
+
             PI = 1.0
             for i in range(len(self.constr_list)):
                 py, ps2 = self.constr_list[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
-                PI = PI * cdf(-py/ps)
+                PI = PI*cdf(-py/ps)
                 if py > 0:
                     EI = 1.0
-            loss = - 1000*np.log(EI+0.000001) - np.log(PI+0.000001)
+            
+            loss = - EI*PI
             if loss < self.loss:
                 self.loss = loss
-                # self.tmp_py = tmp_py.copy()
                 self.x = np.copy(x)
-            return EI
-        
-        gloss = grad(loss)
 
+            return loss
+
+        gloss = grad(loss)
+        
         try:
-            fmin_l_bfgs_b(loss, x0, gloss, bounds=self.bounds, maxiter=200, m=100, iprint=1)
+            fmin_l_bfgs_b(loss, x0, gloss, bounds=self.bounds, maxiter=200, m=100, iprint=0)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
             x0 = np.copy(self.x)
             x0[0] += 0.01
             try:
-                fmin_l_bfgs_b(loss, x0, gloss, bounds=self.bounds, maxiter=200, m=10, iprint=1)
+                fmin_l_bfgs_b(loss, x0, gloss, bounds=self.bounds, maxiter=200, m=10, iprint=0)
             except:
-                print('Exception caught, L-BFGS early stopping...')
+                print('Exception caught, L-BFGS early stopping..')
                 print(traceback.format_exc())
         except:
-            print('Exception caught, L-BFGS early stopping...')
+            print('Exception caught, L-BFGS early stopping..')
             print(traceback.format_exc())
-                
+
         print('Optimized loss is %g' % self.loss)
-        if(np.isinf(self.loss) or np.isnan(self.loss)):
+        if(np.isnan(self.loss) or np.isinf(self.loss)):
             print('Fail to build GP model')
             sys.exit(1)
 
-        print 'x',self.x
-        print 'loss',self.loss
+
         print 'best_y',self.best_y
-        print 'constrain1',
-        for const in self.constr_list:
-            print const.predict(self.x),
+        print 'predict',self.main_function.predict(self.x),'loss',self.loss
+        print 'x',self.x.T, 'true',self.main_f(self.x,0)
+        '''
+        print 'constrain:'
+        for constr in self.constr_list:
+            print constr.predict(self.x)
         print
+        '''
+        return self.x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

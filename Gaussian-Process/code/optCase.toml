@@ -1,0 +1,16 @@
+bounds = [[-1,1],[-1,1],[-1,1]]
+num_train = 2
+num_test = 1
+dim = 3
+outdim = 2
+funct = "optCase"
+scale = [0.4, 0.4]
+num_layers = [3, 2]
+layer_size = [10, 3]
+activation = ["tanh","tanh"]
+max_iter = [30, 10]
+l1 = [0, 0]
+l2 = [0, 0]
+
+
+
