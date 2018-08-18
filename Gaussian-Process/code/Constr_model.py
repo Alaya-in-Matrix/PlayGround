@@ -38,11 +38,8 @@ class Constr_model:
         self.train_x = train_x
         self.test_x = test_x
         
-        train_y = np.zeros((self.outdim,self.num_train))
-        test_y = np.zeros((self.outdim,self.num_test))
-        for i in range(self.outdim):
-            train_y[i] = np.array([self.main_f(train_x[:,j],i) for j in range(self.num_train)])
-            test_y[i] = np.array([self.main_f(test_x[:,j],i) for j in range(self.num_test)])
+        train_y = self.main_f(train_x)
+        test_y = self.main_f(test_x)
         self.train_y = train_y
         self.test_y = test_y
 
@@ -78,14 +75,16 @@ class Constr_model:
             EI = ps*(tmp*cdf(tmp)+pdf(tmp))
             print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
             # py, ps2 = self.main_function.predict(np.array([[0.20169,0.150011,0.476874,0.275332,0.311652,0.6573]]).T)
-            py, ps2 = self.main_function.predict(np.array([[9.42478,2.475]]).T)
+            # py, ps2 = self.main_function.predict(np.array([[9.42478,2.475]]).T)
+            '''
+            py, ps2 = self.main_function.predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 1]]).T)
             py = py.sum()
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
             tmp_EI = ps*(tmp*cdf(tmp)+pdf(tmp))
             # print('best py',py,'ps',ps,'best_y',-3.32,'EI',tmp_EI)
             # print('best py',py,'ps',ps,'best_y',-0.397887,'EI',tmp_EI)
-
+            '''
             PI = 1.0
             for i in range(len(self.constr_list)):
                 py, ps2 = self.constr_list[i].predict(x)
@@ -125,15 +124,11 @@ class Constr_model:
             sys.exit(1)
 
 
-        print 'best_y',self.best_y
-        print 'predict',self.main_function.predict(self.x),'loss',self.loss
-        print 'x',self.x.T, 'true',self.main_f(self.x,0)
-        '''
-        print 'constrain:'
-        for constr in self.constr_list:
-            print constr.predict(self.x)
-        print
-        '''
+        print('best_y',self.best_y)
+        print('predict',self.main_function.predict(self.x),'loss',self.loss)
+        print('x',self.x.T)
+        print('true',self.main_f(self.x))
+        
         return self.x
 
 

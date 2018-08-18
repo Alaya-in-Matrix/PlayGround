@@ -11,3 +11,5 @@ num_train = 20
 num_test = 2
 dim = 2
 outdim = 1
+iter = 100
+K = 10
