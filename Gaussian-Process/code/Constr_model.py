@@ -29,23 +29,7 @@ class Constr_model:
         for i in range(1,self.outdim):
             self.constr_list.append(self.construct_model(i))
 
-    def init_dataset(self):
-        train_x = np.zeros((self.dim, self.num_train))
-        test_x = np.zeros((self.dim, self.num_test))
-        for i in range(self.dim):
-            train_x[i] = np.random.uniform(self.bounds[i,0], self.bounds[i,1],(self.num_train))
-            test_x[i] = np.random.uniform(self.bounds[i,0], self.bounds[i,1],(self.num_test))
-        self.train_x = train_x
-        self.test_x = test_x
-        
-        train_y = self.main_f(train_x)
-        test_y = self.main_f(test_x)
-        self.train_y = train_y
-        self.test_y = test_y
-
     def construct_model(self,idx):
-        l1 = self.l1[idx]
-        l2 = self.l2[idx]
         layer_sizes = [self.layer_size[idx]]*self.num_layers[idx]
         activations = [get_act_f(self.act[idx])]*self.num_layers[idx]
         model = GP_model(self.train_x, self.train_y[idx], layer_sizes, activations, bfgs_iter=self.max_iter[idx], l1=self.l1[idx], l2=self.l2[idx], debug=True)
@@ -127,7 +111,7 @@ class Constr_model:
         print('best_y',self.best_y)
         print('predict',self.main_function.predict(self.x),'loss',self.loss)
         print('x',self.x.T)
-        print('true',self.main_f(self.x))
+        print('true',self.main_f(self.x).T)
         
         return self.x
 

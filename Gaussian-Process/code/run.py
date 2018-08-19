@@ -38,22 +38,24 @@ for i in range(iteration):
         x0 = model.rand_x()
         x0 = model.fit(x0)
         p = main_f(x0)[:,0].T
-        if best_constr > 0 and p[1:].sum() < best_constr:
-            best_constr = p[1:].sum()
+        if best_constr > 0 and np.maximum(p[1:],0).sum() < best_constr:
+            best_constr = np.maximum(p[1:],0).sum()
             best_loss = p[0]
             best_x = x0.copy()
-        elif best_constr <= 0 and p[0] < best_loss:
-            best_constr = p[1:].sum()
+        elif best_constr <= 0 and np.maximum(p[1:],0).sum() <= 0 and p[0] < best_loss:
+            best_constr = np.maximum(p[1:],0).sum()
             best_loss = p[0]
             best_x = x0.copy()
     if all_constr > 0 and best_constr < all_constr:
         all_constr = best_constr
         all_loss = best_loss
         all_x = best_x.copy()
-    elif all_constr <= 0 and best_loss < all_loss:
+    elif all_constr <= 0 and best_constr <= 0 and best_loss < all_loss:
         all_constr = best_constr
         all_loss = best_loss
         all_x = best_x.copy()
+    print('all_constr',all_constr)
+    print('all_loss',all_loss)
     print('all_x',all_x.T)
     print('true',main_f(all_x).T)
     print('-----------------------------------------------------------------------------')
@@ -62,6 +64,8 @@ for i in range(iteration):
 
 x0 = all_x + np.random.randn(dim,1)*0.001
 x0 = model.fit(x0)
+print('all_constr',all_constr)
+print('all_loss',all_loss)
 print('all_x',all_x.T)
 print('true',main_f(all_x).T)
 
