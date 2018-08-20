@@ -48,7 +48,17 @@ class Constr_model:
         x0 = np.copy(x)
         self.x = np.copy(x)
         self.loss = np.inf
-        self.best_y = self.train_y[0].min()
+        # self.best_y = self.train_y[0].min()
+        best_constr = np.inf
+        self.best_y = np.inf
+        for i in range(self.train_y.shape[1]):
+            constr = np.maximum(self.train_y[1:,i],0).sum()
+            if best_constr > 0 and constr < best_constr:
+                best_constr = constr
+                self.best_y = self.train_y[0,i]
+            elif best_constr <= 0 and constr <= 0 and self.train_y[0,i] < self.best_y:
+                best_constr = constr
+                self.best_y = self.train_y[0,i]
 
         def loss(x):
             x = x.reshape(self.dim, x.size/self.dim)
@@ -115,20 +125,15 @@ class Constr_model:
         
         return self.x
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    def predict(self,x):
+        pys = np.zeros((self.outdim,x.shape[1]))
+        ps2s = np.zeros((self.outdim,x.shape[1]))
+        pys[0], ps2 = self.main_function.predict(x)
+        ps2s[i] = np.diagonal(ps2)
+        for i in range(1,self.outdim):
+            pys[i], ps2 = self.constr_list[i-1].predict(x)
+            ps2s[i] = np.diagonal(ps2)
+        return pys, ps2s
 
 
 

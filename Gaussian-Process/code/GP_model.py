@@ -69,6 +69,7 @@ class GP_model:
         scaled_x = scale_x(log_lscale, self.train_x)
         Phi = self.calc_Phi(w, scaled_x)
         Phi_y = np.dot(Phi, self.train_y_zero.T)
+        sp2 = sp2 + 0.000001
         A = np.dot(Phi, Phi.T) + self.m * sn2 / sp2 * np.eye(self.m) # A.shape: self.m, self.m
         LA = np.linalg.cholesky(A)
         
