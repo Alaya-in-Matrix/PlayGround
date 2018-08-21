@@ -13,3 +13,4 @@ dim = 2
 outdim = 1
 iter = 50
 K = 10
+num_models = 5

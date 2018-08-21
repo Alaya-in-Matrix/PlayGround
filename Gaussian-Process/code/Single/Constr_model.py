@@ -24,10 +24,9 @@ class Constr_model:
         self.train_y = dataset['train_y'].copy()
         self.test_y = dataset['test_y'].copy()
 
-        self.main_function = self.construct_model(0)
-        self.constr_list = []
-        for i in range(1,self.outdim):
-            self.constr_list.append(self.construct_model(i))
+        self.model = []
+        for i in range(self.outdim):
+            self.model.append(self.construct_model(i))
 
     def construct_model(self,idx):
         layer_sizes = [self.layer_size[idx]]*self.num_layers[idx]
@@ -62,16 +61,16 @@ class Constr_model:
 
         def loss(x):
             x = x.reshape(self.dim, x.size/self.dim)
-            py, ps2 = self.main_function.predict(x)
+            py, ps2 = self.model[0].predict(x)
             py = py.sum()
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
             EI = ps*(tmp*cdf(tmp)+pdf(tmp))
             print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
-            # py, ps2 = self.main_function.predict(np.array([[0.20169,0.150011,0.476874,0.275332,0.311652,0.6573]]).T)
-            # py, ps2 = self.main_function.predict(np.array([[9.42478,2.475]]).T)
+            # py, ps2 = self.model[0].predict(np.array([[0.20169,0.150011,0.476874,0.275332,0.311652,0.6573]]).T)
+            # py, ps2 = self.model[0].predict(np.array([[9.42478,2.475]]).T)
             '''
-            py, ps2 = self.main_function.predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 1]]).T)
+            py, ps2 = self.model[0].predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 1]]).T)
             py = py.sum()
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
@@ -80,8 +79,8 @@ class Constr_model:
             # print('best py',py,'ps',ps,'best_y',-0.397887,'EI',tmp_EI)
             '''
             PI = 1.0
-            for i in range(len(self.constr_list)):
-                py, ps2 = self.constr_list[i].predict(x)
+            for i in range(1,self.outdim):
+                py, ps2 = self.model[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
                 PI = PI*cdf(-py/ps)
@@ -119,7 +118,7 @@ class Constr_model:
 
 
         print('best_y',self.best_y)
-        print('predict',self.main_function.predict(self.x),'loss',self.loss)
+        print('predict',self.model[0].predict(self.x),'loss',self.loss)
         print('x',self.x.T)
         print('true',self.main_f(self.x).T)
         
@@ -128,10 +127,8 @@ class Constr_model:
     def predict(self,x):
         pys = np.zeros((self.outdim,x.shape[1]))
         ps2s = np.zeros((self.outdim,x.shape[1]))
-        pys[0], ps2 = self.main_function.predict(x)
-        ps2s[i] = np.diagonal(ps2)
-        for i in range(1,self.outdim):
-            pys[i], ps2 = self.constr_list[i-1].predict(x)
+        for i in range(self.outdim):
+            pys[i], ps2 = self.model[i].predict(x)
             ps2s[i] = np.diagonal(ps2)
         return pys, ps2s
 

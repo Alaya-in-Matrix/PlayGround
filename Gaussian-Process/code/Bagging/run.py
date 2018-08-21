@@ -1,7 +1,7 @@
 import sys
 import toml
 from get_dataset import *
-from Constr_model import Constr_model
+from Bagging_Constr_model import Bagging_Constr_model
 
 argv = sys.argv[1:]
 conf = toml.load(argv[0])
@@ -21,6 +21,7 @@ num_test = conf['num_test']
 funct = conf['funct']
 iteration = conf['iter']
 K = conf['K']
+num_models = conf['num_models']
 
 main_f = get_main_f(funct)
 
@@ -46,7 +47,7 @@ print('true',main_f(all_x).T)
 print('-----------------------------------------------------------------------------')
 
 for i in range(iteration):
-    model = Constr_model(main_f, dataset, dim, outdim, bounds,scale,num_layers,layer_size,act,max_iter,l1=l1,l2=l2,debug=True)
+    model = Bagging_Constr_model(num_models, main_f, dataset, dim, outdim, bounds,scale,num_layers,layer_size,act,max_iter,l1=l1,l2=l2,debug=True)
     best_constr = np.inf
     best_loss = np.inf
     best_x = np.zeros((model.dim,1))
@@ -54,6 +55,7 @@ for i in range(iteration):
         x0 = model.rand_x()
         x0 = model.fit(x0)
         p, _ = model.predict(x0)
+        p = p[0]
         if best_constr > 0 and np.maximum(p[1:],0).sum() < best_constr:
             best_constr = np.maximum(p[1:],0).sum()
             best_loss = p[0]
