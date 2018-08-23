@@ -55,15 +55,18 @@ for i in range(iteration):
         p, _ = model.predict(x0)
         return x0, p[0]
     pool = multiprocessing.Pool(processes=5)
-    results = pool.map(task, range(K))
+    # results = pool.map(task, range(K))
+    results = []
+    for i in xrange(K):
+        results.append(pool.apply_async(task,(i,)))
     pool.close()
     pool.join()
     best_constr = np.inf
     best_loss = np.inf
     best_x = np.zeros((model.dim,1))
     for j in range(K):
-        p = results[j][1]
-        x0 = results[j][0]
+        p = results[j].get()[1]
+        x0 = results[j].get()[0]
         if best_constr > 0 and np.maximum(p[1:],0).sum() < best_constr:
             best_constr = np.maximum(p[1:],0).sum()
             best_loss = p[0]

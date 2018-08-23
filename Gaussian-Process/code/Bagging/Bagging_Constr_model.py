@@ -75,7 +75,7 @@ class Bagging_Constr_model:
             ps = np.sqrt(ps2.sum())
             tmp = (self.best_y - py)/ps
             EI = ps*(tmp*cdf(tmp)+pdf(tmp))
-            print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
+            # print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
             PI = 1.0
             for i in range(1,self.outdim):
                 py, ps2 = self.model[i].predict(x)
@@ -111,12 +111,12 @@ class Bagging_Constr_model:
         if(np.isnan(self.loss) or np.isinf(self.loss)):
             print('Fail to build GP model')
             sys.exit(1)
-
+        '''
         print('best_y',self.best_y)
         print('predict',self.model[0].predict(self.x),'loss',self.loss)
         print('x',self.x.T)
         print('true',self.main_f(self.x))
-
+        '''
         return self.x
 
 
