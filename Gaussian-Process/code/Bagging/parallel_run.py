@@ -56,6 +56,11 @@ for i in range(iteration):
         return x0, p[0]
     pool = multiprocessing.Pool(processes=5)
     results = pool.map(task, range(K))
+    '''
+    results = []
+    for q in xrange(K):
+        results.append(pool.apply_async(task,(q,)))
+    '''
     pool.close()
     pool.join()
     best_constr = np.inf

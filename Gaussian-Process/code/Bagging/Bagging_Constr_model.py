@@ -14,22 +14,24 @@ class Bagging_Constr_model:
         self.dim = dim
         self.outdim = outdim
         self.main_f = main_f
-        self.l1 = np.copy(l1)
-        self.l2 = np.copy(l2)
-        self.scale = np.copy(scale)
-        self.num_layers = np.copy(num_layers)
-        self.layer_size = np.copy(layer_size)
-        self.act = np.copy(act)
-        self.max_iter = np.copy(max_iter)
+        # self.l1 = np.copy(l1)
+        # self.l2 = np.copy(l2)
+        # self.scale = np.copy(scale)
+        # self.num_layers = np.copy(num_layers)
+        # self.layer_size = np.copy(layer_size)
+        # self.act = np.copy(act)
+        # self.max_iter = np.copy(max_iter)
         self.bounds = np.copy(bounds)
         self.train_x = dataset['train_x'].copy()
-        self.test_x = dataset['test_x'].copy()
         self.train_y = dataset['train_y'].copy()
-        self.test_y = dataset['test_y'].copy()
 
         self.model = []
         for i in range(self.outdim):
-            self.model.append(self.construct_model(i))
+            layer_sizes = [layer_size[i]]*num_layers[i]
+            activations = [get_act_f(act[i])]*num_layers[i]
+            m = Bagging_GP_model(num_models, self.train_x, self.train_y[i], layer_sizes, activations, bfgs_iter=max_iter[i], l1=l1[i], l2=l2[i], debug=True)
+            m.fit(scale=scale[i])
+            self.model.append(m)
 
     def construct_model(self,idx):
         layer_sizes = [self.layer_size[idx]]*self.num_layers[idx]
@@ -107,7 +109,7 @@ class Bagging_Constr_model:
             print('Exception caught, L-BFGS early stopping...')
             print(traceback.format_exc())
 
-        print('Optimized loss is %g' % self.loss)
+        # print('Optimized loss is %g' % self.loss)
         if(np.isnan(self.loss) or np.isinf(self.loss)):
             print('Fail to build GP model')
             sys.exit(1)

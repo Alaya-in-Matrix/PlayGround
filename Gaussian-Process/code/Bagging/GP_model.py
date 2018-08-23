@@ -121,7 +121,7 @@ class GP_model:
             if self.debug:
                 print(traceback.format_exc())
                 
-        print('Optimized loss is %g' % self.loss)
+        # print('Optimized loss is %g' % self.loss)
         if(np.isinf(self.loss) or np.isnan(self.loss)):
             print('Fail to build GP model')
             sys.exit(1)

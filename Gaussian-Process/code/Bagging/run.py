@@ -73,6 +73,10 @@ for i in range(iteration):
         all_constr = np.maximum(p[1:],0).sum()
         all_loss = p[0]
         all_x = best_x.copy()
+    p, _ = model.predict(best_x)
+    print('best_constr',np.maximum(p[0][1:],0).sum())
+    print('best_x',best_x.T)
+    print('true',main_f(best_x).T)
     print('all_constr',all_constr)
     print('all_loss',all_loss)
     print('all_x',all_x.T)
