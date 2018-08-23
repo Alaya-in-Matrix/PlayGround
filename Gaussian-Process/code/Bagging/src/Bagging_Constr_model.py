@@ -4,8 +4,8 @@ import traceback
 import sys
 import pickle
 from scipy.optimize import fmin_l_bfgs_b
-from activations import *
-from Bagging_GP_model import Bagging_GP_model
+from .activations import *
+from .Bagging_GP_model import Bagging_GP_model
 import random
 
 class Bagging_Constr_model:

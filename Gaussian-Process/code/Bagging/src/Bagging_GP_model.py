@@ -1,5 +1,5 @@
 import autograd.numpy as np
-from GP_model import GP_model
+from .GP_model import GP_model
 
 
 class Bagging_GP_model:

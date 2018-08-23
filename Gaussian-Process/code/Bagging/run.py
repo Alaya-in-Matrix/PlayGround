@@ -1,7 +1,8 @@
 import sys
 import toml
 from get_dataset import *
-from Bagging_Constr_model import Bagging_Constr_model
+from src.Bagging_Constr_model import Bagging_Constr_model
+import multiprocessing
 
 argv = sys.argv[1:]
 conf = toml.load(argv[0])
@@ -48,14 +49,26 @@ print('-------------------------------------------------------------------------
 
 for i in range(iteration):
     model = Bagging_Constr_model(num_models, main_f, dataset, dim, outdim, bounds,scale,num_layers,layer_size,act,max_iter,l1=l1,l2=l2,debug=True)
+    def task(i):
+        x0 = model.rand_x()
+        x0 = model.fit(x0)
+        p, _ = model.predict(x0)
+        return x0, p[0]
+    pool = multiprocessing.Pool(processes=5)
+    results = pool.map(task, range(K))
+    '''
+    results = []
+    for q in xrange(K):
+        results.append(pool.apply_async(task,(q,)))
+    '''
+    pool.close()
+    pool.join()
     best_constr = np.inf
     best_loss = np.inf
     best_x = np.zeros((model.dim,1))
     for j in range(K):
-        x0 = model.rand_x()
-        x0 = model.fit(x0)
-        p, _ = model.predict(x0)
-        p = p[0]
+        p = results[j][1]
+        x0 = results[j][0]
         if best_constr > 0 and np.maximum(p[1:],0).sum() < best_constr:
             best_constr = np.maximum(p[1:],0).sum()
             best_loss = p[0]

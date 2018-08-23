@@ -1,7 +1,7 @@
 import autograd.numpy as np
 from autograd import grad
 from scipy.optimize import fmin_l_bfgs_b
-from NN import NN
+from .NN import NN
 import traceback
 import sys
 
@@ -97,6 +97,7 @@ class GP_model:
     def fit(self, theta):
         self.loss = np.inf
         theta0 = np.copy(theta)
+        self.theta = np.copy(theta)
 
         def loss(theta):
             nlz = self.log_likelihood(theta)
@@ -105,13 +106,13 @@ class GP_model:
         gloss = grad(loss)
         
         try:
-            fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=100, iprint=0)
+            fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=100, iprint=1)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
             theta0 = np.copy(self.theta)
             theta0[0] += np.log(10)
             try:
-                fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=10, iprint=0)
+                fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=10, iprint=1)
             except:
                 print('Exception caught, L-BFGS early stopping...')
                 if self.debug:
@@ -121,7 +122,7 @@ class GP_model:
             if self.debug:
                 print(traceback.format_exc())
                 
-        # print('Optimized loss is %g' % self.loss)
+        print('Optimized loss is %g' % self.loss)
         if(np.isinf(self.loss) or np.isnan(self.loss)):
             print('Fail to build GP model')
             sys.exit(1)
