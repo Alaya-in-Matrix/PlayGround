@@ -49,6 +49,7 @@ print('-------------------------------------------------------------------------
 
 for i in range(iteration):
     model = Bagging_Constr_model(num_models, main_f, dataset, dim, outdim, bounds,scale,num_layers,layer_size,act,max_iter,l1=l1,l2=l2,debug=True)
+
     def task(i):
         x0 = model.rand_x()
         x0 = model.fit(x0)
@@ -87,6 +88,7 @@ for i in range(iteration):
         all_loss = p[0]
         all_x = best_x.copy()
     p, _ = model.predict(best_x)
+    print('iteration',i)
     print('best_constr',np.maximum(p[0][1:],0).sum())
     print('best_x',best_x.T)
     print('true',main_f(best_x).T)

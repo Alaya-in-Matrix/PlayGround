@@ -14,16 +14,11 @@ class Bagging_Constr_model:
         self.dim = dim
         self.outdim = outdim
         self.main_f = main_f
-        # self.l1 = np.copy(l1)
-        # self.l2 = np.copy(l2)
-        # self.scale = np.copy(scale)
-        # self.num_layers = np.copy(num_layers)
-        # self.layer_size = np.copy(layer_size)
-        # self.act = np.copy(act)
-        # self.max_iter = np.copy(max_iter)
         self.bounds = np.copy(bounds)
         self.train_x = dataset['train_x'].copy()
         self.train_y = dataset['train_y'].copy()
+        self.best_y = np.inf
+        self.best_constr = np.inf
 
         self.model = []
         for i in range(self.outdim):
@@ -55,20 +50,23 @@ class Bagging_Constr_model:
             ps2s[:,i] = np.diagonal(ps2)
         return pys, ps2s
 
+    def get_best_y(self, x, y):
+        for i in range(y.shape[1]):
+            constr = np.maximum(y[1:,i],0).sum()
+            if self.best_constr > 0 and constr < self.best_constr:
+                self.best_constr = constr
+                self.best_y = y[0,i]
+                self.best_x = x[:,i]
+            elif self.best_constr <= 0 and constr <= 0 and y[0,i] < self.best_y:
+                self.best_constr = constr
+                self.best_y = y[0,i]
+                self.best_x = x[:,i]
+
     def fit(self, x):
         x0 = np.copy(x)
         self.x = np.copy(x)
         self.loss = np.inf
-        self.best_y = np.inf
-        best_constr = np.inf
-        for i in range(self.train_y.shape[1]):
-            constr = np.maximum(self.train_y[1:,i],0).sum()
-            if best_constr > 0 and constr < best_constr:
-                best_constr = constr
-                self.best_y = self.train_y[0,i]
-            elif best_constr <= 0 and constr <= 0 and self.train_y[0,i] < self.best_y:
-                best_constr = constr
-                self.best_y = self.train_y[0,i]
+        self.get_best_y(self.train_x, self.train_y)
 
         def loss(x):
             x = x.reshape(self.dim, int(x.size/self.dim))
