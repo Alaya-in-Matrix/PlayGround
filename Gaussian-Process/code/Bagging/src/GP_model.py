@@ -31,8 +31,12 @@ class GP_model:
         self.l2 = l2
         self.debug = debug
         self.m = layer_sizes[-1]
-        self.mean = np.mean(self.train_y)
-        self.train_y_zero = self.train_y - self.mean
+        self.in_mean = np.mean(self.train_x, axis=1)
+        self.in_std = np.std(self.train_x, axis=1)
+        self.train_x = ((self.train_x.T - self.in_mean)/self.in_std).T
+        self.out_mean = np.mean(self.train_y)
+        self.out_std = np.std(self.train_y)
+        self.train_y = (self.train_y - self.out_mean)/self.out_std
         self.loss = np.inf
 
     def rand_theta(self, scale=1):
@@ -40,8 +44,8 @@ class GP_model:
         generate an initial theta, the weights of NN are randomly initialized
         '''
         theta = scale * np.random.randn(self.num_param)
-        theta[0] = np.log(np.std(self.train_y_zero) / 2)
-        theta[1] = np.log(np.std(self.train_y_zero))
+        theta[0] = np.log(np.std(self.train_y) / 2)
+        theta[1] = np.log(np.std(self.train_y))
         for i in range(self.dim):
             theta[2+i] = np.maximum(-100, np.log(0.5*(self.train_x[i].max() - self.train_x[i].min())))
         return theta
@@ -68,7 +72,7 @@ class GP_model:
         sn2, sp2, log_lscale, w = self.split_theta(theta)
         scaled_x = scale_x(log_lscale, self.train_x)
         Phi = self.calc_Phi(w, scaled_x)
-        Phi_y = np.dot(Phi, self.train_y_zero.T)
+        Phi_y = np.dot(Phi, self.train_y.T)
         sp2 = sp2 + 0.000001
         A = np.dot(Phi, Phi.T) + self.m * sn2 / sp2 * np.eye(self.m) # A.shape: self.m, self.m
         LA = np.linalg.cholesky(A)
@@ -76,7 +80,7 @@ class GP_model:
         logDetA = 0
         for i in range(self.m):
             logDetA = 2 * np.log(LA[i][i])
-        datafit = (np.dot(self.train_y_zero, self.train_y_zero.T) - np.dot(Phi_y.T, chol_inv(LA, Phi_y))) / sn2
+        datafit = (np.dot(self.train_y, self.train_y.T) - np.dot(Phi_y.T, chol_inv(LA, Phi_y))) / sn2
         neg_likelihood = 0.5 * (datafit + self.num_train * np.log(2 * np.pi * sn2) + logDetA - self.m * np.log(self.m * sn2 / sp2))
         if(np.isnan(neg_likelihood)):
             neg_likelihood = np.inf
@@ -106,13 +110,13 @@ class GP_model:
         gloss = grad(loss)
         
         try:
-            fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=100, iprint=1)
+            fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=100, iprint=0)
         except np.linalg.LinAlgError:
             print('Increase noise term and re-optimization')
             theta0 = np.copy(self.theta)
             theta0[0] += np.log(10)
             try:
-                fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=10, iprint=1)
+                fmin_l_bfgs_b(loss, theta0, gloss, maxiter=self.bfgs_iter, m=10, iprint=0)
             except:
                 print('Exception caught, L-BFGS early stopping...')
                 if self.debug:
@@ -129,15 +133,17 @@ class GP_model:
 
         sn2, sp2, log_lscale, w = self.split_theta(self.theta)
         Phi = self.calc_Phi(w, scale_x(log_lscale, self.train_x))
-        self.alpha = chol_inv(self.LA, np.dot(Phi, self.train_y_zero.T))
+        self.alpha = chol_inv(self.LA, np.dot(Phi, self.train_y.T))
 
     def predict(self, test_x):
         sn2, sp2, log_lscale, w = self.split_theta(self.theta)
+        test_x = ((test_x.T - self.in_mean)/self.in_std).T
         scaled_x = scale_x(log_lscale, test_x)
         Phi_test = self.calc_Phi(w, scaled_x)
-        py = self.mean + np.dot(Phi_test.T, self.alpha)
+        py = self.out_mean + np.dot(Phi_test.T, self.alpha) * self.out_std
         # ps2 = sn2 + sn2 * np.diagonal(np.dot(Phi_test.T, chol_inv(self.LA, Phi_test)))
         ps2 = sn2 + sn2 * np.dot(Phi_test.T, chol_inv(self.LA, Phi_test))
+        ps2 = ps2 * (self.out_std**2)
         return py, ps2
 
     def optimize(self, x, bounds):
