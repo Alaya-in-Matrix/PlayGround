@@ -70,20 +70,20 @@ class Bagging_Constr_model:
 
         def loss(x):
             x = x.reshape(self.dim, int(x.size/self.dim))
-            py, ps2 = self.model[0].predict(x)
-            py = py.sum()
-            ps = np.sqrt(ps2.sum())
-            tmp = (self.best_y - py)/ps
-            EI = ps*(tmp*cdf(tmp)+pdf(tmp))
-            # print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
+            EI = 1.0
+            if self.best_constr <= 0:
+                py, ps2 = self.model[0].predict(x)
+                py = py.sum()
+                ps = np.sqrt(ps2.sum())
+                tmp = (self.best_y - py)/ps
+                EI = ps*(tmp*cdf(tmp)+pdf(tmp))
+                # print('py',py,'ps',ps,'best_y',self.best_y,'EI',EI)
             PI = 1.0
             for i in range(1,self.outdim):
                 py, ps2 = self.model[i].predict(x)
                 py = py.sum()
                 ps = np.sqrt(ps2.sum())
                 PI = PI*cdf(-py/ps)
-                if py > 0:
-                    EI = 1.0
             loss = -EI*PI
             if loss < self.loss:
                 self.loss = loss
