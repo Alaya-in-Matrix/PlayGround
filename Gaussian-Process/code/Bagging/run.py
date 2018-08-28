@@ -107,3 +107,5 @@ print('all_loss',all_loss)
 print('all_x',all_x.T)
 print('true',main_f(all_x).T)
 
+with open('dataset.pickle', 'wb') as f:
+    pickle.dump(dataset, f)

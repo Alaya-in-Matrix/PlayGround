@@ -1,0 +1,26 @@
+** Librarr name: test
+** Cell name: opamp
+** View name: schematic
+.subckt opamp vinp vinm out vdd_net vss_net
+
+m7 bias bias vdd_net vdd_net pch3 L=ldn  W=wup
+m5 out  bias vdd_net vdd_net pch3 L=lup  W=wup M=8
+m3 net9 bias vdd_net vdd_net pch3 L=lup  W=wu3
+
+m1 fb   vinp net9    net9    pch3 L=lmid W=wmid
+m0 net6 vinm net9    net9    pch3 L=lmid W=wmid
+
+m4 net6 net6 vss_net vss_net nch3 L=ldn  W=wdn
+m2 fb   net6 vss_net vss_net nch3 L=ldn  W=wdn
+
+m6 out  fb   vss_net vss_net nch3 L=350e-9
+
+r0 net18 fb 'rl*1k'
+c0 net18 out 'ca*1f'
+
+i0 bias vss_net DC=idc_val
+c1 out net_check 606f
+vcheck net_check vss_net dc=0
+
+.ends opamp
+** End of subcircuit definition.

@@ -1,0 +1,187 @@
+** Reorganization of TSMC018RF Model Library
+** Used for hspice simulator, arranged according to corner.
+** Created by C.F.Zhuo 2011/06/12.
+
+.LIB tt
+.lib 'rf018.l' dio3
+.lib 'rf018.l' dio_dnw
+.lib 'rf018.l' dio
+.lib 'rf018.l' tt_rfres_sa
+.lib 'rf018.l' tt_rfmvar
+.lib 'rf018.l' tt_rfind
+.lib 'rf018.l' tt_rtmom
+.lib 'rf018.l' tt_bbmvar
+.lib 'rf018.l' tt
+.lib 'rf018.l' tt_rfesd
+.lib 'rf018.l' tt_mim
+.lib 'rf018.l' tt_rfrtmom
+.lib 'rf018.l' tt_rfres_hri
+.lib 'rf018.l' tt_rfres_rpo
+.lib 'rf018.l' tt_3vna
+.lib 'rf018.l' tt_m
+.lib 'rf018.l' tt_rfmos
+.lib 'rf018.l' tt_rfmim
+.lib 'rf018.l' tt_rfjvar
+.lib 'rf018.l' tt_3m
+.lib 'rf018.l' tt_res
+.lib 'rf018.l' tt_bip3
+.lib 'rf018.l' tt_bip
+.lib 'rf018.l' tt_3v
+.lib 'rf018.l' tt_rfmos33
+.lib 'rf018.l' tt_na
+.lib 'rf018.l' tt_rfsbd
+.lib 'ResModel.spi' res_t
+.ENDL tt
+
+.LIB ss
+.lib 'rf018.l' dio3
+.lib 'rf018.l' dio_dnw
+.lib 'rf018.l' dio
+.lib 'rf018.l' ss_rfres_sa
+.lib 'rf018.l' ss_rfmvar
+.lib 'rf018.l' ss_rfind
+.lib 'rf018.l' ss_rtmom
+.lib 'rf018.l' ss_bbmvar
+.lib 'rf018.l' ss
+.lib 'rf018.l' ss_rfesd
+.lib 'rf018.l' ss_mim
+.lib 'rf018.l' ss_rfrtmom
+.lib 'rf018.l' ss_rfres_hri
+.lib 'rf018.l' ss_rfres_rpo
+.lib 'rf018.l' ss_3vna
+.lib 'rf018.l' ss_m
+.lib 'rf018.l' ss_rfmos
+.lib 'rf018.l' ss_rfmim
+.lib 'rf018.l' ss_rfjvar
+.lib 'rf018.l' ss_3m
+.lib 'rf018.l' ss_res
+.lib 'rf018.l' ss_bip3
+.lib 'rf018.l' ss_bip
+.lib 'rf018.l' ss_3v
+.lib 'rf018.l' ss_rfmos33
+.lib 'rf018.l' ss_na
+.lib 'rf018.l' ss_rfsbd
+.lib 'ResModel.spi' res_w
+.ENDL ss
+
+.LIB ff
+.lib 'rf018.l' dio3
+.lib 'rf018.l' dio_dnw
+.lib 'rf018.l' dio
+.lib 'rf018.l' ff_rfres_sa
+.lib 'rf018.l' ff_rfmvar
+.lib 'rf018.l' ff_rfind
+.lib 'rf018.l' ff_rtmom
+.lib 'rf018.l' ff_bbmvar
+.lib 'rf018.l' ff
+.lib 'rf018.l' ff_rfesd
+.lib 'rf018.l' ff_mim
+.lib 'rf018.l' ff_rfrtmom
+.lib 'rf018.l' ff_rfres_hri
+.lib 'rf018.l' ff_rfres_rpo
+.lib 'rf018.l' ff_3vna
+.lib 'rf018.l' ff_m
+.lib 'rf018.l' ff_rfmos
+.lib 'rf018.l' ff_rfmim
+.lib 'rf018.l' ff_rfjvar
+.lib 'rf018.l' ff_3m
+.lib 'rf018.l' ff_res
+.lib 'rf018.l' ff_bip3
+.lib 'rf018.l' ff_bip
+.lib 'rf018.l' ff_3v
+.lib 'rf018.l' ff_rfmos33
+.lib 'rf018.l' ff_na
+.lib 'rf018.l' ff_rfsbd
+.lib 'ResModel.spi' res_b
+.ENDL ff
+
+.LIB fs
+.lib 'rf018.l' dio3
+.lib 'rf018.l' dio_dnw
+.lib 'rf018.l' dio
+.lib 'rf018.l' tt_rfres_sa
+.lib 'rf018.l' tt_rfmvar
+.lib 'rf018.l' tt_rfind
+.lib 'rf018.l' tt_rtmom
+.lib 'rf018.l' tt_bbmvar
+.lib 'rf018.l' fs
+.lib 'rf018.l' tt_rfesd
+.lib 'rf018.l' tt_mim
+.lib 'rf018.l' tt_rfrtmom
+.lib 'rf018.l' tt_rfres_hri
+.lib 'rf018.l' tt_rfres_rpo
+.lib 'rf018.l' fs_3vna
+.lib 'rf018.l' fs_m
+.lib 'rf018.l' fs_rfmos
+.lib 'rf018.l' tt_rfmim
+.lib 'rf018.l' tt_rfjvar
+.lib 'rf018.l' fs_3m
+.lib 'rf018.l' tt_res
+.lib 'rf018.l' tt_bip3
+.lib 'rf018.l' tt_bip
+.lib 'rf018.l' fs_3v
+.lib 'rf018.l' fs_rfmos33
+.lib 'rf018.l' fs_na
+.lib 'rf018.l' tt_rfsbd
+.ENDL fs
+
+.LIB sf
+.lib 'rf018.l' dio3
+.lib 'rf018.l' dio_dnw
+.lib 'rf018.l' dio
+.lib 'rf018.l' tt_rfres_sa
+.lib 'rf018.l' tt_rfmvar
+.lib 'rf018.l' tt_rfind
+.lib 'rf018.l' tt_rtmom
+.lib 'rf018.l' tt_bbmvar
+.lib 'rf018.l' sf
+.lib 'rf018.l' tt_rfesd
+.lib 'rf018.l' tt_mim
+.lib 'rf018.l' tt_rfrtmom
+.lib 'rf018.l' tt_rfres_hri
+.lib 'rf018.l' tt_rfres_rpo
+.lib 'rf018.l' sf_3vna
+.lib 'rf018.l' sf_m
+.lib 'rf018.l' sf_rfmos
+.lib 'rf018.l' tt_rfmim
+.lib 'rf018.l' tt_rfjvar
+.lib 'rf018.l' sf_3m
+.lib 'rf018.l' tt_res
+.lib 'rf018.l' tt_bip3
+.lib 'rf018.l' tt_bip
+.lib 'rf018.l' sf_3v
+.lib 'rf018.l' sf_rfmos33
+.lib 'rf018.l' sf_na
+.lib 'rf018.l' tt_rfsbd
+.ENDL sf
+
+.LIB mc
+.lib 'rf018.l' dio3
+.lib 'rf018.l' dio_dnw
+.lib 'rf018.l' dio
+.lib 'rf018.l' mc_rfres_sa
+.lib 'rf018.l' tt_rfmvar
+.lib 'rf018.l' tt_rfind
+.lib 'rf018.l' mc_rtmom
+.lib 'rf018.l' tt_bbmvar
+.lib 'rf018.l' mc
+.lib 'rf018.l' tt_rfesd
+.lib 'rf018.l' mc_mim
+.lib 'rf018.l' mc_rfrtmom
+.lib 'rf018.l' mc_rfres_hri
+.lib 'rf018.l' mc_rfres_rpo
+.lib 'rf018.l' tt_3vna
+.lib 'rf018.l' tt_m
+.lib 'rf018.l' mc_rfmos
+.lib 'rf018.l' mc_rfmim
+.lib 'rf018.l' tt_rfjvar
+.lib 'rf018.l' tt_3m
+.lib 'rf018.l' mc_res
+.lib 'rf018.l' tt_bip3
+.lib 'rf018.l' tt_bip
+.lib 'rf018.l' mc_3v
+.lib 'rf018.l' mc_rfmos33
+.lib 'rf018.l' tt_na
+.lib 'rf018.l' mc_rfsbd
+.ENDL mc
+

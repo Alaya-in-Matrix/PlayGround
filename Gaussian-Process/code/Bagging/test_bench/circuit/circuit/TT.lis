@@ -1,0 +1,279 @@
+************************************************************************
+HSPICE RF -- D-2010.03 (Feb 23 2010) 
+Copyright (C) 2010 Synopsys,Inc. All rights reserved.
+This software and the associated documentation are confidential and
+proprietary to Synopsys, Inc. Your use or disclosure of this software
+is subject to the terms and conditions of a written license agreement
+between you, or your company, and Synopsys, Inc.
+************************************************************************
+
+hspicerf 64-bit version D-2010.03 (Feb 23 2010 11:43:57) 
+
+machine info: Linux console 2.6.32-220.el6.x86_64 #1 SMP Wed Nov 9 08:03:13 EST 2011 x86_64
+
+current time: 15:29:01  08/23/2018
+
+command line: hspicerf64 ./TT.sp
+
+Total number of lines parsed: 2325
+
+Resource Usage for Parsing
+--------------------------
+| CPU Time    | 0.05 sec |
+| Peak Memory | 0.08 Mb  |
+|------------------------|
+
+Warning:  option "DCON" ignored
+
+
+Source Files
+-------------------
+| "./TT.sp"       |
+| "./cmos035.lib" |
+| "opamp.sp"      |
+| "param"         |
+|-----------------|
+
+Options
+--------------------
+| Option  | Value  |
+|---------+--------|
+| INGOLD  | 2      |
+| MEASDGT | 10     |
+| NUMDGT  | 10     |
+| POST    | 1      |
+| TEMPC   | 27     |
+| TEMPK   | 300.15 |
+|------------------|
+
+27 unique instance models are loaded.
+
+Resource Usage for Load Netlist Data
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 2.33 Mb  |
+|------------------------|
+
+License user information
+---------------------------
+| FLEXLM   | v8.5b        |
+| USER     | wllv         |
+| HOSTNAME | console      |
+| HOSTID   | 3440b5b102f4 |
+| PID      | 2000         |
+|-------------------------|
+
+License file: /export/home/wllv/mysoft/hspice/license.dat
+-------------------------------------------------------------------------------
+| license | checkout number | expiration date    |  # in use / total | server |
+|---------+-----------------+--------------------+-------------------+--------|
+| hspice  | 1               | 31-dec-2020/2007.9 | 0/0               |        |
+|-----------------------------------------------------------------------------|
+
+License user information
+---------------------------
+| FLEXLM   | v8.5b        |
+| USER     | wllv         |
+| HOSTNAME | console      |
+| HOSTID   | 3440b5b102f4 |
+| PID      | 2000         |
+|-------------------------|
+
+License file: /export/home/wllv/mysoft/hspice/license.dat
+--------------------------------------------------------------------------------
+| license  | checkout number | expiration date    |  # in use / total | server |
+|----------+-----------------+--------------------+-------------------+--------|
+| hspicerf | 1               | 31-dec-2020/2007.9 | 0/0               |        |
+|------------------------------------------------------------------------------|
+
+Netlist Statistics
+---------------------
+| Type      | Count |
+|-----------+-------|
+| nmos      | 20    |
+| pmos      | 20    |
+| resistor  | 6     |
+| capacitor | 6     |
+| isrc      | 2     |
+| vsrc      | 6     |
+| vcvs      | 2     |
+|-------------------|
+
+Summary of Possible Problems in Netlist
+-------------------------------------
+| Negative resistor             | 0 |
+| Negative capacitor            | 0 |
+| Negative inductor             | 0 |
+| Unconnected node              | 0 |
+| Dangling terminal             | 0 |
+| Non-rail bulk terminal        | 0 |
+| Floating MOS gate             | 0 |
+| Floating MOS bulk             | 0 |
+| Floating BJT substrate        | 0 |
+| Floating controlled input     | 0 |
+| Floating current source nodes | 0 |
+| Source loop                   | 0 |
+|-----------------------------------|
+
+Resource Usage for Netlist Check
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 2.37 Mb  |
+|------------------------|
+
+Number of nodes: 45
+
+Total number of nodes (including internal nodes): 125
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 2.41 Mb  |
+|------------------------|
+
+Simulation
+
+AC Analysis
+
+OP: finished using direct method
+
+Number of iterations for OP analysis: 293
+
+Resource Usage for Operating Point
+--------------------------
+| CPU Time    | 0.05 sec |
+| Peak Memory | 2.59 Mb  |
+|------------------------|
+0.1% frequency = 1.023293 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+10.0% frequency = 6.025596 Hz ( etc = 0.1 sec, ett = 0.0 sec )
+20.0% frequency = 35.481339 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+30.0% frequency = 208.929613 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+40.0% frequency = 1.230269 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+50.0% frequency = 7.244360 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+60.0% frequency = 42.657952 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+70.0% frequency = 251.188643 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+80.0% frequency = 1.479108 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+90.0% frequency = 8.709636 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+100.0% frequency = 50.118723 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+******
+***
+ ******  ac analysis              temp=  27
+ ******
+gain=  5.9671436377e+01    when/at= 1.000e+00
+gm=  2.6727374669e+01    when/at= 9.198e+06
+phase=  -1.2561795029e+02      from=   1.000e+00  to=   1.290e+06
+pm=  5.4382049705e+01    param =  5.438e+01
+ugf=  1.2897050074e+00    param =  1.290e+00
+ugf_actual=  1.2897050074e+06    when/at= 1.290e+06
+
+
+finished AC analysis (0.04 sec)
+
+AC analysis time = 0.04 cpu sec
+Transient Analysis
+10.0% time = 10000.0 ns ( etc = 1.0 sec, ett = 1.0 sec )
+  ( slv=433  evl=208  rej=15  mem=2917K cpu=0   wall=0 )
+20.0% time = 20000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=435  evl=210  rej=15  mem=2917K cpu=0   wall=0 )
+30.0% time = 30000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=435  evl=210  rej=15  mem=2917K cpu=0   wall=0 )
+40.0% time = 40000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=436  evl=211  rej=15  mem=2917K cpu=0   wall=0 )
+50.0% time = 50000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=436  evl=211  rej=15  mem=2917K cpu=0   wall=0 )
+60.0% time = 60000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=861  evl=425  rej=30  mem=2917K cpu=0   wall=0 )
+70.0% time = 70000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=969  evl=533  rej=30  mem=2925K cpu=0   wall=0 )
+80.0% time = 80000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=970  evl=534  rej=30  mem=2925K cpu=0   wall=0 )
+90.0% time = 90000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=971  evl=535  rej=30  mem=2925K cpu=0   wall=0 )
+
+solve = 971 eval = 535 reject = 30
+******
+***
+ ******  transient analysis       temp=  27
+ ******
+srf=  4.1911667345e-01    param =  4.191e-01
+srf_actual=  -4.1911667345e+05    when/at= 5.055e-05
+srr=  1.8965993386e-01    param =  1.897e-01
+srr_actual=  1.8965993386e+05    when/at= 1.605e-06
+vomax=  1.3145882943e+00      from=   0.000e+00  to=   1.000e-04
+vomin=  7.2025206887e-01      from=   0.000e+00  to=   1.000e-04
+
+
+
+Transient time = 0.09 cpu sec, 0.16 wall sec
+
+Resource Usage for Transient Analysis
+--------------------------
+| CPU Time    | 0.09 sec |
+| Peak Memory | 2.86 Mb  |
+|------------------------|
+
+DC Sweep Analysis
+
+starting DC sweep
+
+Total number of nodes (including internal nodes): 125
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 2.98 Mb  |
+|------------------------|
+
+0.1% VDD_AC = 2.000000   ( etc = 1:39, ett = 50.0 sec )
+
+10.0% VDD_AC = 2.000000   ( etc = 0.9 sec, ett = 0.5 sec )
+
+20.0% VDD_AC = 2.000000   ( etc = 0.4 sec, ett = 0.3 sec )
+
+30.0% VDD_AC = 2.000000   ( etc = 0.2 sec, ett = 0.2 sec )
+
+40.0% VDD_AC = 2.000000   ( etc = 0.1 sec, ett = 0.1 sec )
+
+50.0% VDD_AC = 2.000000   ( etc = 0.1 sec, ett = 0.1 sec )
+
+60.0% VDD_AC = 2.000000   ( etc = 0.1 sec, ett = 0.1 sec )
+
+70.0% VDD_AC = 2.000000   ( etc = 0.0 sec, ett = 0.1 sec )
+
+80.0% VDD_AC = 2.000000   ( etc = 0.0 sec, ett = 0.1 sec )
+
+90.0% VDD_AC = 2.000000   ( etc = 0.0 sec, ett = 0.1 sec )
+******
+***
+ ******  dc analysis              temp=  27
+ ******
+iq=  1.2439286004e+02    when/at= 2.000e+00
+
+
+
+Total solves = 0
+
+
+Compressing
+
+Total number of nodes (including internal nodes): 125
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 3.14 Mb  |
+|------------------------|
+
+finished DC sweep (0.1 sec)
+
+
+
+
+DC sweep time = 0.1 cpu sec
+
+    --- hspicerf done [./TT.sp] ---
+
+Total time   = 0.28 cpu sec
+
+Total memory = 3.14 Mbytes

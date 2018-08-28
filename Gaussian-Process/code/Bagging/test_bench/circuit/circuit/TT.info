@@ -1,0 +1,77 @@
+Parsing
+
+Loading Netlist Data
+
+Warning:  option "DCON" ignored
+
+Initialize Models
+Checking
+
+Compressing
+Simulation
+AC Analysis
+OP: iteration 20 residual>100
+OP: iteration 40 residual>100
+OP: iteration 60 residual>100
+OP: iteration 80 residual>100
+OP: iteration 100 residual>100
+OP: iteration 120 residual>100
+OP: iteration 140 residual>100
+OP: iteration 160 residual>100
+OP: iteration 180 residual>100
+OP: iteration 200 residual>100
+OP: iteration 220 residual>100
+OP: iteration 240 residual>100
+OP: iteration 260 residual=1.17626e-08
+OP: iteration 280 residual=3.90918e-11
+OP: finished using direct method
+Number of iterations for OP analysis: 293
+0.1% frequency = 1.023293 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+10.0% frequency = 6.025596 Hz ( etc = 0.1 sec, ett = 0.0 sec )
+20.0% frequency = 35.481339 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+30.0% frequency = 208.929613 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+40.0% frequency = 1.230269 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+50.0% frequency = 7.244360 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+60.0% frequency = 42.657952 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+70.0% frequency = 251.188643 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+80.0% frequency = 1.479108 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+90.0% frequency = 8.709636 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+100.0% frequency = 50.118723 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+finished AC analysis (0.04 sec)
+10.0% time = 10000.0 ns ( etc = 1.0 sec, ett = 1.0 sec )
+  ( slv=433  evl=208  rej=15  mem=2917K cpu=0   wall=0 )
+20.0% time = 20000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=435  evl=210  rej=15  mem=2917K cpu=0   wall=0 )
+30.0% time = 30000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=435  evl=210  rej=15  mem=2917K cpu=0   wall=0 )
+40.0% time = 40000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=436  evl=211  rej=15  mem=2917K cpu=0   wall=0 )
+50.0% time = 50000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=436  evl=211  rej=15  mem=2917K cpu=0   wall=0 )
+60.0% time = 60000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=861  evl=425  rej=30  mem=2917K cpu=0   wall=0 )
+70.0% time = 70000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=969  evl=533  rej=30  mem=2925K cpu=0   wall=0 )
+80.0% time = 80000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=970  evl=534  rej=30  mem=2925K cpu=0   wall=0 )
+90.0% time = 90000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+  ( slv=971  evl=535  rej=30  mem=2925K cpu=0   wall=0 )
+DC Sweep Analysis
+starting DC sweep
+0.1% VDD_AC = 2.000000   ( etc = 1:39, ett = 50.0 sec )
+10.0% VDD_AC = 2.000000   ( etc = 0.9 sec, ett = 0.5 sec )
+20.0% VDD_AC = 2.000000   ( etc = 0.4 sec, ett = 0.3 sec )
+30.0% VDD_AC = 2.000000   ( etc = 0.2 sec, ett = 0.2 sec )
+40.0% VDD_AC = 2.000000   ( etc = 0.1 sec, ett = 0.1 sec )
+50.0% VDD_AC = 2.000000   ( etc = 0.1 sec, ett = 0.1 sec )
+60.0% VDD_AC = 2.000000   ( etc = 0.1 sec, ett = 0.1 sec )
+70.0% VDD_AC = 2.000000   ( etc = 0.0 sec, ett = 0.1 sec )
+80.0% VDD_AC = 2.000000   ( etc = 0.0 sec, ett = 0.1 sec )
+90.0% VDD_AC = 2.000000   ( etc = 0.0 sec, ett = 0.1 sec )
+
+Compressing
+finished DC sweep (0.1 sec)
+
+
+	See "TT.lis" for results and statistics.
+
