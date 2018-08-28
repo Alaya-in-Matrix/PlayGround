@@ -1,0 +1,43 @@
+***** HSPICE -- D-2010.03 64-BIT (Feb 23 2010) linux ******
+ Input File: ./Single_ended.sp
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   wllv                 HOSTNAME: console
+ lic: HOSTID: 3440b5b102f4         PID:      41153
+ lic: Using FLEXlm license file:
+ lic: /export/home/wllv/mysoft/hspice/license.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid 3440b5b102f4
+ lic:
+ init: begin read circuit files,  cpu clock=  3.00E-02
+       option post
+       option ingold   =     2.00
+       option numdgt   =     10.0
+ init: end read circuit files,  cpu clock=  4.00E-02 memory=       155 kb
+ init: begin check errors,  cpu clock=  4.00E-02
+ init: end check errors,  cpu clock=  5.00E-02 memory=       738 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  5.00E-02
+       establish matrix -- done,  cpu clock=  5.00E-02 memory=       804 kb
+       re-order matrix -- done,  cpu clock=  5.00E-02 memory=       816 kb
+ init: end setup matrix,  cpu clock=  5.00E-02 memory=       874 kb
+ dcop: begin dcop,  cpu clock=  5.00E-02
+       establish matrix -- done,  cpu clock=  5.00E-02 memory=       815 kb
+       re-order matrix -- done,  cpu clock=  5.00E-02 memory=       827 kb
+ dcop: end dcop,  cpu clock=  8.00E-02 memory=       874 kb  tot_iter=     245
+ output: dac2014.ma0
+ sweep: ac ac0    begin, #sweeps=1071 cpu clock=  8.00E-02
+ ac: frequency=    1.02E+00
+ ac: frequency=    1.17E+01
+ ac: frequency=    1.38E+02
+ ac: frequency=    1.62E+03
+ ac: frequency=    1.91E+04
+ ac: frequency=    2.24E+05
+ ac: frequency=    2.63E+06
+ ac: frequency=    3.09E+07
+ ac: frequency=    3.63E+08
+ ac: frequency=    4.27E+09
+ ac: frequency=    5.01E+10
+ sweep: ac ac0    end,  cpu clock=  1.30E-01 memory=       923 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

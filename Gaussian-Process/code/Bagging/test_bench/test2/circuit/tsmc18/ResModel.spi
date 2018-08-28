@@ -1,0 +1,145 @@
+***** mm018 *****
+************** Library of typical corner ******************************
+
+.lib res_t
+.param r_rnwod_m=440 r_rnod_m=6.82 r_rnodw_m=6.82 r_rnodrpo_m=59 r_rpod_m=7.76 r_rpodw_m=7.76 r_rpodrpo_m=133
+.lib 'ResModel.spi' res_macro
+.endl res_t
+
+************** Library of best corner *********************************
+
+.lib res_b
+.param r_rnwod_m=340 r_rnod_m=4.32 r_rnodw_m=4.32 r_rnodrpo_m=53.2 r_rpod_m=4.76 r_rpodw_m=4.76 r_rpodrpo_m=114
+.lib 'ResModel.spi' res_macro
+.endl res_b
+
+************** Library of worst corner ********************************
+
+.lib res_w
+.param r_rnwod_m=540 r_rnod_m=9.32 r_rnodw_m=9.32 r_rnodrpo_m=64.8 r_rpod_m=10.76 r_rpodw_m=10.76 r_rpodrpo_m=152
+.lib 'ResModel.spi' res_macro
+.endl res_w
+
+***********************************************************************
+
+.lib res_macro
+.subckt rnwod_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rnwod_m' dw=0.141u ptc1=3.68e-3 ptc2=9.54e-6 pvc1=2.77e-3 pvc2=2.49e-4 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25.0)'
+
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 body n2 nwdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 body nm nwdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 body nn nwdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 body nx nwdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 body n1 nwdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+
+.ends rnwod_m
+
+.subckt rnod_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rnod_m' dw=-0.0765u ptc1=3.35e-3 ptc2=4.31e-7 pvc1=7.56e-05 pvc2=1.24e-03 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25)'
+
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 body n2 ndio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 body nm ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 body nn ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 body nx ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 body n1 ndio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+
+.ends rnod_m
+
+.subckt rnodw_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rnodw_m' dw=-0.0765u ptc1=3.35e-3 ptc2=4.31e-7 pvc1=7.56e-05 pvc2=1.24e-03 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25)'
+ 
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 body n2 ndio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 body nm ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 body nn ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 body nx ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 body n1 ndio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+ 
+.ends rnodw_m
+ 
+.subckt rnodrpo_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rnodrpo_m' dw=0u ptc1=1.47e-3 ptc2=8.32e-7 pvc1=7.55e-04 pvc2=1.97e-04 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25)'
+
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 body n2 ndio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 body nm ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 body nn ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 body nx ndio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 body n1 ndio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+
+.ends rnodrpo_m
+
+.subckt rpod_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rpod_m' dw=-0.08u ptc1=3.44e-3 ptc2=5.02e-7 pvc1=-2.51e-04 pvc2=1.03e-03 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25)'
+
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 n2 body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 nm body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 nn body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 nx body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 n1 body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+
+.ends rpod_m
+
+.subckt rpodw_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rpodw_m' dw=-0.08u ptc1=3.44e-3 ptc2=5.02e-7 pvc1=-2.51e-04 pvc2=1.03e-03 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25)'
+
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 n2 body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 nm body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 nn body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 nx body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 n1 body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+
+.ends rpodw_m
+
+.subckt rpodrpo_m n2 n1 body lr=l wr=w mf=1
+
+.param rsh='r_rpodrpo_m' dw=0u ptc1=1.43e-3 ptc2=7.82e-7 pvc1=-1.19e-03 pvc2=-1.8e-04 pt='temper'
+.param tfac='1.0+ptc1*(pt-25.0)+ptc2*(pt-25.0)*(pt-25)'
+
+r1 n2 nm 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r2 nm nn 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r3 nn nx 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+r4 nx n1 'rsh/mf*lr/(4.0*(wr-dw))*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1))*tfac'
+d1 n2 body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+d2 nm body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d3 nn body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d4 nx body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*2.0*lr/5.0'
+d5 n1 body pdio area='mf*(wr-dw)*lr/5.0' pj='mf*(wr-dw)+2.0*lr/5.0'
+
+.ends rpodrpo_m
+
+.endl res_macro

@@ -1,0 +1,4622 @@
+
+MOBO created
+Eval: 81
+Last eval x:  4.7554e-06 1.78712e-06 2.51026e-06    1.26e-06 1.04372e-05 7.61333e-06     62.8625     2.65051  4.1652e-06 3.46418e-05
+Pred-S-Eval:
+-66.2618 -17.3061 -76.3039
+ 16.2301  3.92789  8.24744
+  -48.03   -2.156    -88.7
+New Pareto: true
+Number of Pareto optimal points: 24
+Elapsed time: 1.26667 minutes
+Estimated remaining time: 6.65 minutes
+-----------------------------
+Eval: 82
+Last eval x: 4.64602e-06 3.36559e-06 2.57262e-06 3.11572e-06 1.02438e-05 9.72116e-06      63.212      2.6187 6.43351e-06 3.53314e-05
+Pred-S-Eval:
+-72.1844 -18.2648 -76.4566
+ 15.4259  3.71857  8.30988
+  -49.29   -4.562   -86.16
+New Pareto: true
+Number of Pareto optimal points: 25
+Elapsed time: 1.46667 minutes
+Estimated remaining time: 7.58683 minutes
+-----------------------------
+Eval: 83
+Last eval x: 4.56053e-06 3.36614e-06 2.52424e-06  3.2011e-06 1.02413e-05 1.46342e-05     63.9328     2.83026 6.68358e-06 3.54914e-05
+Pred-S-Eval:
+-74.2659 -11.7975 -76.7784
+  14.789  4.61985  8.32521
+   -50.4   -5.048   -85.52
+New Pareto: true
+Number of Pareto optimal points: 26
+Elapsed time: 1.58333 minutes
+Estimated remaining time: 8.07114 minutes
+-----------------------------
+Eval: 84
+Last eval x: 4.59333e-06 3.16105e-06 2.52595e-06 4.36688e-06 9.75118e-06 1.70903e-05     64.0815     3.04257 5.68795e-06  3.5468e-05
+Pred-S-Eval:
+-70.1617 -12.5568 -84.1466
+ 15.7689  4.52585  7.13489
+  -83.41      -22   -62.41
+New Pareto: false
+Number of Pareto optimal points: 26
+Elapsed time: 1.73333 minutes
+Estimated remaining time: 8.70843 minutes
+-----------------------------
+Eval: 85
+Last eval x: 4.59878e-06 3.17877e-06 2.53114e-06 3.64668e-06 9.57374e-06 1.71212e-05     64.0103     1.88059 5.18037e-06 3.55967e-05
+Pred-S-Eval:
+ -81.506 -21.0174  -79.262
+ 12.5255  2.94684   8.2414
+  -74.31   -20.34   -66.65
+New Pareto: false
+Number of Pareto optimal points: 26
+Elapsed time: 1.86667 minutes
+Estimated remaining time: 9.24444 minutes
+-----------------------------
+Eval: 86
+Last eval x: 3.45551e-06 3.04645e-06    1.67e-06 3.97942e-06 7.24954e-06 2.00764e-05     51.9185     5.36107 2.80772e-06 4.32918e-05
+Pred-S-Eval:
+-73.8113 -11.2935 -78.9319
+ 14.5938  4.34115  8.20572
+  -79.15   -27.16   -67.67
+New Pareto: true
+Number of Pareto optimal points: 27
+Elapsed time: 2.05 minutes
+Estimated remaining time: 10.0088 minutes
+-----------------------------
+Eval: 87
+Last eval x: 3.45348e-06 3.16027e-06 3.52747e-06 2.13893e-06 9.41515e-06 1.82254e-05      133.54     4.23787     9.3e-06 1.90377e-05
+Pred-S-Eval:
+-72.4231 -7.86632 -81.4803
+ 14.6961   5.1556  7.88042
+   -36.2  -0.7608   -90.04
+New Pareto: true
+Number of Pareto optimal points: 28
+Elapsed time: 2.23333 minutes
+Estimated remaining time: 10.7512 minutes
+-----------------------------
+Eval: 88
+Last eval x: 4.70597e-06 4.01172e-06    6.68e-06    5.04e-06 1.07541e-05 1.70948e-05     70.6495        1.62 5.11365e-06 2.50791e-05
+Pred-S-Eval:
+-74.9444 -22.9444 -77.8322
+ 14.9517  2.51336   8.3444
+  -63.25   -10.29   -69.22
+New Pareto: false
+Number of Pareto optimal points: 28
+Elapsed time: 2.41667 minutes
+Estimated remaining time: 11.4722 minutes
+-----------------------------
+Eval: 89
+Last eval x: 3.47972e-06 2.57391e-06 6.38534e-06 4.89856e-06 6.68374e-06 1.89661e-05         159         6.5 9.09314e-06 2.51008e-05
+Pred-S-Eval:
+-73.2045 -15.9333 -76.2173
+ 15.3069  4.68365  8.41336
+   -58.9   -6.082   -72.79
+New Pareto: false
+Number of Pareto optimal points: 28
+Elapsed time: 2.61667 minutes
+Estimated remaining time: 12.2508 minutes
+-----------------------------
+Eval: 90
+Last eval x:    3.45e-06 2.43472e-06    6.68e-06    1.26e-06 8.59272e-06 1.98446e-05        39.7     3.21532  6.4419e-06 2.32761e-05
+Pred-S-Eval:
+-88.3288 -17.1574 -78.0304
+ 4.28061  4.42745   8.2526
+   -34.7  -0.4374   -90.28
+New Pareto: true
+Number of Pareto optimal points: 29
+Elapsed time: 2.83333 minutes
+Estimated remaining time: 13.0843 minutes
+-----------------------------
+Eval: 91
+Last eval x: 5.33293e-06 3.35466e-06 2.06605e-06 4.16381e-06 1.01892e-05 1.71015e-05     105.426     2.76336 4.18081e-06 3.54155e-05
+Pred-S-Eval:
+-71.2625 -7.72601  -77.257
+ 15.6938  5.08907  5.86354
+  -86.81    -22.7   -64.69
+New Pareto: false
+Number of Pareto optimal points: 29
+Elapsed time: 3.01667 minutes
+Estimated remaining time: 13.7426 minutes
+-----------------------------
+Eval: 92
+Last eval x: 5.03722e-06 3.16182e-06 3.43288e-06    1.26e-06 9.98468e-06 1.71188e-05        39.7     2.76074 4.24387e-06 1.17909e-05
+Pred-S-Eval:
+-65.4176 -22.2718 -84.0558
+ 16.4057  1.98064  7.38863
+  -32.84  -0.4071   -90.94
+New Pareto: true
+Number of Pareto optimal points: 30
+Elapsed time: 3.2 minutes
+Estimated remaining time: 14.3824 minutes
+-----------------------------
+Eval: 93
+Last eval x:   3.489e-06 3.80618e-06    1.67e-06 4.29693e-06 1.57755e-05 2.17116e-05     154.367     3.88457 4.78858e-06 2.07289e-05
+Pred-S-Eval:
+-72.4459 -13.7733 -75.9688
+ 15.3459  3.40498  8.44779
+  -41.31   -3.475   -88.28
+New Pareto: true
+Number of Pareto optimal points: 31
+Elapsed time: 3.38333 minutes
+Estimated remaining time: 15.0043 minutes
+-----------------------------
+Eval: 94
+Last eval x: 9.45549e-06 3.16015e-06 4.28744e-06 4.24578e-06  9.2143e-06 1.80326e-05     48.4585        1.62    2.33e-06    1.11e-05
+Pred-S-Eval:
+-82.6841 -11.8461 -86.1102
+ 11.9553   2.9561  6.94614
+  -73.14   -9.364   -66.96
+New Pareto: false
+Number of Pareto optimal points: 31
+Elapsed time: 3.58333 minutes
+Estimated remaining time: 15.6819 minutes
+-----------------------------
+Eval: 95
+Last eval x: 4.07518e-06 3.04255e-06 2.79907e-06 3.89895e-06 9.11324e-06     2.2e-05     126.352     4.69814 3.51025e-06    4.43e-05
+Pred-S-Eval:
+ -78.686 -28.4784 -78.2659
+ 5.55249  1.79374  8.18151
+  -70.77   -18.11   -66.91
+New Pareto: false
+Number of Pareto optimal points: 31
+Elapsed time: 3.78333 minutes
+Estimated remaining time: 16.3408 minutes
+-----------------------------
+Eval: 96
+Last eval x: 6.14819e-06 3.44911e-06    1.67e-06 3.02498e-06     1.6e-05 1.40044e-05      50.062     4.67503    2.33e-06    4.43e-05
+Pred-S-Eval:
+-86.7546 -22.6934 -74.3323
+ 11.1767  3.51492  8.35812
+  -66.69    -15.7   -75.72
+New Pareto: true
+Number of Pareto optimal points: 32
+Elapsed time: 4.01667 minutes
+Estimated remaining time: 17.1237 minutes
+-----------------------------
+Eval: 97
+Last eval x: 6.00149e-06 3.08997e-06 1.75708e-06 4.67331e-06       4e-06     2.2e-05        39.7     6.14915 3.18064e-06 2.72173e-05
+Pred-S-Eval:
+-96.3009 -17.9749 -75.6274
+ 11.1161  3.25777  7.41939
+  -61.66   -9.116   -72.66
+New Pareto: false
+Number of Pareto optimal points: 32
+Elapsed time: 4.25 minutes
+Estimated remaining time: 17.8854 minutes
+-----------------------------
+Eval: 98
+Last eval x:    3.45e-06 3.17423e-06 2.22117e-06 3.58278e-06 1.57828e-05     2.2e-05      54.699         6.5 2.33709e-06 3.50895e-05
+Pred-S-Eval:
+-81.8493 -24.7754 -66.6079
+ 12.2081  2.71467  5.29578
+     -87    -30.9   -66.69
+New Pareto: true
+Number of Pareto optimal points: 33
+Elapsed time: 4.48333 minutes
+Estimated remaining time: 18.6266 minutes
+-----------------------------
+Eval: 99
+Last eval x: 3.83913e-06 3.17047e-06  2.7799e-06    5.04e-06  1.3654e-05     2.2e-05     99.9541         6.5 3.68523e-06 1.42233e-05
+Pred-S-Eval:
+-60.2072 -8.03813 -88.8626
+ 13.4165   4.0762  6.64407
+  -52.22   -6.762   -82.09
+New Pareto: false
+Number of Pareto optimal points: 33
+Elapsed time: 4.71667 minutes
+Estimated remaining time: 19.348 minutes
+-----------------------------
+Eval: 100
+Last eval x: 3.49093e-06 1.82638e-06 2.60126e-06 4.93108e-06  1.0591e-05     2.2e-05     131.896         6.5 4.38868e-06 2.93344e-05
+Pred-S-Eval:
+-90.6761 -15.5278 -71.9074
+ 12.1271  2.21567  7.80322
+  -71.62   -13.48   -67.17
+New Pareto: false
+Number of Pareto optimal points: 33
+Elapsed time: 4.95 minutes
+Estimated remaining time: 20.05 minutes
+-----------------------------
+Eval: 101
+Last eval x:    3.45e-06  4.1062e-06    1.67e-06 3.36853e-06 1.41466e-05 9.01362e-06     45.7021     1.68135    2.33e-06 3.55619e-05
+Pred-S-Eval:
+-85.3018 -27.4063 -84.1601
+ 10.7069  2.57389  6.27408
+  -54.78   -15.43   -82.66
+New Pareto: true
+Number of Pareto optimal points: 34
+Elapsed time: 5.2 minutes
+Estimated remaining time: 20.8 minutes
+-----------------------------
+Eval: 102
+Last eval x: 5.08362e-06 3.15817e-06 1.83848e-06 4.55203e-06 5.97845e-06 9.32395e-06        39.7        1.62 2.66065e-06 2.10983e-05
+Pred-S-Eval:
+-84.7066 -7.54911 -87.5494
+ 11.5098  3.62053  6.11343
+  -85.73   -22.95    -63.9
+New Pareto: false
+Number of Pareto optimal points: 34
+Elapsed time: 5.45 minutes
+Estimated remaining time: 21.5302 minutes
+-----------------------------
+Eval: 103
+Last eval x:    3.47e-06 3.15493e-06 2.89047e-06 3.55661e-06 1.20124e-05 1.75692e-05     52.5879     2.05353 2.77131e-06 1.50925e-05
+Pred-S-Eval:
+-62.5494 -17.8865 -85.7124
+  13.162  3.50341  7.26142
+  -47.76   -4.608   -85.98
+New Pareto: true
+Number of Pareto optimal points: 35
+Elapsed time: 5.7 minutes
+Estimated remaining time: 22.2412 minutes
+-----------------------------
+Eval: 104
+Last eval x: 5.42854e-06 1.97246e-06 2.67509e-06    5.04e-06 1.07544e-05 6.63337e-06      41.729        1.62 5.73603e-06 2.12336e-05
+Pred-S-Eval:
+   -89.4 -13.7257 -75.9768
+ 11.9705  4.49586  8.47337
+  -86.39   -13.72   -64.63
+New Pareto: false
+Number of Pareto optimal points: 35
+Elapsed time: 5.96667 minutes
+Estimated remaining time: 22.9977 minutes
+-----------------------------
+Eval: 105
+Last eval x: 6.03918e-06 3.17058e-06 4.12107e-06    5.04e-06 6.68746e-06 1.73096e-05     67.8879     1.73739 5.82127e-06    1.11e-05
+Pred-S-Eval:
+-69.5859 -9.72488 -88.3443
+ 13.5486   3.8795  6.55864
+   -56.4   -5.226   -77.06
+New Pareto: false
+Number of Pareto optimal points: 35
+Elapsed time: 6.23333 minutes
+Estimated remaining time: 23.7346 minutes
+-----------------------------
+Eval: 106
+Last eval x:    3.45e-06 3.39237e-06    1.67e-06 2.93599e-06     1.6e-05  2.0964e-05     116.052     5.81001 2.75616e-06 4.21015e-05
+Pred-S-Eval:
+-72.2054 -21.1502 -84.2499
+ 9.26596   3.4017  7.10474
+  -60.24   -17.71   -80.39
+New Pareto: true
+Number of Pareto optimal points: 36
+Elapsed time: 6.41667 minutes
+Estimated remaining time: 24.1389 minutes
+-----------------------------
+Eval: 107
+Last eval x:    3.45e-06 2.37693e-06    1.67e-06  4.2171e-06 5.96559e-06  1.5469e-05     64.9357     2.50519 2.76556e-06 3.32736e-05
+Pred-S-Eval:
+-90.8487 -24.5851 -69.2746
+ 11.2294  3.11348  6.70322
+  -73.48   -21.25   -68.61
+New Pareto: true
+Number of Pareto optimal points: 37
+Elapsed time: 6.6 minutes
+Estimated remaining time: 24.5321 minutes
+-----------------------------
+Eval: 108
+Last eval x: 5.48291e-06 3.81981e-06 2.79493e-06 5.00814e-06 1.51082e-05     5.5e-06      59.697     1.81019    2.33e-06 2.09455e-05
+Pred-S-Eval:
+-58.8997 -18.4823 -83.3978
+ 13.1494  3.61502  7.22682
+  -82.39   -24.56   -63.09
+New Pareto: false
+Number of Pareto optimal points: 37
+Elapsed time: 6.8 minutes
+Estimated remaining time: 24.9757 minutes
+-----------------------------
+Eval: 109
+Last eval x: 6.49044e-06 3.09087e-06 4.12577e-06 4.38646e-06 5.96352e-06 6.02042e-06     99.6147        1.62  2.6652e-06  2.4134e-05
+Pred-S-Eval:
+-106.236 -20.0281 -73.5589
+ 8.58962  3.36424  4.65255
+  -69.41   -11.66   -67.48
+New Pareto: false
+Number of Pareto optimal points: 37
+Elapsed time: 7 minutes
+Estimated remaining time: 25.4074 minutes
+-----------------------------
+Eval: 110
+Last eval x: 3.74608e-06  2.9129e-06 1.69923e-06 3.99031e-06 1.06345e-05     2.2e-05        39.7     5.88802    2.33e-06 3.64032e-05
+Pred-S-Eval:
+-88.8759 -28.6311 -66.4462
+ 8.42298  1.58969  1.79154
+  -74.05   -23.45   -70.04
+New Pareto: true
+Number of Pareto optimal points: 37
+Elapsed time: 7.2 minutes
+Estimated remaining time: 25.8275 minutes
+-----------------------------
+Eval: 111
+Last eval x:    3.45e-06 2.47916e-06 3.02855e-06 3.44682e-06 1.18424e-05 1.84434e-05         159        1.62    2.33e-06 3.32231e-05
+Pred-S-Eval:
+  -68.33 -28.6443 -64.1698
+ 10.7223   2.7304  3.30007
+  -72.94   -20.69   -67.89
+New Pareto: false
+Number of Pareto optimal points: 37
+Elapsed time: 7.38333 minutes
+Estimated remaining time: 26.1773 minutes
+-----------------------------
+Eval: 112
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.02522e-06 1.37889e-05     5.5e-06         159     5.22203 3.44029e-06 2.02732e-05
+Pred-S-Eval:
+-42.0875 -6.85177 -92.1621
+ 12.7842  4.99151  6.31662
+  -35.75   -2.092   -90.07
+New Pareto: true
+Number of Pareto optimal points: 38
+Elapsed time: 7.58333 minutes
+Estimated remaining time: 26.5758 minutes
+-----------------------------
+Eval: 113
+Last eval x: 6.78957e-06 3.38576e-06 2.88712e-06  3.5164e-06  1.5342e-05     2.2e-05     91.5531         6.5    2.33e-06  3.3411e-05
+Pred-S-Eval:
+-95.8685 -24.9141 -61.3541
+ 9.42163  3.06595  3.61166
+  -62.49   -9.465   -75.06
+New Pareto: false
+Number of Pareto optimal points: 38
+Elapsed time: 7.76667 minutes
+Estimated remaining time: 26.906 minutes
+-----------------------------
+Eval: 114
+Last eval x:    3.45e-06     4.3e-06 2.50661e-06 2.84026e-06 6.30246e-06     2.2e-05        39.7        1.62    2.33e-06 3.09555e-05
+Pred-S-Eval:
+ -61.242 -18.3606 -80.4167
+ 14.6788  3.99248  6.08359
+  -62.22   -18.64   -76.76
+New Pareto: true
+Number of Pareto optimal points: 39
+Elapsed time: 7.96667 minutes
+Estimated remaining time: 27.2841 minutes
+-----------------------------
+Eval: 115
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.35113e-06 1.32852e-05     5.5e-06      144.57     5.08677 9.04466e-06 1.76849e-05
+Pred-S-Eval:
+-41.9427 -3.29719 -91.5852
+ 14.0447  5.16585  7.25396
+  -29.23  -0.8638    -91.5
+New Pareto: true
+Number of Pareto optimal points: 40
+Elapsed time: 8.16667 minutes
+Estimated remaining time: 27.652 minutes
+-----------------------------
+Eval: 116
+Last eval x: 4.18676e-06 3.90971e-06    1.67e-06 2.25995e-06     1.6e-05 1.47555e-05         159         6.5 5.66702e-06 3.15369e-05
+Pred-S-Eval:
+-65.2866 -3.48906 -93.9613
+ 14.2807  4.05331  5.54695
+  -36.53   -1.596   -90.13
+New Pareto: true
+Number of Pareto optimal points: 40
+Elapsed time: 8.36667 minutes
+Estimated remaining time: 28.0101 minutes
+-----------------------------
+Eval: 117
+Last eval x:    3.45e-06 2.97258e-06    1.67e-06 4.05412e-06       4e-06 1.95235e-05     54.7853        1.62 4.36963e-06 4.23292e-05
+Pred-S-Eval:
+-79.6937 -24.7392 -65.6027
+ 13.6711  2.08098  2.42924
+  -86.81   -25.14   -62.44
+New Pareto: false
+Number of Pareto optimal points: 40
+Elapsed time: 8.56667 minutes
+Estimated remaining time: 28.3586 minutes
+-----------------------------
+Eval: 118
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.32402e-06       4e-06 1.82296e-05      85.422        1.62 6.57646e-06    1.11e-05
+Pred-S-Eval:
+-53.2447 0.286653  -92.302
+ 15.8603  4.75996  6.85686
+  -48.69   -2.841   -85.88
+New Pareto: false
+Number of Pareto optimal points: 40
+Elapsed time: 8.78333 minutes
+Estimated remaining time: 28.7523 minutes
+-----------------------------
+Eval: 119
+Last eval x: 8.60195e-06 3.63003e-06 4.81909e-06    1.26e-06 1.25351e-05 1.67542e-05     70.1379     5.76901 8.40463e-06 1.56733e-05
+Pred-S-Eval:
+-36.6833 -1.62909 -92.6278
+ 12.4177  4.71687  6.20732
+  -33.59  -0.2695   -90.77
+New Pareto: true
+Number of Pareto optimal points: 41
+Elapsed time: 9 minutes
+Estimated remaining time: 29.1356 minutes
+-----------------------------
+Eval: 120
+Last eval x:    3.45e-06 3.86787e-06 1.76528e-06  3.1909e-06     1.6e-05 1.90154e-05     53.7003     4.21063     9.3e-06 2.46034e-05
+Pred-S-Eval:
+-36.2166 -1.27888 -94.6361
+ 13.6062   4.4346  5.86209
+  -35.13   -1.402   -90.12
+New Pareto: false
+Number of Pareto optimal points: 41
+Elapsed time: 9.2 minutes
+Estimated remaining time: 29.4555 minutes
+-----------------------------
+Eval: 121
+Last eval x: 3.62305e-06 3.57321e-06    1.67e-06    1.26e-06       4e-06 1.39167e-05        39.7         6.5 7.65498e-06 4.14677e-05
+Pred-S-Eval:
+-57.6811 -2.85519 -85.9554
+ 15.0347   4.9922  6.98475
+  -39.23   -1.255   -89.98
+New Pareto: true
+Number of Pareto optimal points: 42
+Elapsed time: 9.41667 minutes
+Estimated remaining time: 29.8194 minutes
+-----------------------------
+Eval: 122
+Last eval x:    3.45e-06 3.48068e-06    1.67e-06 2.74973e-06       4e-06 1.10724e-05        39.7     5.06401 8.35562e-06 2.99815e-05
+Pred-S-Eval:
+-48.3796  1.41953 -95.3256
+ 10.3301  3.71266  5.11646
+  -44.43   -2.726   -88.24
+New Pareto: true
+Number of Pareto optimal points: 43
+Elapsed time: 9.63333 minutes
+Estimated remaining time: 30.1738 minutes
+-----------------------------
+Eval: 123
+Last eval x:    3.45e-06     4.3e-06 3.29656e-06 2.72346e-06       4e-06     5.5e-06     103.373     4.32176    2.33e-06    4.43e-05
+Pred-S-Eval:
+-63.5233 -10.0977 -80.8888
+ 15.0142  4.47317  6.76829
+  -77.92   -33.37   -67.11
+New Pareto: true
+Number of Pareto optimal points: 44
+Elapsed time: 9.85 minutes
+Estimated remaining time: 30.5189 minutes
+-----------------------------
+Eval: 124
+Last eval x: 5.15282e-06 4.29979e-06 3.41024e-06 2.97289e-06       4e-06 6.21269e-06     128.228     5.81701 2.36032e-06 4.27231e-05
+Pred-S-Eval:
+-80.2156 -29.6043 -66.9691
+ 9.95796  3.19378  3.83364
+   -76.1   -21.95   -68.67
+New Pareto: true
+Number of Pareto optimal points: 45
+Elapsed time: 10.0667 minutes
+Estimated remaining time: 30.8547 minutes
+-----------------------------
+Eval: 125
+Last eval x:    3.45e-06     4.3e-06 3.45331e-06 3.48873e-06     1.6e-05  2.1871e-05         159         6.5 5.39321e-06    1.11e-05
+Pred-S-Eval:
+-41.0502 -3.35069 -94.3648
+ 14.4421  4.92913  6.19357
+  -36.22   -1.184   -89.61
+New Pareto: false
+Number of Pareto optimal points: 45
+Elapsed time: 10.3 minutes
+Estimated remaining time: 31.2323 minutes
+-----------------------------
+Eval: 126
+Last eval x: 6.77378e-06 3.84394e-06 2.05116e-06    5.04e-06 5.53051e-06 7.69096e-06        39.7     4.41226    2.33e-06 1.53344e-05
+Pred-S-Eval:
+-81.2874 -20.2295  -65.438
+ 12.7765  3.99981  5.28062
+  -86.47   -19.63   -64.66
+New Pareto: false
+Number of Pareto optimal points: 45
+Elapsed time: 10.5167 minutes
+Estimated remaining time: 31.55 minutes
+-----------------------------
+Eval: 127
+Last eval x:    3.45e-06 3.17941e-06 3.13302e-06 2.02431e-06 1.53528e-05 8.14731e-06     96.3733     1.83677 7.92867e-06    4.43e-05
+Pred-S-Eval:
+-46.2047 -3.32222 -90.8886
+ 14.6449   4.8021  6.35918
+  -38.94   -1.461   -89.61
+New Pareto: true
+Number of Pareto optimal points: 46
+Elapsed time: 10.75 minutes
+Estimated remaining time: 31.9087 minutes
+-----------------------------
+Eval: 128
+Last eval x: 5.91329e-06     4.3e-06    1.67e-06 1.90476e-06 1.01144e-05 1.17783e-05         159     5.92651 7.66912e-06 3.16182e-05
+Pred-S-Eval:
+-38.6931 -1.45103 -93.5962
+ 11.8742  4.62048    5.354
+  -35.84   -1.086   -90.33
+New Pareto: true
+Number of Pareto optimal points: 46
+Elapsed time: 11 minutes
+Estimated remaining time: 32.3071 minutes
+-----------------------------
+Eval: 129
+Last eval x: 6.17283e-06 2.37925e-06    1.67e-06 4.74548e-06 4.32032e-06     5.5e-06     47.2169     4.69148  2.9111e-06 1.58738e-05
+Pred-S-Eval:
+-87.5307 -18.7024 -65.6817
+ 11.5357  3.39134  4.69071
+  -84.63   -13.88   -69.39
+New Pareto: true
+Number of Pareto optimal points: 47
+Elapsed time: 11.25 minutes
+Estimated remaining time: 32.6953 minutes
+-----------------------------
+Eval: 130
+Last eval x:    3.45e-06     4.3e-06 3.38441e-06 3.01171e-06 7.29949e-06  1.0768e-05     102.236     3.81812 2.36679e-06    4.43e-05
+Pred-S-Eval:
+-72.3447 -29.0007 -70.4591
+ 6.76144  3.30587  3.41919
+  -81.53   -36.16    -64.8
+New Pareto: true
+Number of Pareto optimal points: 48
+Elapsed time: 11.5 minutes
+Estimated remaining time: 33.0736 minutes
+-----------------------------
+Eval: 131
+Last eval x:    3.45e-06 4.00334e-06    1.67e-06  1.3784e-06     1.6e-05     5.5e-06     89.9407     5.33317 3.00037e-06  4.0113e-05
+Pred-S-Eval:
+-54.7471 -8.55845 -83.4227
+ 13.0173  5.13388  6.88938
+  -36.08   -1.748   -90.39
+New Pareto: true
+Number of Pareto optimal points: 48
+Elapsed time: 11.7333 minutes
+Estimated remaining time: 33.3949 minutes
+-----------------------------
+Eval: 132
+Last eval x: 3.71586e-06 2.86291e-06 3.56516e-06 2.53647e-06 1.10032e-05     5.5e-06     144.384         6.5 6.98864e-06 1.32205e-05
+Pred-S-Eval:
+-36.1779  -1.5837 -93.4462
+ 11.2528   5.1747  5.70895
+  -33.76  -0.6624   -90.46
+New Pareto: true
+Number of Pareto optimal points: 49
+Elapsed time: 12 minutes
+Estimated remaining time: 33.8015 minutes
+-----------------------------
+Eval: 133
+Last eval x:    3.45e-06 3.51549e-06 3.26478e-06 1.46366e-06  1.0828e-05 9.23458e-06     102.037     2.08047 5.38073e-06 2.46085e-05
+Pred-S-Eval:
+ -29.1044 -0.598227  -92.9576
+  11.5871   4.94011   5.55106
+   -33.24    -0.703    -90.78
+New Pareto: true
+Number of Pareto optimal points: 50
+Elapsed time: 12.25 minutes
+Estimated remaining time: 34.1515 minutes
+-----------------------------
+Eval: 134
+Last eval x:    3.45e-06 3.39875e-06 3.17239e-06 1.60002e-06     1.6e-05     2.2e-05        39.7     1.69456 2.67887e-06    4.43e-05
+Pred-S-Eval:
+ -42.541 -6.47977 -86.1506
+   12.78  5.37653  6.00221
+  -47.97   -4.043   -87.74
+New Pareto: true
+Number of Pareto optimal points: 50
+Elapsed time: 12.5167 minutes
+Estimated remaining time: 34.5385 minutes
+-----------------------------
+Eval: 135
+Last eval x: 5.13497e-06 1.25865e-06  4.3488e-06 1.44023e-06     1.6e-05     2.2e-05     67.6373     6.46862 7.32296e-06 1.26129e-05
+Pred-S-Eval:
+-51.5092 -2.13454 -85.5618
+ 15.3283  4.63404  6.93324
+   -38.2  -0.3944   -89.99
+New Pareto: true
+Number of Pareto optimal points: 51
+Elapsed time: 12.7833 minutes
+Estimated remaining time: 34.9157 minutes
+-----------------------------
+Eval: 136
+Last eval x: 7.24274e-06     4.3e-06 4.06807e-06 2.68726e-06 1.16921e-05 5.60106e-06        39.7     4.69105     9.3e-06 1.29403e-05
+Pred-S-Eval:
+-35.0436 -2.26556 -90.7875
+ 11.1168   5.2025  5.80881
+  -34.92  -0.5693   -90.15
+New Pareto: false
+Number of Pareto optimal points: 51
+Elapsed time: 13.0667 minutes
+Estimated remaining time: 35.3284 minutes
+-----------------------------
+Eval: 137
+Last eval x:  3.4553e-06  2.6283e-06 3.65789e-06 3.31892e-06 1.00326e-05     2.2e-05        39.7        1.62 2.37434e-06    4.43e-05
+Pred-S-Eval:
+ -64.682 -23.9331 -71.7959
+ 10.3781  4.25502  3.66667
+   -67.1   -16.17   -68.88
+New Pareto: false
+Number of Pareto optimal points: 51
+Elapsed time: 13.3333 minutes
+Estimated remaining time: 35.6863 minutes
+-----------------------------
+Eval: 138
+Last eval x:    3.45e-06 4.03896e-06 3.34874e-06 3.02979e-06     1.6e-05 5.65105e-06         159        1.62 7.15683e-06 2.80456e-05
+Pred-S-Eval:
+-32.9928 -2.74828 -93.1319
+ 11.6872  4.66091  5.05507
+  -37.59   -1.586   -89.44
+New Pareto: true
+Number of Pareto optimal points: 52
+Elapsed time: 13.6 minutes
+Estimated remaining time: 36.035 minutes
+-----------------------------
+Eval: 139
+Last eval x:    3.45e-06     4.3e-06 2.53212e-06    5.04e-06       4e-06 9.87479e-06     77.0858        1.62    2.33e-06  4.0371e-05
+Pred-S-Eval:
+-74.7693 -11.6536 -73.8641
+ 13.8355  5.05781  6.66783
+  -68.13   -26.08   -64.54
+New Pareto: false
+Number of Pareto optimal points: 52
+Elapsed time: 13.8667 minutes
+Estimated remaining time: 36.3749 minutes
+-----------------------------
+Eval: 140
+Last eval x: 8.44887e-06 4.11966e-06 4.43008e-06    1.26e-06       4e-06  1.3603e-05     108.548     3.46144 6.10014e-06 1.19034e-05
+Pred-S-Eval:
+ -47.9231 -0.997961  -87.6838
+  14.9483   4.27774   6.49348
+   -36.97   -0.3808     -90.2
+New Pareto: true
+Number of Pareto optimal points: 53
+Elapsed time: 14.15 minutes
+Estimated remaining time: 36.7493 minutes
+-----------------------------
+Eval: 141
+Last eval x: 3.56205e-06     4.3e-06 3.52595e-06 2.22725e-06 1.57227e-05   6.337e-06     124.061        1.62    2.33e-06 3.37202e-05
+Pred-S-Eval:
+-42.2988 -17.3373 -86.1223
+ 9.96165  3.80205  5.00117
+  -47.68   -4.781   -86.95
+New Pareto: true
+Number of Pareto optimal points: 54
+Elapsed time: 14.4333 minutes
+Estimated remaining time: 37.1143 minutes
+-----------------------------
+Eval: 142
+Last eval x:    3.45e-06 2.89082e-06 1.85255e-06 1.73129e-06 1.42128e-05 1.92326e-05        39.7         6.5 6.05473e-06    4.43e-05
+Pred-S-Eval:
+-33.8029 -1.21817 -93.2707
+ 11.7735   4.1391  5.21054
+  -39.12   -1.723   -89.85
+New Pareto: true
+Number of Pareto optimal points: 53
+Elapsed time: 14.7333 minutes
+Estimated remaining time: 37.5125 minutes
+-----------------------------
+Eval: 143
+Last eval x: 6.14257e-06 3.04983e-06 2.48268e-06  2.0789e-06 1.19242e-05     2.2e-05        39.7     4.83208 7.17018e-06 1.26964e-05
+Pred-S-Eval:
+-27.2923 -1.08781 -94.1779
+ 8.68034   4.9352  4.92651
+  -35.92  -0.6652   -90.25
+New Pareto: false
+Number of Pareto optimal points: 53
+Elapsed time: 15.0167 minutes
+Estimated remaining time: 37.8589 minutes
+-----------------------------
+Eval: 144
+Last eval x:  3.4503e-06 2.47644e-06    1.67e-06 2.06252e-06 1.19104e-05 1.19494e-05      64.972      5.1105 7.56776e-06 2.94453e-05
+Pred-S-Eval:
+ -35.787 -2.41268 -92.9478
+ 11.0036   3.8276  4.70048
+  -35.11   -1.109   -90.44
+New Pareto: true
+Number of Pareto optimal points: 54
+Elapsed time: 15.2833 minutes
+Estimated remaining time: 38.1549 minutes
+-----------------------------
+Eval: 145
+Last eval x:    3.45e-06 3.90287e-06 3.01437e-06 3.65873e-06       4e-06 8.06053e-06      83.277     6.19806  2.4411e-06 4.39194e-05
+Pred-S-Eval:
+-81.8347 -35.3707   -63.66
+ 7.20438   3.0826   4.0175
+  -75.58   -27.62   -66.72
+New Pareto: false
+Number of Pareto optimal points: 54
+Elapsed time: 15.5833 minutes
+Estimated remaining time: 38.5255 minutes
+-----------------------------
+Eval: 146
+Last eval x: 3.47262e-06 4.28865e-06    1.67e-06 4.70225e-06     1.6e-05 2.18712e-05     86.7417     3.60178 7.41891e-06 1.16708e-05
+Pred-S-Eval:
+-39.8928 -3.29617  -89.346
+ 12.8269  5.11053  6.16212
+  -35.92   -1.568   -89.56
+New Pareto: false
+Number of Pareto optimal points: 54
+Elapsed time: 15.9 minutes
+Estimated remaining time: 38.9276 minutes
+-----------------------------
+Eval: 147
+Last eval x: 3.54201e-06     4.3e-06  3.5671e-06 2.90647e-06       4e-06 8.55624e-06        39.7     3.99749    2.33e-06    4.43e-05
+Pred-S-Eval:
+-79.7524 -30.7647 -64.5392
+ 2.09679  3.08447  1.21795
+  -88.74   -35.58   -63.93
+New Pareto: true
+Number of Pareto optimal points: 54
+Elapsed time: 16.1833 minutes
+Estimated remaining time: 39.239 minutes
+-----------------------------
+Eval: 148
+Last eval x:  7.1603e-06 2.31334e-06 5.14334e-06    1.26e-06     1.6e-05  8.9868e-06     108.498     4.38333 5.71006e-06    1.11e-05
+Pred-S-Eval:
+-45.4909 -1.44185 -89.0426
+  13.844  4.08472  6.04184
+  -34.81  -0.2791   -90.55
+New Pareto: true
+Number of Pareto optimal points: 55
+Elapsed time: 16.5 minutes
+Estimated remaining time: 39.6224 minutes
+-----------------------------
+Eval: 149
+Last eval x:    3.45e-06     4.3e-06 2.81539e-06 3.33466e-06  1.0741e-05 1.74252e-05     104.341         6.5 2.98143e-06 3.81852e-05
+Pred-S-Eval:
+-72.4468 -33.1538 -68.9313
+ 7.70477  2.36924  2.86725
+   -61.2   -17.46   -77.49
+New Pareto: true
+Number of Pareto optimal points: 56
+Elapsed time: 16.8 minutes
+Estimated remaining time: 39.9568 minutes
+-----------------------------
+Eval: 150
+Last eval x: 5.18355e-06 2.89533e-06 2.39935e-06 4.43033e-06     1.6e-05  1.3283e-05     79.3222     3.93877 2.67429e-06  2.9141e-05
+Pred-S-Eval:
+-95.5697  -20.354 -63.7786
+ 10.9873  3.13685  4.26716
+  -66.71   -14.31   -70.94
+New Pareto: true
+Number of Pareto optimal points: 57
+Elapsed time: 17.1167 minutes
+Estimated remaining time: 40.3218 minutes
+-----------------------------
+Eval: 151
+Last eval x:    3.45e-06 3.47412e-06 1.82848e-06 4.70138e-06 1.15991e-05  1.2872e-05        39.7     1.67934 3.34867e-06 3.84497e-05
+Pred-S-Eval:
+-82.7398 -28.2939 -67.0605
+  8.2682  3.26227  3.65979
+   -83.2   -35.62   -60.27
+New Pareto: true
+Number of Pareto optimal points: 58
+Elapsed time: 17.45 minutes
+Estimated remaining time: 40.7167 minutes
+-----------------------------
+Eval: 152
+Last eval x: 4.40069e-06 2.90988e-06 1.99624e-06 3.51709e-06 1.46896e-05 1.04705e-05     66.3181     1.72204 9.10661e-06    1.11e-05
+Pred-S-Eval:
+-38.3558 -3.03632 -90.3439
+ 12.6629  5.33018  5.79683
+  -32.16  -0.7538   -90.73
+New Pareto: true
+Number of Pareto optimal points: 59
+Elapsed time: 17.7833 minutes
+Estimated remaining time: 41.1019 minutes
+-----------------------------
+Eval: 153
+Last eval x:    1.38e-05 3.64473e-06 3.55638e-06    1.26e-06 1.04864e-05     5.5e-06     152.752     3.58896     9.3e-06    1.11e-05
+Pred-S-Eval:
+-49.6548 -3.74036 -85.1941
+ 15.0579  5.90173  7.03975
+  -31.97  -0.2074   -91.14
+New Pareto: true
+Number of Pareto optimal points: 60
+Elapsed time: 18.1167 minutes
+Estimated remaining time: 41.4776 minutes
+-----------------------------
+Eval: 154
+Last eval x: 4.77553e-06 3.29746e-06    1.67e-06 4.93729e-06       4e-06 1.94981e-05        39.7     1.88548 7.01061e-06 4.39644e-05
+Pred-S-Eval:
+ -84.383 -19.1297 -67.4421
+ 11.3184  4.91331  5.63173
+  -75.26    -15.9   -58.79
+New Pareto: false
+Number of Pareto optimal points: 60
+Elapsed time: 18.4667 minutes
+Estimated remaining time: 41.8819 minutes
+-----------------------------
+Eval: 155
+Last eval x:    3.45e-06     4.3e-06 6.19245e-06 3.80225e-06     1.6e-05     2.2e-05         159        1.62 2.86512e-06 1.26607e-05
+Pred-S-Eval:
+-39.3099 -8.59985 -86.4551
+ 9.44076   5.8242  5.90397
+  -42.81   -2.322   -86.07
+New Pareto: false
+Number of Pareto optimal points: 60
+Elapsed time: 18.8 minutes
+Estimated remaining time: 42.239 minutes
+-----------------------------
+Eval: 156
+Last eval x: 1.02281e-05 2.87559e-06 1.86056e-06 5.01693e-06 6.21853e-06 9.13565e-06      111.78     4.92546  2.8953e-06 1.30622e-05
+Pred-S-Eval:
+-87.2694 -12.4342 -69.6499
+ 11.4425  5.08923  5.37205
+  -71.54   -8.921    -71.9
+New Pareto: false
+Number of Pareto optimal points: 60
+Elapsed time: 19.15 minutes
+Estimated remaining time: 42.6242 minutes
+-----------------------------
+Eval: 157
+Last eval x:    3.45e-06 2.99058e-06 1.67977e-06    5.04e-06       4e-06 1.06949e-05         159        1.62    2.33e-06 2.04505e-05
+Pred-S-Eval:
+-81.6626 -22.2865  -65.528
+ 9.47167  4.01993  4.03748
+  -86.01   -28.04   -60.68
+New Pareto: false
+Number of Pareto optimal points: 60
+Elapsed time: 19.5 minutes
+Estimated remaining time: 43 minutes
+-----------------------------
+Eval: 158
+Last eval x: 3.96564e-06 3.48385e-06 1.67286e-06    5.04e-06 1.08182e-05 1.38896e-05     59.5498        1.62 3.36684e-06 3.18154e-05
+Pred-S-Eval:
+-81.1057 -33.6652 -61.4371
+ 6.84907  2.58834   2.8491
+  -81.94   -30.93   -60.19
+New Pareto: false
+Number of Pareto optimal points: 60
+Elapsed time: 19.85 minutes
+Estimated remaining time: 43.3666 minutes
+-----------------------------
+Eval: 159
+Last eval x: 5.21963e-06 3.98459e-06 3.34214e-06 3.03157e-06       4e-06 1.34229e-05     48.8881     2.79002 2.61757e-06    4.43e-05
+Pred-S-Eval:
+-89.9063  -28.806 -63.0862
+ 7.81017  3.19003  2.93385
+  -70.93   -17.59   -68.24
+New Pareto: false
+Number of Pareto optimal points: 60
+Elapsed time: 20.2167 minutes
+Estimated remaining time: 43.7601 minutes
+-----------------------------
+Eval: 160
+Last eval x: 3.65117e-06     4.3e-06    1.67e-06 2.63756e-06     1.6e-05 2.07332e-05         159     3.84402 3.76627e-06    4.43e-05
+Pred-S-Eval:
+-39.2078 -15.4013 -89.9761
+ 9.83826  4.46921  4.22251
+  -45.23   -5.303   -88.04
+New Pareto: true
+Number of Pareto optimal points: 61
+Elapsed time: 20.6 minutes
+Estimated remaining time: 44.1799 minutes
+-----------------------------
+Eval: 161
+Last eval x: 1.04078e-05 2.51319e-06 5.73303e-06    1.26e-06     1.6e-05     5.5e-06     127.775     1.74141     9.3e-06 1.84097e-05
+Pred-S-Eval:
+-46.5042 -3.52442 -86.8905
+ 13.9899  6.04713  6.59331
+  -38.43  -0.3257   -89.92
+New Pareto: false
+Number of Pareto optimal points: 61
+Elapsed time: 21 minutes
+Estimated remaining time: 44.625 minutes
+-----------------------------
+Eval: 162
+Last eval x: 8.85625e-06 3.79498e-06    1.67e-06 1.29644e-06 1.00301e-05     5.5e-06     60.8761         6.5 7.29006e-06 3.26349e-05
+Pred-S-Eval:
+-43.2802 -2.64365 -89.7179
+ 12.9821  5.51578  5.62737
+  -35.27  -0.7156   -90.58
+New Pareto: true
+Number of Pareto optimal points: 60
+Elapsed time: 21.3833 minutes
+Estimated remaining time: 45.0245 minutes
+-----------------------------
+Eval: 163
+Last eval x:    3.45e-06 3.64695e-06 2.44509e-06 3.65166e-06       4e-06 8.77837e-06     95.6481     4.04207    2.33e-06    4.43e-05
+Pred-S-Eval:
+-73.9426 -35.3626 -67.4467
+ 3.11466  3.51096  1.38274
+  -71.94    -26.3      -68
+New Pareto: true
+Number of Pareto optimal points: 61
+Elapsed time: 21.7667 minutes
+Estimated remaining time: 45.4144 minutes
+-----------------------------
+Eval: 164
+Last eval x: 1.04606e-05 3.37498e-06    1.67e-06 2.06513e-06     1.6e-05 6.48648e-06     138.976     2.59202 8.44456e-06    1.11e-05
+Pred-S-Eval:
+-33.1275 -1.67205 -91.5194
+ 11.7592  5.64022  5.76031
+  -29.23  -0.3665   -91.66
+New Pareto: true
+Number of Pareto optimal points: 62
+Elapsed time: 22.15 minutes
+Estimated remaining time: 45.7948 minutes
+-----------------------------
+Eval: 165
+Last eval x: 1.12348e-05 4.08448e-06 5.14064e-06    1.26e-06 1.20328e-05     5.5e-06      54.184     4.55169 6.42463e-06    1.11e-05
+Pred-S-Eval:
+-36.2423 -1.69681 -90.3415
+ 12.1513  5.27174  5.82027
+  -33.02  -0.2333   -90.87
+New Pareto: true
+Number of Pareto optimal points: 63
+Elapsed time: 22.5333 minutes
+Estimated remaining time: 46.1659 minutes
+-----------------------------
+Eval: 166
+Last eval x: 3.47147e-06 4.28109e-06 1.92499e-06 3.57701e-06 1.09119e-05  1.1605e-05     107.925      1.6784  7.8438e-06 2.54929e-05
+Pred-S-Eval:
+-36.8471 -3.77447 -94.7273
+ 10.3642  4.40295  3.91813
+   -38.3   -2.139    -89.3
+New Pareto: true
+Number of Pareto optimal points: 64
+Elapsed time: 22.95 minutes
+Estimated remaining time: 46.5955 minutes
+-----------------------------
+Eval: 167
+Last eval x: 3.62119e-06 2.86076e-06 2.26298e-06 3.58711e-06     1.6e-05 1.40176e-05         159         6.5 2.62267e-06 4.25917e-05
+Pred-S-Eval:
+-69.6608  -30.285  -68.202
+ 9.18557    3.897  3.60995
+   -75.7   -24.28   -70.96
+New Pareto: true
+Number of Pareto optimal points: 63
+Elapsed time: 23.3333 minutes
+Estimated remaining time: 46.9478 minutes
+-----------------------------
+Eval: 168
+Last eval x: 3.55016e-06 1.93143e-06 2.25718e-06    5.04e-06 5.69142e-06 1.36147e-05     157.604     3.51602 4.48323e-06 2.33252e-05
+Pred-S-Eval:
+-86.7208 -19.8677 -64.4869
+ 10.3749  4.39539  3.98855
+   -87.1    -17.5   -64.21
+New Pareto: false
+Number of Pareto optimal points: 63
+Elapsed time: 23.75 minutes
+Estimated remaining time: 47.3578 minutes
+-----------------------------
+Eval: 169
+Last eval x: 3.52933e-06 2.83071e-06    6.68e-06    5.04e-06     1.6e-05     5.5e-06     154.834     1.65413    2.33e-06 1.84988e-05
+Pred-S-Eval:
+-72.0427 -18.4421  -70.221
+ 12.0875   5.0087  6.02013
+  -88.86   -21.97   -66.24
+New Pareto: true
+Number of Pareto optimal points: 64
+Elapsed time: 24.1667 minutes
+Estimated remaining time: 47.7579 minutes
+-----------------------------
+Eval: 170
+Last eval x: 3.58561e-06  3.4459e-06    1.67e-06    5.04e-06       4e-06     5.5e-06      70.288     5.57022    2.33e-06 1.48404e-05
+Pred-S-Eval:
+-82.6295 -22.2452 -63.3287
+ 10.1978  4.25573  3.59381
+   -58.2   -14.41   -77.78
+New Pareto: false
+Number of Pareto optimal points: 64
+Elapsed time: 24.5667 minutes
+Estimated remaining time: 48.1158 minutes
+-----------------------------
+Eval: 171
+Last eval x: 4.87265e-06 2.47206e-06    1.67e-06    5.04e-06       4e-06 1.25746e-05        39.7         6.5    2.33e-06 1.80129e-05
+Pred-S-Eval:
+-93.8881 -20.4615 -70.9371
+ 8.02128  3.88335  3.45987
+   -67.7   -12.61   -72.31
+New Pareto: true
+Number of Pareto optimal points: 65
+Elapsed time: 24.9667 minutes
+Estimated remaining time: 48.4647 minutes
+-----------------------------
+Eval: 172
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 2.49588e-06     1.6e-05 9.08093e-06         159         6.5 3.67971e-06    4.43e-05
+Pred-S-Eval:
+-44.2155 -27.3066 -88.2866
+ 5.31688  3.20073  3.59032
+  -42.14   -4.032   -89.01
+New Pareto: true
+Number of Pareto optimal points: 64
+Elapsed time: 25.4 minutes
+Estimated remaining time: 48.869 minutes
+-----------------------------
+Eval: 173
+Last eval x: 4.69804e-06 3.12282e-06    1.67e-06    1.26e-06       4e-06 1.48355e-05     125.297     5.40026 4.83024e-06 3.04796e-05
+Pred-S-Eval:
+-43.4522 -3.98039 -90.4368
+ 12.1472  5.00991  5.63606
+  -40.89   -1.404   -89.78
+New Pareto: true
+Number of Pareto optimal points: 65
+Elapsed time: 25.8167 minutes
+Estimated remaining time: 49.2318 minutes
+-----------------------------
+Eval: 174
+Last eval x: 7.83892e-06 3.21891e-06    1.67e-06 1.28046e-06 1.26344e-05 7.15933e-06     140.031        1.62 6.66215e-06 2.29661e-05
+Pred-S-Eval:
+ -38.1689 -0.476986  -94.2808
+  12.2544   4.84551   5.23688
+   -32.58   -0.5367    -91.04
+New Pareto: true
+Number of Pareto optimal points: 66
+Elapsed time: 26.2333 minutes
+Estimated remaining time: 49.5855 minutes
+-----------------------------
+Eval: 175
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 1.51423e-06 4.48783e-06 1.71592e-05     70.1667     1.82506 2.90176e-06    4.43e-05
+Pred-S-Eval:
+-61.4591 -25.0757 -80.2994
+ 8.87157  4.12714   5.4968
+  -46.25   -4.388   -88.54
+New Pareto: true
+Number of Pareto optimal points: 66
+Elapsed time: 26.6833 minutes
+Estimated remaining time: 49.9929 minutes
+-----------------------------
+Eval: 176
+Last eval x: 1.20206e-05 3.70297e-06 2.03743e-06    1.26e-06 1.16217e-05 1.68786e-05     52.4911        1.62 8.70789e-06 2.25029e-05
+Pred-S-Eval:
+-38.4662 -1.11448  -91.132
+ 12.9466   5.3011  5.75285
+  -35.69  -0.5073    -90.5
+New Pareto: true
+Number of Pareto optimal points: 67
+Elapsed time: 27.1333 minutes
+Estimated remaining time: 50.3905 minutes
+-----------------------------
+Eval: 177
+Last eval x:    3.45e-06 3.01309e-06 3.96132e-06    5.04e-06 1.15916e-05     5.5e-06         159     1.85326 4.05258e-06 3.16474e-05
+Pred-S-Eval:
+-87.0417 -31.9365 -60.0737
+ 9.40735  3.68452  3.17271
+   -86.1   -26.88   -61.73
+New Pareto: false
+Number of Pareto optimal points: 67
+Elapsed time: 27.6 minutes
+Estimated remaining time: 50.8091 minutes
+-----------------------------
+Eval: 178
+Last eval x:    1.38e-05 2.90706e-06 5.97208e-06    1.26e-06     1.6e-05 9.33451e-06     47.6149     6.42095 8.01697e-06    1.11e-05
+Pred-S-Eval:
+-47.7155 -2.49519 -88.3946
+ 14.7044   5.3074   5.9422
+  -36.64  -0.2263   -90.22
+New Pareto: true
+Number of Pareto optimal points: 68
+Elapsed time: 28.0667 minutes
+Estimated remaining time: 51.2177 minutes
+-----------------------------
+Eval: 179
+Last eval x:    3.45e-06 3.43711e-06 4.86923e-06 5.01532e-06 7.94345e-06 1.35273e-05     134.777        1.62 3.03064e-06 4.31038e-05
+Pred-S-Eval:
+ -75.664 -34.1501 -63.1113
+ 8.19575  2.92615   4.1718
+     -71   -19.81   -62.64
+New Pareto: false
+Number of Pareto optimal points: 68
+Elapsed time: 28.5333 minutes
+Estimated remaining time: 51.6165 minutes
+-----------------------------
+Eval: 180
+Last eval x: 6.11932e-06 3.99448e-06    1.67e-06    5.04e-06     1.6e-05 9.34426e-06       148.9        1.62 3.96881e-06 3.85775e-05
+Pred-S-Eval:
+ -80.577 -16.9764 -67.8709
+ 12.8374  5.22598  5.17997
+  -85.26   -25.97   -63.41
+New Pareto: false
+Number of Pareto optimal points: 68
+Elapsed time: 29.0167 minutes
+Estimated remaining time: 52.0355 minutes
+-----------------------------
+Eval: 181
+Last eval x:    3.45e-06    1.08e-06 4.06673e-06    1.26e-06     1.6e-05     2.2e-05        39.7     1.83645 4.33329e-06 1.76003e-05
+Pred-S-Eval:
+-50.3337   -3.918 -86.5584
+ 15.3228  5.74494  6.86682
+  -42.26  -0.7979    -89.4
+New Pareto: true
+Number of Pareto optimal points: 69
+Elapsed time: 29.5 minutes
+Estimated remaining time: 52.4444 minutes
+-----------------------------
+Eval: 182
+Last eval x:    3.45e-06 4.00395e-06    1.67e-06 2.30774e-06 1.03004e-05 2.13955e-05        39.7     2.38222 6.39398e-06 4.05606e-05
+Pred-S-Eval:
+-29.2964 -1.30482 -95.9157
+ 8.87757  4.56082  4.23621
+  -40.35   -2.483   -89.33
+New Pareto: true
+Number of Pareto optimal points: 69
+Elapsed time: 29.9667 minutes
+Estimated remaining time: 52.8142 minutes
+-----------------------------
+Eval: 183
+Last eval x: 5.07809e-06 3.98896e-06    1.67e-06 4.57549e-06 9.68655e-06  7.7301e-06     103.267     5.99274 3.62694e-06 3.87956e-05
+Pred-S-Eval:
+-83.1722 -25.0299 -67.7924
+ 8.15003  4.56357  3.82799
+  -84.21   -27.16   -66.67
+New Pareto: false
+Number of Pareto optimal points: 69
+Elapsed time: 30.4833 minutes
+Estimated remaining time: 53.2621 minutes
+-----------------------------
+Eval: 184
+Last eval x:    3.45e-06  4.2681e-06 5.21763e-06 3.17303e-06 6.46833e-06 5.76024e-06     72.3032     4.78112    2.33e-06    4.43e-05
+Pred-S-Eval:
+-86.2613 -33.0201 -61.8951
+ 1.21288  3.26132  1.68297
+  -83.04   -31.59   -65.47
+New Pareto: true
+Number of Pareto optimal points: 70
+Elapsed time: 31 minutes
+Estimated remaining time: 53.6995 minutes
+-----------------------------
+Eval: 185
+Last eval x:  3.7331e-06     4.3e-06 2.21343e-06  4.1479e-06     1.6e-05 1.26992e-05     73.1109       3.476    2.33e-06 4.26204e-05
+Pred-S-Eval:
+-68.0958 -22.8424  -74.706
+ 8.07404  4.14318  4.58704
+  -87.75   -40.89   -62.54
+New Pareto: true
+Number of Pareto optimal points: 70
+Elapsed time: 31.4833 minutes
+Estimated remaining time: 54.0692 minutes
+-----------------------------
+Eval: 186
+Last eval x:    3.45e-06 4.29889e-06 1.95865e-06 4.35183e-06     1.6e-05 1.33041e-05     127.781      6.4019 5.21224e-06    4.43e-05
+Pred-S-Eval:
+ -61.971 -24.9557 -70.9817
+ 11.3066  4.86487  5.22376
+  -50.77    -9.62   -84.39
+New Pareto: true
+Number of Pareto optimal points: 71
+Elapsed time: 32 minutes
+Estimated remaining time: 54.4865 minutes
+-----------------------------
+Eval: 187
+Last eval x:    3.45e-06 3.69146e-06 2.00973e-06 2.82243e-06 1.50955e-05 1.00864e-05     86.9927     2.10011 4.52306e-06    1.11e-05
+Pred-S-Eval:
+ -33.7165 -0.818155  -96.1812
+  12.0652   5.19017   5.18103
+   -31.36   -0.9261    -91.01
+New Pareto: true
+Number of Pareto optimal points: 72
+Elapsed time: 32.5167 minutes
+Estimated remaining time: 54.8937 minutes
+-----------------------------
+Eval: 188
+Last eval x: 5.78816e-06 3.61935e-06 1.77621e-06    1.26e-06 6.69526e-06 5.53563e-06     139.929     2.71452 5.41894e-06 4.37821e-05
+Pred-S-Eval:
+-42.9356 -2.84735 -91.1728
+   12.47  5.70904  5.69994
+   -39.2   -1.343   -90.01
+New Pareto: true
+Number of Pareto optimal points: 72
+Elapsed time: 33.0333 minutes
+Estimated remaining time: 55.2911 minutes
+-----------------------------
+Eval: 189
+Last eval x: 3.71807e-06     4.3e-06 1.67154e-06 4.70796e-06 1.55289e-05 1.01374e-05         159     2.81695    2.33e-06    4.43e-05
+Pred-S-Eval:
+-82.0847 -38.3571 -60.5022
+ 5.93835  2.98115  2.75542
+  -85.81   -43.26   -62.39
+New Pareto: true
+Number of Pareto optimal points: 73
+Elapsed time: 33.5833 minutes
+Estimated remaining time: 55.734 minutes
+-----------------------------
+Eval: 190
+Last eval x: 6.75395e-06 4.08467e-06 1.68105e-06 4.20516e-06  1.5471e-05     5.5e-06     72.9161     4.98652 2.69294e-06  2.7144e-05
+Pred-S-Eval:
+-91.4204 -17.3948 -70.3465
+ 10.3556  4.99585  4.57439
+  -84.09   -23.01   -68.35
+New Pareto: true
+Number of Pareto optimal points: 74
+Elapsed time: 34.1167 minutes
+Estimated remaining time: 56.1391 minutes
+-----------------------------
+Eval: 191
+Last eval x: 4.02642e-06     4.3e-06    1.67e-06 1.58688e-06     1.6e-05     2.2e-05         159         6.5    2.33e-06    4.43e-05
+Pred-S-Eval:
+-44.4215 -2.11095 -91.0034
+ 9.76294  5.37482  5.91306
+  -44.85    -4.22    -88.9
+New Pareto: true
+Number of Pareto optimal points: 74
+Elapsed time: 34.6167 minutes
+Estimated remaining time: 56.4798 minutes
+-----------------------------
+Eval: 192
+Last eval x: 5.28592e-06     4.3e-06    1.67e-06 4.41534e-06     1.6e-05 9.60695e-06     79.1631        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-83.3578 -35.1654  -65.429
+ 9.16216  3.69653  3.23843
+  -67.42   -23.97   -69.87
+New Pareto: false
+Number of Pareto optimal points: 74
+Elapsed time: 35.15 minutes
+Estimated remaining time: 56.8657 minutes
+-----------------------------
+Eval: 193
+Last eval x:    3.45e-06 1.44048e-06 5.79657e-06 2.64199e-06     1.6e-05  1.9481e-05     71.2468        1.62 7.33461e-06    1.11e-05
+Pred-S-Eval:
+-39.5607 -3.28862 -87.2172
+ 11.3081  6.09361   6.4286
+  -39.21   -0.698   -88.79
+New Pareto: false
+Number of Pareto optimal points: 74
+Elapsed time: 35.7 minutes
+Estimated remaining time: 57.2688 minutes
+-----------------------------
+Eval: 194
+Last eval x: 8.62637e-06 2.99699e-06 6.61358e-06 1.85099e-06 1.32055e-05 1.64862e-05     61.9903     2.33891     9.3e-06    1.11e-05
+Pred-S-Eval:
+ -30.5761 0.0870185  -91.7325
+  9.31528   5.51257   5.54436
+   -35.95   -0.3092    -89.99
+New Pareto: false
+Number of Pareto optimal points: 74
+Elapsed time: 36.2333 minutes
+Estimated remaining time: 57.6354 minutes
+-----------------------------
+Eval: 195
+Last eval x: 5.03868e-06 4.03325e-06  1.9754e-06    5.04e-06 1.52073e-05 1.17877e-05         159     3.13524    2.33e-06 3.66853e-05
+Pred-S-Eval:
+-80.7261 -35.8464  -62.497
+ 8.81527  3.28047  2.88629
+  -65.41   -20.01   -69.87
+New Pareto: false
+Number of Pareto optimal points: 74
+Elapsed time: 36.8 minutes
+Estimated remaining time: 58.0454 minutes
+-----------------------------
+Eval: 196
+Last eval x:    3.45e-06 2.51639e-06    1.67e-06 4.69528e-06 1.48735e-05 6.11853e-06     127.267        1.62    2.33e-06  2.5948e-05
+Pred-S-Eval:
+-83.7717 -24.7857  -67.961
+ 9.01426  4.24366  4.04269
+  -84.37   -29.27   -64.67
+New Pareto: false
+Number of Pareto optimal points: 74
+Elapsed time: 37.35 minutes
+Estimated remaining time: 58.4192 minutes
+-----------------------------
+Eval: 197
+Last eval x:    3.45e-06 3.64986e-06 6.24033e-06 3.42572e-06 9.80285e-06     5.5e-06        39.7     4.14623  7.7718e-06 1.11107e-05
+Pred-S-Eval:
+   -31.666 -0.0223466   -93.0112
+   9.06704    5.63795    5.51945
+    -33.74    -0.6521     -89.76
+New Pareto: false
+Number of Pareto optimal points: 74
+Elapsed time: 37.9167 minutes
+Estimated remaining time: 58.8095 minutes
+-----------------------------
+Eval: 198
+Last eval x: 3.55311e-06     4.3e-06    1.67e-06 3.41224e-06  1.5197e-05  1.2192e-05        39.7         6.5 7.92788e-06 4.33213e-05
+Pred-S-Eval:
+-45.3478 -1.92592 -90.9697
+  10.589  5.56919  5.76082
+   -39.4   -2.822   -89.19
+New Pareto: true
+Number of Pareto optimal points: 75
+Elapsed time: 38.5167 minutes
+Estimated remaining time: 59.2414 minutes
+-----------------------------
+Eval: 199
+Last eval x: 3.47404e-06     4.3e-06 1.80507e-06 3.29336e-06  1.5736e-05 6.96253e-06     80.9467     4.08019 7.44393e-06    4.43e-05
+Pred-S-Eval:
+-43.5973 -8.25754 -88.4048
+ 9.21794  5.60764  4.67719
+   -38.9   -2.771   -89.32
+New Pareto: true
+Number of Pareto optimal points: 76
+Elapsed time: 39.0667 minutes
+Estimated remaining time: 59.5865 minutes
+-----------------------------
+Eval: 200
+Last eval x: 3.47986e-06 2.32658e-06 1.68398e-06    5.04e-06     1.6e-05 6.78205e-06      98.547        1.62 3.95264e-06 3.41881e-05
+Pred-S-Eval:
+-84.4247 -25.5533 -63.3411
+ 9.29981  3.51028  3.53128
+  -83.04   -26.24   -63.74
+New Pareto: false
+Number of Pareto optimal points: 76
+Elapsed time: 39.65 minutes
+Estimated remaining time: 59.9731 minutes
+-----------------------------
+Eval: 201
+Last eval x: 8.63026e-06     4.3e-06 5.54583e-06    1.26e-06 1.46283e-05 5.54097e-06     124.312     3.52993 9.12289e-06 2.78479e-05
+Pred-S-Eval:
+-33.2862 -1.71029 -89.7279
+ 10.6228  5.96041  5.97864
+   -35.2  -0.3677   -90.41
+New Pareto: false
+Number of Pareto optimal points: 76
+Elapsed time: 40.2333 minutes
+Estimated remaining time: 60.35 minutes
+-----------------------------
+Eval: 202
+Last eval x: 3.46267e-06     4.3e-06 6.15385e-06 1.70073e-06 9.13764e-06 6.94915e-06         159         6.5 4.69066e-06 1.64758e-05
+Pred-S-Eval:
+-37.8812 -2.21931 -88.3487
+ 10.7567  6.06013  6.18185
+     -31  -0.5001   -90.94
+New Pareto: false
+Number of Pareto optimal points: 76
+Elapsed time: 40.8167 minutes
+Estimated remaining time: 60.7173 minutes
+-----------------------------
+Eval: 203
+Last eval x: 3.54873e-06     4.3e-06 1.90531e-06 4.38998e-06 1.52093e-05 8.63736e-06        39.7     3.05793 3.75664e-06    4.43e-05
+Pred-S-Eval:
+-72.0385 -41.7937 -62.2518
+ 8.45922  3.05443   2.6202
+  -61.45   -23.42   -75.02
+New Pareto: true
+Number of Pareto optimal points: 77
+Elapsed time: 41.4167 minutes
+Estimated remaining time: 61.0998 minutes
+-----------------------------
+Eval: 204
+Last eval x: 5.02514e-06 2.22838e-06 4.78606e-06    1.26e-06       4e-06  7.3592e-06         159         6.5 3.97627e-06 2.00682e-05
+Pred-S-Eval:
+-46.3012 -2.74152 -88.5246
+ 10.3459  5.90776  6.24203
+  -43.13  -0.8674    -89.2
+New Pareto: true
+Number of Pareto optimal points: 78
+Elapsed time: 42.1 minutes
+Estimated remaining time: 61.5946 minutes
+-----------------------------
+Eval: 205
+Last eval x: 3.57508e-06 2.76791e-06    1.67e-06 2.33199e-06 9.85696e-06 2.11611e-05        39.7     6.46197 4.66892e-06 1.78463e-05
+Pred-S-Eval:
+-38.4929 -1.47465 -92.5724
+ 9.11906  5.22549  5.00319
+   -37.8   -1.472   -89.87
+New Pareto: true
+Number of Pareto optimal points: 79
+Elapsed time: 42.65 minutes
+Estimated remaining time: 61.8843 minutes
+-----------------------------
+Eval: 206
+Last eval x:    3.45e-06     4.3e-06    1.67e-06    1.26e-06 1.59462e-05     2.2e-05     81.5761         6.5 4.80922e-06    4.43e-05
+Pred-S-Eval:
+-32.4501  2.19544 -93.3604
+ 9.82368  4.66714  4.96453
+  -33.67   -1.172    -90.8
+New Pareto: true
+Number of Pareto optimal points: 77
+Elapsed time: 43.3 minutes
+Estimated remaining time: 62.3098 minutes
+-----------------------------
+Eval: 207
+Last eval x:  3.6617e-06 1.56673e-06    6.68e-06    1.26e-06       4e-06 9.34868e-06     115.371         6.5 6.63864e-06 3.83365e-05
+Pred-S-Eval:
+-49.2451 -4.80385 -86.0525
+ 11.8205  6.36272  6.61993
+   -45.8   -1.014   -88.11
+New Pareto: false
+Number of Pareto optimal points: 77
+Elapsed time: 43.9 minutes
+Estimated remaining time: 62.6534 minutes
+-----------------------------
+Eval: 208
+Last eval x:    3.45e-06 4.15465e-06    1.67e-06    5.04e-06     1.6e-05     2.2e-05         159        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-72.6788 -35.9979 -60.3076
+  8.8076   4.1995  3.69149
+  -79.82   -41.47   -60.35
+New Pareto: false
+Number of Pareto optimal points: 77
+Elapsed time: 44.5333 minutes
+Estimated remaining time: 63.0351 minutes
+-----------------------------
+Eval: 209
+Last eval x: 7.32761e-06     4.3e-06 4.77067e-06 2.12254e-06 1.58281e-05 7.79037e-06     75.4882     2.01249 3.57907e-06 3.91326e-05
+Pred-S-Eval:
+-52.7222 -11.6445 -75.2735
+ 10.2674  6.10067  5.79162
+  -62.31   -8.608   -78.13
+New Pareto: true
+Number of Pareto optimal points: 77
+Elapsed time: 45.2333 minutes
+Estimated remaining time: 63.5006 minutes
+-----------------------------
+Eval: 210
+Last eval x: 3.46487e-06 3.41445e-06    1.67e-06    5.04e-06     1.6e-05 1.60091e-05        39.7        1.62    2.33e-06 4.27614e-05
+Pred-S-Eval:
+-77.7583 -39.2544 -61.4735
+ 8.84302  2.87515  2.44874
+  -67.82   -28.04   -67.33
+New Pareto: true
+Number of Pareto optimal points: 78
+Elapsed time: 45.8833 minutes
+Estimated remaining time: 63.8854 minutes
+-----------------------------
+Eval: 211
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.18701e-06 8.75465e-06 1.99602e-05        39.7        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+ -78.037 -42.6025 -56.2034
+ 8.39571    2.411  2.43956
+  -86.94   -43.47   -60.33
+New Pareto: true
+Number of Pareto optimal points: 79
+Elapsed time: 46.5333 minutes
+Estimated remaining time: 64.2603 minutes
+-----------------------------
+Eval: 212
+Last eval x: 3.47215e-06     4.3e-06    1.67e-06 4.28341e-06  9.7095e-06 1.81504e-05     80.5532        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-79.5011 -44.5557 -60.2831
+ 8.12039 0.333816 0.359973
+  -86.75   -44.08   -60.37
+New Pareto: true
+Number of Pareto optimal points: 80
+Elapsed time: 47.2 minutes
+Estimated remaining time: 64.6483 minutes
+-----------------------------
+Eval: 213
+Last eval x:    3.45e-06 2.26561e-06 3.72316e-06    5.04e-06 1.48438e-05     5.5e-06         159      1.8936    2.33e-06    1.11e-05
+Pred-S-Eval:
+-78.1092  -11.571   -76.46
+ 10.2233  5.62706  5.30436
+  -67.84   -15.65   -67.94
+New Pareto: false
+Number of Pareto optimal points: 80
+Elapsed time: 47.8667 minutes
+Estimated remaining time: 65.0264 minutes
+-----------------------------
+Eval: 214
+Last eval x: 4.27824e-06     4.3e-06    1.67e-06 4.58606e-06 6.74807e-06     2.2e-05        39.7     1.88585 2.57535e-06    4.43e-05
+Pred-S-Eval:
+-79.3604 -34.6255 -64.1181
+ 8.33355  2.86017  2.14045
+  -66.28   -23.16   -67.39
+New Pareto: false
+Number of Pareto optimal points: 80
+Elapsed time: 48.5833 minutes
+Estimated remaining time: 65.4621 minutes
+-----------------------------
+Eval: 215
+Last eval x:    3.45e-06 3.91705e-06    1.67e-06 4.16297e-06     1.6e-05     2.2e-05        39.7        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-77.3962 -41.5157 -60.6951
+ 8.29852  2.24249   2.2209
+  -86.24   -42.49   -61.23
+New Pareto: true
+Number of Pareto optimal points: 81
+Elapsed time: 49.2667 minutes
+Estimated remaining time: 65.8424 minutes
+-----------------------------
+Eval: 216
+Last eval x: 3.62321e-06   3.808e-06 2.44316e-06 4.37591e-06     1.6e-05  2.0297e-05     56.2717         6.5    2.33e-06 2.61743e-05
+Pred-S-Eval:
+ -67.725 -20.5404 -72.8743
+ 8.99661    4.676  4.56849
+  -80.94   -31.61   -63.68
+New Pareto: false
+Number of Pareto optimal points: 81
+Elapsed time: 49.9833 minutes
+Estimated remaining time: 66.257 minutes
+-----------------------------
+Eval: 217
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.62864e-06     1.6e-05 1.57144e-05      58.163         6.5    2.33e-06    4.43e-05
+Pred-S-Eval:
+-74.8538 -45.7209  -59.439
+ 8.71137  1.64658  1.49149
+  -86.11   -42.06   -64.11
+New Pareto: true
+Number of Pareto optimal points: 82
+Elapsed time: 50.7 minutes
+Estimated remaining time: 66.6611 minutes
+-----------------------------
+Eval: 218
+Last eval x: 6.31736e-06     4.3e-06    1.67e-06 3.38296e-06 1.44157e-05     5.5e-06     63.7223     3.12852    2.33e-06    1.11e-05
+Pred-S-Eval:
+-55.4151 -11.3475  -77.026
+ 10.6104  6.27834  6.35965
+  -40.29   -2.497      -89
+New Pareto: false
+Number of Pareto optimal points: 82
+Elapsed time: 51.4667 minutes
+Estimated remaining time: 67.1201 minutes
+-----------------------------
+Eval: 219
+Last eval x: 1.11148e-05     4.3e-06    1.67e-06    1.26e-06       4e-06     5.5e-06        39.7         6.5    2.33e-06    1.11e-05
+Pred-S-Eval:
+-52.5277 -5.97364 -82.0786
+ 13.0152  6.69302  7.79522
+  -37.73  -0.8403   -90.19
+New Pareto: true
+Number of Pareto optimal points: 83
+Elapsed time: 52.2 minutes
+Estimated remaining time: 67.5248 minutes
+-----------------------------
+Eval: 220
+Last eval x:    3.45e-06 3.60184e-06    6.68e-06    5.04e-06     1.6e-05     2.2e-05       118.1     1.71376    2.33e-06 3.09129e-05
+Pred-S-Eval:
+-81.1565 -22.9037 -65.6021
+ 8.63011  5.36647   5.1437
+  -75.46   -21.43   -65.17
+New Pareto: false
+Number of Pareto optimal points: 83
+Elapsed time: 52.9167 minutes
+Estimated remaining time: 67.8976 minutes
+-----------------------------
+Eval: 221
+Last eval x: 5.57624e-06     4.3e-06    1.67e-06 1.89298e-06 1.28799e-05 6.33946e-06     68.0948        1.62    2.33e-06    1.11e-05
+Pred-S-Eval:
+-35.1974 -1.83126 -90.7824
+  10.885  5.97074  6.37351
+  -33.12  -0.9973    -90.8
+New Pareto: false
+Number of Pareto optimal points: 83
+Elapsed time: 53.6667 minutes
+Estimated remaining time: 68.303 minutes
+-----------------------------
+Eval: 222
+Last eval x:  1.1404e-05 3.26905e-06    1.67e-06    1.26e-06 1.00764e-05     2.2e-05     111.389        1.62  4.7215e-06    1.11e-05
+Pred-S-Eval:
+ -43.206 -4.09273 -88.1358
+ 10.2729  6.38626  6.47672
+  -33.82  -0.4541   -90.79
+New Pareto: true
+Number of Pareto optimal points: 84
+Elapsed time: 54.4167 minutes
+Estimated remaining time: 68.698 minutes
+-----------------------------
+Eval: 223
+Last eval x:    1.38e-05 3.52661e-06 6.46897e-06    1.26e-06 7.57462e-06     5.5e-06     82.1769     3.32262 7.08276e-06 1.77836e-05
+Pred-S-Eval:
+-40.4422 -3.13643 -89.2966
+ 9.69708  6.01849  5.89698
+  -41.44  -0.4191   -89.33
+New Pareto: false
+Number of Pareto optimal points: 84
+Elapsed time: 55.1667 minutes
+Estimated remaining time: 69.0826 minutes
+-----------------------------
+Eval: 224
+Last eval x: 1.00802e-05 3.28264e-06  3.7994e-06 3.60178e-06       4e-06     2.2e-05         159     3.53565     9.3e-06    4.43e-05
+Pred-S-Eval:
+-83.4322 -10.1312 -64.8524
+  10.748   5.5935  5.58308
+  -69.85   -6.649   -60.94
+New Pareto: false
+Number of Pareto optimal points: 84
+Elapsed time: 55.9333 minutes
+Estimated remaining time: 69.4777 minutes
+-----------------------------
+Eval: 225
+Last eval x: 6.40606e-06 2.62442e-06    1.67e-06    1.26e-06     1.6e-05 5.66129e-06     46.3377         6.5 8.91342e-06    4.43e-05
+Pred-S-Eval:
+-48.2023 -4.76786 -87.1196
+ 11.0626  6.48069  6.49967
+  -35.69  -0.7606   -90.55
+New Pareto: true
+Number of Pareto optimal points: 84
+Elapsed time: 56.7333 minutes
+Estimated remaining time: 69.9036 minutes
+-----------------------------
+Eval: 226
+Last eval x:    3.45e-06 3.74607e-06    1.67e-06 3.77077e-06     1.6e-05 1.93989e-05     54.4857     2.09936 5.32661e-06 1.72185e-05
+Pred-S-Eval:
+-39.9104 0.111922 -96.3832
+ 8.64827  3.19643  3.73356
+  -36.78   -2.002    -89.6
+New Pareto: true
+Number of Pareto optimal points: 85
+Elapsed time: 57.5667 minutes
+Estimated remaining time: 70.3593 minutes
+-----------------------------
+Eval: 227
+Last eval x:    3.45e-06 3.34994e-06    1.67e-06 1.85371e-06     1.6e-05     5.5e-06         159         6.5    2.33e-06 1.56463e-05
+Pred-S-Eval:
+-35.9493 -2.73403 -89.3885
+  10.508   6.0959  6.11323
+  -33.49   -1.245   -90.77
+New Pareto: true
+Number of Pareto optimal points: 86
+Elapsed time: 58.35 minutes
+Estimated remaining time: 70.7429 minutes
+-----------------------------
+Eval: 228
+Last eval x:    3.45e-06 1.27474e-06    1.67e-06    1.26e-06 6.35884e-06 2.19784e-05      99.956     3.64463 5.55643e-06  2.6238e-05
+Pred-S-Eval:
+-44.1866 -2.23201 -88.7382
+ 9.70358  6.01141  6.31903
+  -40.49   -1.102   -89.88
+New Pareto: true
+Number of Pareto optimal points: 87
+Elapsed time: 59.15 minutes
+Estimated remaining time: 71.1363 minutes
+-----------------------------
+Eval: 229
+Last eval x: 8.44104e-06     4.3e-06    1.67e-06    1.26e-06       4e-06     5.5e-06     78.7808         6.5     9.3e-06    4.43e-05
+Pred-S-Eval:
+ -43.644  -4.7832 -84.0471
+ 12.1344  6.48256  7.24868
+  -38.31  -0.9309   -90.12
+New Pareto: true
+Number of Pareto optimal points: 88
+Elapsed time: 59.95 minutes
+Estimated remaining time: 71.5193 minutes
+-----------------------------
+Eval: 230
+Last eval x: 1.21555e-05     4.3e-06    1.67e-06 2.51967e-06       4e-06     2.2e-05         159        1.62 6.13577e-06    1.11e-05
+Pred-S-Eval:
+-48.2957 -4.61774 -86.9991
+ 10.9297  6.19745  6.48164
+  -47.31   -1.717   -87.32
+New Pareto: false
+Number of Pareto optimal points: 88
+Elapsed time: 60.7833 minutes
+Estimated remaining time: 71.9314 minutes
+-----------------------------
+Eval: 231
+Last eval x:    3.45e-06 1.47974e-06 6.64892e-06 1.99174e-06 1.11093e-05     2.2e-05         159     4.07594 4.06635e-06    1.11e-05
+Pred-S-Eval:
+-41.6791 -2.87241 -86.1182
+ 10.2263  5.69291  6.57633
+  -41.72   -0.799   -88.39
+New Pareto: false
+Number of Pareto optimal points: 88
+Elapsed time: 61.5833 minutes
+Estimated remaining time: 72.2935 minutes
+-----------------------------
+Eval: 232
+Last eval x: 3.46342e-06 3.86065e-06    6.68e-06    1.26e-06       4e-06     2.2e-05     117.744        1.62    2.33e-06  2.8082e-05
+Pred-S-Eval:
+-43.0617 -8.49999 -80.1208
+ 10.4581  6.06091  6.71616
+  -42.77   -1.536   -88.16
+New Pareto: false
+Number of Pareto optimal points: 88
+Elapsed time: 62.4667 minutes
+Estimated remaining time: 72.7426 minutes
+-----------------------------
+Eval: 233
+Last eval x: 8.74584e-06 2.65209e-06    1.67e-06    5.04e-06  4.9463e-06 1.87698e-05     157.383     3.92672    2.33e-06 3.39571e-05
+Pred-S-Eval:
+-55.2054 -5.35246 -87.7919
+ 10.4985  6.46244  6.31592
+  -49.84    -3.58    -83.4
+New Pareto: false
+Number of Pareto optimal points: 88
+Elapsed time: 63.3333 minutes
+Estimated remaining time: 73.1609 minutes
+-----------------------------
+Eval: 234
+Last eval x:  8.1925e-06     4.3e-06    1.67e-06 2.33446e-06       4e-06     5.5e-06        39.7         6.5     9.3e-06 2.18995e-05
+Pred-S-Eval:
+-42.3759 -2.08188 -88.9134
+ 10.1798  5.78938  6.23152
+   -38.3   -1.058   -89.77
+New Pareto: false
+Number of Pareto optimal points: 88
+Elapsed time: 64.2 minutes
+Estimated remaining time: 73.5682 minutes
+-----------------------------
+Eval: 235
+Last eval x:  5.8585e-06     4.3e-06 2.92476e-06 2.82486e-06     1.6e-05 1.04053e-05        39.7         6.5 5.27095e-06    4.43e-05
+Pred-S-Eval:
+-54.2664 -8.88729 -85.2458
+ 8.98748  5.80988  4.80255
+  -54.99   -7.133   -83.67
+New Pareto: true
+Number of Pareto optimal points: 89
+Elapsed time: 65 minutes
+Estimated remaining time: 73.8889 minutes
+-----------------------------
+Eval: 236
+Last eval x:    1.38e-05 2.49072e-06 3.31748e-06    1.26e-06     1.6e-05     5.5e-06     58.2456     6.43367     9.3e-06 2.11538e-05
+Pred-S-Eval:
+-46.9603 -3.59353 -86.7361
+ 10.5792  6.17395  6.23807
+  -41.46  -0.5196   -89.69
+New Pareto: true
+Number of Pareto optimal points: 90
+Elapsed time: 65.8167 minutes
+Estimated remaining time: 74.2188 minutes
+-----------------------------
+Eval: 237
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 2.54885e-06       4e-06     2.2e-05         159     1.91238    2.33e-06  3.9413e-05
+Pred-S-Eval:
+-67.4772 -23.2061 -79.3109
+ 8.21106  2.86301  3.37383
+  -79.02   -34.49   -65.81
+New Pareto: true
+Number of Pareto optimal points: 91
+Elapsed time: 66.6 minutes
+Estimated remaining time: 74.5017 minutes
+-----------------------------
+Eval: 238
+Last eval x:    3.45e-06 2.35828e-06    1.67e-06    1.26e-06     1.6e-05 1.89133e-05         159     6.48177 4.49514e-06 2.75261e-05
+Pred-S-Eval:
+-37.3869 -2.34476 -90.8489
+ 9.56989  5.61532  5.47707
+  -33.85  -0.8543   -90.83
+New Pareto: true
+Number of Pareto optimal points: 91
+Elapsed time: 67.4667 minutes
+Estimated remaining time: 74.8681 minutes
+-----------------------------
+Eval: 239
+Last eval x: 7.40601e-06     4.3e-06    6.68e-06 3.14277e-06     1.6e-05     5.5e-06     158.028     6.14898     9.3e-06 2.13933e-05
+Pred-S-Eval:
+-38.2397 -2.28201 -90.3716
+ 9.55989  5.43031  5.71095
+  -42.17   -1.064   -87.51
+New Pareto: false
+Number of Pareto optimal points: 91
+Elapsed time: 68.3333 minutes
+Estimated remaining time: 75.2241 minutes
+-----------------------------
+Eval: 240
+Last eval x: 1.06963e-05  3.0089e-06 1.84048e-06    1.26e-06     1.6e-05 6.20009e-06         159     6.35104 7.95615e-06    4.43e-05
+Pred-S-Eval:
+-51.9797 -5.51594 -85.2114
+  11.082  6.49606   6.7959
+   -42.7   -1.193   -89.58
+New Pareto: true
+Number of Pareto optimal points: 91
+Elapsed time: 69.2 minutes
+Estimated remaining time: 75.5699 minutes
+-----------------------------
+Eval: 241
+Last eval x:    3.45e-06     4.3e-06 2.05989e-06 3.80628e-06 7.78338e-06     2.2e-05     147.356        1.62    2.33e-06 3.56356e-05
+Pred-S-Eval:
+-78.6397 -28.8481 -72.2545
+  8.2986  2.68922  3.48448
+  -86.24   -40.58   -59.75
+New Pareto: false
+Number of Pareto optimal points: 91
+Elapsed time: 70.0833 minutes
+Estimated remaining time: 75.9236 minutes
+-----------------------------
+Eval: 242
+Last eval x: 7.50962e-06     4.3e-06    1.67e-06 3.68688e-06     1.6e-05 1.57804e-05         159     5.79102 5.00367e-06    1.11e-05
+Pred-S-Eval:
+-45.7056 -6.54169 -85.3677
+ 9.54061  6.42223  5.91306
+   -36.6   -1.325   -89.74
+New Pareto: false
+Number of Pareto optimal points: 91
+Elapsed time: 70.9833 minutes
+Estimated remaining time: 76.285 minutes
+-----------------------------
+Eval: 243
+Last eval x:    1.38e-05 1.87195e-06 6.66872e-06    5.04e-06       4e-06 1.71201e-05     43.4792         6.5     9.3e-06    1.11e-05
+Pred-S-Eval:
+-78.2719 -5.73869 -72.9541
+  12.752  6.68813  7.19199
+   -73.2   -2.941   -64.12
+New Pareto: false
+Number of Pareto optimal points: 91
+Elapsed time: 71.8833 minutes
+Estimated remaining time: 76.636 minutes
+-----------------------------
+Eval: 244
+Last eval x:  1.2013e-05 1.37194e-06  3.3484e-06 1.99064e-06       4e-06 6.48564e-06       154.7         6.5 5.51802e-06    4.43e-05
+Pred-S-Eval:
+-68.2578 -5.65067 -80.2216
+ 11.8265   5.9432  6.79719
+  -63.53   -2.614   -81.52
+New Pareto: true
+Number of Pareto optimal points: 92
+Elapsed time: 72.7833 minutes
+Estimated remaining time: 76.9766 minutes
+-----------------------------
+Eval: 245
+Last eval x:    3.45e-06 4.29871e-06 3.97042e-06 3.10078e-06     1.6e-05     2.2e-05     39.8027        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-66.9353 -26.7558 -77.1962
+ 8.38575  3.24548  3.04939
+  -79.11   -35.22   -63.73
+New Pareto: false
+Number of Pareto optimal points: 92
+Elapsed time: 73.7333 minutes
+Estimated remaining time: 77.3596 minutes
+-----------------------------
+Eval: 246
+Last eval x:    3.45e-06     4.3e-06 2.41524e-06 4.83215e-06 1.48729e-05 1.31382e-05     156.091         6.5 4.72629e-06    1.11e-05
+Pred-S-Eval:
+ -42.8886 -0.759961  -91.9351
+  9.55891   5.55253   5.67609
+   -37.87    -2.055    -89.01
+New Pareto: false
+Number of Pareto optimal points: 92
+Elapsed time: 74.75 minutes
+Estimated remaining time: 77.801 minutes
+-----------------------------
+Eval: 247
+Last eval x: 3.46688e-06 4.10176e-06 6.62675e-06 2.51236e-06       4e-06     5.5e-06     72.4932     6.17192    2.33e-06    1.11e-05
+Pred-S-Eval:
+-41.2609 -1.94044 -89.6533
+ 10.4562  6.11311  6.00693
+  -40.37   -1.386   -88.03
+New Pareto: false
+Number of Pareto optimal points: 92
+Elapsed time: 75.65 minutes
+Estimated remaining time: 78.1102 minutes
+-----------------------------
+Eval: 248
+Last eval x:    3.45e-06 1.69081e-06    1.67e-06    5.04e-06     1.6e-05 1.48077e-05     114.932        1.62 3.69148e-06  2.3094e-05
+Pred-S-Eval:
+-82.9757 -17.6244 -64.0034
+ 8.79719  4.39819  3.65164
+  -83.13   -19.03   -64.88
+New Pareto: false
+Number of Pareto optimal points: 92
+Elapsed time: 76.65 minutes
+Estimated remaining time: 78.5119 minutes
+-----------------------------
+Eval: 249
+Last eval x: 9.84983e-06     4.3e-06 1.88512e-06  2.5627e-06     1.6e-05     5.5e-06        39.7     5.18295  3.1755e-06    1.11e-05
+Pred-S-Eval:
+ -42.535 -4.15225 -88.6071
+ 10.0756   6.4894  6.09578
+  -39.69   -1.443   -89.44
+New Pareto: true
+Number of Pareto optimal points: 93
+Elapsed time: 77.6167 minutes
+Estimated remaining time: 78.8685 minutes
+-----------------------------
+Eval: 250
+Last eval x: 3.53309e-06 1.84774e-06  1.6987e-06   1.454e-06     1.6e-05     5.5e-06         159        1.62 5.58663e-06 1.83489e-05
+Pred-S-Eval:
+-34.2828 -1.05748 -91.5402
+ 8.63477  5.71518  5.50271
+  -30.24   -0.535   -91.51
+New Pareto: true
+Number of Pareto optimal points: 94
+Elapsed time: 78.6833 minutes
+Estimated remaining time: 79.3153 minutes
+-----------------------------
+Eval: 251
+Last eval x:    3.45e-06     4.3e-06    6.68e-06 2.53632e-06  6.3972e-06     2.2e-05     75.8043         6.5 2.47502e-06    4.43e-05
+Pred-S-Eval:
+-67.8876 -26.1542 -71.7005
+ 7.90025  4.20755   3.8111
+  -63.04    -13.1   -72.34
+New Pareto: false
+Number of Pareto optimal points: 94
+Elapsed time: 79.6833 minutes
+Estimated remaining time: 79.6833 minutes
+-----------------------------
+Eval: 252
+Last eval x:    3.45e-06     4.3e-06    1.67e-06    5.04e-06     1.6e-05 8.19482e-06         159         6.5 2.55052e-06 2.27635e-05
+Pred-S-Eval:
+-66.2689 -20.0674  -70.804
+  9.1448  4.99435  4.74116
+  -49.41   -10.27   -84.71
+New Pareto: true
+Number of Pareto optimal points: 95
+Elapsed time: 80.7333 minutes
+Estimated remaining time: 80.09 minutes
+-----------------------------
+Eval: 253
+Last eval x:    1.38e-05 2.02077e-06 1.92967e-06 1.48985e-06       4e-06 2.04285e-05     133.094     1.64575     9.3e-06    1.11e-05
+Pred-S-Eval:
+-48.2304 -4.04422 -84.2564
+ 11.9181  6.48748  7.06166
+  -41.45  -0.5146   -89.59
+New Pareto: false
+Number of Pareto optimal points: 95
+Elapsed time: 81.7 minutes
+Estimated remaining time: 80.4032 minutes
+-----------------------------
+Eval: 254
+Last eval x:    1.38e-05     4.3e-06 2.00644e-06    1.26e-06 1.51185e-05 1.31287e-05     71.5148        1.62 9.03749e-06    4.43e-05
+Pred-S-Eval:
+-46.9671 -5.30364 -81.8427
+ 13.5172  6.66194  7.62335
+   -41.5   -1.039   -89.62
+New Pareto: true
+Number of Pareto optimal points: 96
+Elapsed time: 82.7667 minutes
+Estimated remaining time: 80.8038 minutes
+-----------------------------
+Eval: 255
+Last eval x: 3.46882e-06 4.25815e-06    1.67e-06    5.04e-06       4e-06     2.2e-05         159         6.5 2.38114e-06 2.00431e-05
+Pred-S-Eval:
+-60.5843  -13.414 -79.3155
+ 9.33228  5.20688  4.76264
+  -87.61   -27.84   -60.62
+New Pareto: false
+Number of Pareto optimal points: 96
+Elapsed time: 83.8 minutes
+Estimated remaining time: 81.1606 minutes
+-----------------------------
+Eval: 256
+Last eval x:    1.38e-05 4.06351e-06 3.87346e-06    1.26e-06 9.17802e-06     5.5e-06         159     6.43287     9.3e-06 3.27626e-05
+Pred-S-Eval:
+-41.3509 -2.96632 -86.8898
+ 10.5116  6.26126  6.77333
+  -42.43  -0.6748   -89.46
+New Pareto: false
+Number of Pareto optimal points: 96
+Elapsed time: 84.9333 minutes
+Estimated remaining time: 81.6026 minutes
+-----------------------------
+Eval: 257
+Last eval x: 5.01041e-06  3.2359e-06    6.68e-06 2.30084e-06     1.6e-05     2.2e-05         159        1.62    2.33e-06    1.11e-05
+Pred-S-Eval:
+-37.3356 -2.54759  -88.209
+  9.3463  6.31439  6.19521
+  -44.46   -1.474    -87.1
+New Pareto: false
+Number of Pareto optimal points: 96
+Elapsed time: 86.1333 minutes
+Estimated remaining time: 82.0958 minutes
+-----------------------------
+Eval: 258
+Last eval x: 6.08276e-06     4.3e-06    1.67e-06 2.61728e-06     1.6e-05     5.5e-06        39.7        1.62 2.34275e-06 3.32411e-05
+Pred-S-Eval:
+-60.9739 -12.9572 -82.2058
+ 8.85123  5.57567  4.22938
+     -63   -17.35   -78.92
+New Pareto: true
+Number of Pareto optimal points: 96
+Elapsed time: 87.2667 minutes
+Estimated remaining time: 82.5128 minutes
+-----------------------------
+Eval: 259
+Last eval x: 6.29665e-06 3.51101e-06    1.67e-06 2.40567e-06     1.6e-05     5.5e-06         159        1.62 8.82973e-06 2.00463e-05
+Pred-S-Eval:
+ -32.6849 -0.551776  -94.0237
+  8.64937   5.37354   4.92578
+    -31.4   -0.7021    -91.09
+New Pareto: true
+Number of Pareto optimal points: 97
+Elapsed time: 88.35 minutes
+Estimated remaining time: 82.8709 minutes
+-----------------------------
+Eval: 260
+Last eval x: 1.27804e-05 4.24442e-06 4.39448e-06    1.26e-06       4e-06 1.79927e-05     65.0963     5.10469 4.22133e-06    4.43e-05
+Pred-S-Eval:
+-55.5518 -5.73489 -80.6439
+ 13.1453  6.69645  7.68766
+  -76.16   -9.106   -75.33
+New Pareto: true
+Number of Pareto optimal points: 96
+Elapsed time: 89.45 minutes
+Estimated remaining time: 83.2334 minutes
+-----------------------------
+Eval: 261
+Last eval x: 9.98197e-06 4.08619e-06    1.67e-06    1.26e-06 1.08954e-05     5.5e-06         159        1.62 4.18049e-06 1.31582e-05
+Pred-S-Eval:
+-36.2638  -1.8519 -91.5305
+ 8.79073  5.95674  5.31296
+  -31.28  -0.4606   -91.28
+New Pareto: true
+Number of Pareto optimal points: 97
+Elapsed time: 90.5167 minutes
+Estimated remaining time: 83.5538 minutes
+-----------------------------
+Eval: 262
+Last eval x:    3.45e-06  3.3138e-06 1.75581e-06 4.51904e-06     1.6e-05     5.5e-06     140.807         6.5 3.27822e-06 2.35349e-05
+Pred-S-Eval:
+-68.9174 -19.8984 -77.5211
+  8.1418  4.40974  3.95192
+  -47.76   -7.092    -86.1
+New Pareto: true
+Number of Pareto optimal points: 97
+Elapsed time: 91.5833 minutes
+Estimated remaining time: 83.8637 minutes
+-----------------------------
+Eval: 263
+Last eval x: 6.23776e-06     4.3e-06 1.98638e-06 2.14234e-06 1.34197e-05 1.65385e-05     138.531         6.5    2.33e-06 3.25806e-05
+Pred-S-Eval:
+-55.5515 -12.2311 -79.7664
+ 8.96938  5.43509  5.25253
+  -60.42   -11.74   -82.53
+New Pareto: true
+Number of Pareto optimal points: 97
+Elapsed time: 92.75 minutes
+Estimated remaining time: 84.2538 minutes
+-----------------------------
+Eval: 264
+Last eval x:    1.38e-05 1.59394e-06    6.68e-06    1.26e-06     1.6e-05     5.5e-06        39.7        1.62     9.3e-06    1.11e-05
+Pred-S-Eval:
+-45.3652 -3.25305 -86.1108
+ 11.2975  6.24855  6.42395
+  -41.89  -0.2795   -89.27
+New Pareto: false
+Number of Pareto optimal points: 97
+Elapsed time: 93.8833 minutes
+Estimated remaining time: 84.6021 minutes
+-----------------------------
+Eval: 265
+Last eval x:    3.45e-06     4.3e-06    1.67e-06    5.04e-06     1.6e-05     2.2e-05         159         6.5  3.7603e-06 3.35958e-05
+Pred-S-Eval:
+-65.0951 -22.1444 -71.3032
+ 8.83309  5.16512  4.97997
+  -55.81   -15.83   -79.74
+New Pareto: false
+Number of Pareto optimal points: 97
+Elapsed time: 95 minutes
+Estimated remaining time: 84.9242 minutes
+-----------------------------
+Eval: 266
+Last eval x: 3.45892e-06 4.23375e-06 1.76578e-06 4.22259e-06 1.53569e-05 2.16846e-05     153.262     1.72282    2.33e-06 4.12493e-05
+Pred-S-Eval:
+ -80.615 -47.2448 -57.2029
+   7.908  1.42842  1.47468
+  -85.39   -44.18   -59.96
+New Pareto: true
+Number of Pareto optimal points: 98
+Elapsed time: 96.1 minutes
+Estimated remaining time: 85.2208 minutes
+-----------------------------
+Eval: 267
+Last eval x: 1.37971e-05 3.44519e-06 6.61331e-06    1.26e-06 1.14073e-05 1.45605e-05     39.7862      2.3521 2.61285e-06 1.24035e-05
+Pred-S-Eval:
+-50.0974 -5.97152 -82.4447
+ 11.0756  6.57709  6.69921
+  -49.62   -1.035    -87.3
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 97.2833 minutes
+Estimated remaining time: 85.5801 minutes
+-----------------------------
+Eval: 268
+Last eval x:    3.45e-06 3.81314e-06    1.67e-06 3.82994e-06  1.1674e-05     5.5e-06      96.212        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+  -82.14 -28.4153 -72.1897
+  7.8753  2.54968  2.49383
+  -83.68   -43.02   -63.69
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 98.5167 minutes
+Estimated remaining time: 85.9715 minutes
+-----------------------------
+Eval: 269
+Last eval x: 1.06931e-05     4.3e-06 4.49854e-06    1.26e-06 1.50646e-05     2.2e-05     147.599         6.5     9.3e-06 3.81092e-05
+Pred-S-Eval:
+-37.1943 -4.07113  -89.129
+ 9.43338  6.80822  6.16409
+  -41.35  -0.6585   -89.54
+New Pareto: false
+Number of Pareto optimal points: 99
+Elapsed time: 99.7333 minutes
+Estimated remaining time: 86.3363 minutes
+-----------------------------
+Eval: 270
+Last eval x:    3.45e-06 2.88053e-06    1.67e-06 2.66397e-06     1.6e-05     2.2e-05         159         6.5 2.33739e-06  2.4852e-05
+Pred-S-Eval:
+-50.7982 -14.0913 -80.4317
+ 8.97333  5.54218   5.4961
+  -48.45   -6.013   -87.18
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 100.883 minutes
+Estimated remaining time: 86.6322 minutes
+-----------------------------
+Eval: 271
+Last eval x:    1.38e-05 2.31637e-06    6.68e-06    1.26e-06       4e-06 1.36913e-05        39.7     2.77566 9.24863e-06 4.06658e-05
+Pred-S-Eval:
+-53.1597 -5.35696 -82.3052
+ 12.3319  6.85413  7.46244
+  -66.56   -3.153   -78.85
+New Pareto: false
+Number of Pareto optimal points: 99
+Elapsed time: 102.117 minutes
+Estimated remaining time: 86.9883 minutes
+-----------------------------
+Eval: 272
+Last eval x: 4.86545e-06     4.3e-06 3.67383e-06  1.5506e-06       4e-06 8.21351e-06     39.9571     1.77114    2.33e-06 3.57793e-05
+Pred-S-Eval:
+-53.4992 -11.1492 -85.5265
+  8.8854  5.65154  4.83645
+  -51.93   -4.577   -86.43
+New Pareto: true
+Number of Pareto optimal points: 98
+Elapsed time: 103.45 minutes
+Estimated remaining time: 87.4172 minutes
+-----------------------------
+Eval: 273
+Last eval x:    1.38e-05     4.3e-06    6.68e-06 4.62232e-06 1.59286e-05     2.2e-05         159         6.5     9.3e-06    1.11e-05
+Pred-S-Eval:
+-50.7195  -4.9571 -84.4195
+ 12.6338  6.84011  7.17498
+  -50.63   -1.815   -81.18
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 104.6 minutes
+Estimated remaining time: 87.6794 minutes
+-----------------------------
+Eval: 274
+Last eval x:  1.0028e-05  4.0509e-06 3.66857e-06 2.07123e-06       4e-06     2.2e-05         159     5.97085 9.23313e-06    1.11e-05
+Pred-S-Eval:
+-37.1354 -3.49684 -88.8246
+ 9.57901  6.62289  6.15489
+   -44.4   -0.836   -88.43
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 105.95 minutes
+Estimated remaining time: 88.0976 minutes
+-----------------------------
+Eval: 275
+Last eval x:    3.45e-06 3.96146e-06    1.67e-06 4.22826e-06  9.4253e-06     2.2e-05         159     1.68665 2.35997e-06 4.07461e-05
+Pred-S-Eval:
+-83.9614 -43.8222 -58.8723
+  7.6424  1.91393  1.82491
+  -86.74   -40.33   -60.86
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 107.15 minutes
+Estimated remaining time: 88.3792 minutes
+-----------------------------
+Eval: 276
+Last eval x:    3.45e-06 3.81944e-06    1.67e-06 4.31629e-06     1.6e-05 6.78075e-06         159     6.45411 6.46058e-06 1.80518e-05
+Pred-S-Eval:
+-33.9566 -2.29227 -96.0175
+ 8.38714  5.67626  4.81512
+  -33.93   -1.635   -90.23
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 108.433 minutes
+Estimated remaining time: 88.7182 minutes
+-----------------------------
+Eval: 277
+Last eval x:    3.45e-06     4.3e-06 2.44721e-06 2.84224e-06     1.6e-05     5.5e-06        39.7        1.62    2.33e-06 1.82722e-05
+Pred-S-Eval:
+-39.1049 -2.54646 -93.6214
+ 8.63359  4.90767  4.70042
+  -40.77    -2.98   -88.94
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 109.633 minutes
+Estimated remaining time: 88.9778 minutes
+-----------------------------
+Eval: 278
+Last eval x:    3.45e-06     4.3e-06 3.69558e-06 4.31728e-06     1.6e-05  1.7523e-05        39.7        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-80.5482 -44.7946 -62.0531
+  7.6921  2.05263  1.17884
+  -75.93   -32.71   -62.56
+New Pareto: false
+Number of Pareto optimal points: 98
+Elapsed time: 110.983 minutes
+Estimated remaining time: 89.3476 minutes
+-----------------------------
+Eval: 279
+Last eval x:    1.38e-05    1.08e-06 6.49469e-06    1.26e-06  1.2413e-05     2.2e-05     73.4392        1.62 6.64298e-06    1.11e-05
+Pred-S-Eval:
+-52.8457 -5.10091 -83.8362
+ 11.5118  7.00561  7.04443
+  -56.75  -0.9656      -85
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 112.35 minutes
+Estimated remaining time: 89.7183 minutes
+-----------------------------
+Eval: 280
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.97899e-06       4e-06     5.5e-06        39.7        1.62 2.36874e-06    4.43e-05
+Pred-S-Eval:
+-82.6525 -38.4891 -64.1894
+ 7.96997  3.19466  2.63943
+  -86.45   -43.54   -61.96
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 113.617 minutes
+Estimated remaining time: 89.9974 minutes
+-----------------------------
+Eval: 281
+Last eval x: 4.21505e-06 4.06986e-06    1.67e-06  3.7684e-06 5.76788e-06     5.5e-06         159        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-83.4701 -38.9282 -64.4765
+ 7.67918   2.5289  2.18823
+  -80.33   -35.33   -66.19
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 115 minutes
+Estimated remaining time: 90.3571 minutes
+-----------------------------
+Eval: 282
+Last eval x:    3.45e-06     4.3e-06    1.67e-06  3.4711e-06 8.00805e-06     5.5e-06        39.7        1.62 2.33872e-06 4.37781e-05
+Pred-S-Eval:
+-81.8863 -45.0866 -63.2735
+ 7.54959  1.58057  1.21832
+  -72.43   -39.32   -67.55
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 116.333 minutes
+Estimated remaining time: 90.6655 minutes
+-----------------------------
+Eval: 283
+Last eval x:    1.38e-05     4.3e-06    1.67e-06 1.71342e-06     1.6e-05 1.75885e-05         159         6.5  8.0205e-06 2.14325e-05
+Pred-S-Eval:
+-43.2365 -3.33985 -87.5351
+ 10.1226  6.71497  6.20788
+  -36.04  -0.6825   -90.32
+New Pareto: false
+Number of Pareto optimal points: 99
+Elapsed time: 117.5 minutes
+Estimated remaining time: 90.8333 minutes
+-----------------------------
+Eval: 284
+Last eval x: 9.83269e-06 3.18672e-06 6.04616e-06 1.38513e-06       4e-06     5.5e-06     57.1568        1.62 2.38367e-06    1.11e-05
+Pred-S-Eval:
+-46.9386 -4.74196 -87.5151
+   9.979  6.97759  6.01495
+  -47.33   -1.038    -87.9
+New Pareto: false
+Number of Pareto optimal points: 99
+Elapsed time: 118.867 minutes
+Estimated remaining time: 91.1451 minutes
+-----------------------------
+Eval: 285
+Last eval x: 6.60341e-06 2.54628e-06    1.67e-06 1.33904e-06 4.33103e-06 9.81063e-06         159         6.5  8.4957e-06    4.43e-05
+Pred-S-Eval:
+ -49.031 -1.69088 -87.7734
+ 9.71562  4.98138  5.85202
+  -42.96   -1.377   -89.52
+New Pareto: true
+Number of Pareto optimal points: 100
+Elapsed time: 120.217 minutes
+Estimated remaining time: 91.4324 minutes
+-----------------------------
+Eval: 286
+Last eval x:    3.45e-06     4.3e-06 1.81801e-06 3.03411e-06     1.6e-05 2.19964e-05         159         6.5    2.33e-06    4.43e-05
+Pred-S-Eval:
+-67.0155  -30.617 -77.9971
+ 8.02982   3.4089  3.33373
+  -64.76   -26.32    -76.7
+New Pareto: true
+Number of Pareto optimal points: 99
+Elapsed time: 121.583 minutes
+Estimated remaining time: 91.7208 minutes
+-----------------------------
+Eval: 287
+Last eval x:  3.9356e-06 3.45783e-06 3.32685e-06    1.26e-06     1.6e-05     5.5e-06         159         6.5     9.3e-06 3.54438e-05
+Pred-S-Eval:
+-33.6362 -3.36459 -87.8454
+  9.9326   6.6308  6.26432
+   -30.3  -0.4357   -91.46
+New Pareto: true
+Number of Pareto optimal points: 100
+Elapsed time: 123.083 minutes
+Estimated remaining time: 92.0973 minutes
+-----------------------------
+Eval: 288
+Last eval x:    3.45e-06 3.82446e-06 6.26272e-06 2.02697e-06     1.6e-05     5.5e-06        39.7        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-52.9696  -14.046 -82.9724
+ 8.28176  5.79743   4.4176
+  -52.32   -5.792   -82.43
+New Pareto: false
+Number of Pareto optimal points: 100
+Elapsed time: 124.367 minutes
+Estimated remaining time: 92.3 minutes
+-----------------------------
+Eval: 289
+Last eval x: 3.70907e-06     4.3e-06    6.68e-06 1.42383e-06       4e-06 1.54537e-05         159         6.5 8.70501e-06 1.14608e-05
+Pred-S-Eval:
+ -45.502 -4.73993 -85.0332
+ 11.2973  6.98297  6.87646
+  -33.15  -0.2962   -90.58
+New Pareto: false
+Number of Pareto optimal points: 100
+Elapsed time: 125.867 minutes
+Estimated remaining time: 92.6519 minutes
+-----------------------------
+Eval: 290
+Last eval x: 3.49125e-06 2.81198e-06    1.67e-06 2.31972e-06 6.57695e-06     5.5e-06         159     5.38007 6.63313e-06    4.43e-05
+Pred-S-Eval:
+-52.2804 -2.57152 -87.4603
+ 8.82773  5.74692  5.60348
+  -41.81   -2.595    -89.2
+New Pareto: true
+Number of Pareto optimal points: 101
+Elapsed time: 127.35 minutes
+Estimated remaining time: 92.9787 minutes
+-----------------------------
+Eval: 291
+Last eval x: 3.63531e-06     4.3e-06 3.98994e-06 1.77799e-06 1.45744e-05 6.35259e-06     51.9718         6.5     9.3e-06 1.83423e-05
+Pred-S-Eval:
+-34.8347 -1.92934 -89.1736
+  9.5701  6.30372  5.91097
+   -27.3  -0.3513   -92.15
+New Pareto: true
+Number of Pareto optimal points: 102
+Elapsed time: 128.883 minutes
+Estimated remaining time: 93.3293 minutes
+-----------------------------
+Eval: 292
+Last eval x: 3.45016e-06    1.08e-06    1.67e-06    5.04e-06     1.6e-05     5.5e-06        39.7         6.5 3.37203e-06    4.43e-05
+Pred-S-Eval:
+-61.1934 -6.81352 -78.3542
+ 12.1538  6.92896  7.01127
+  -57.49   -6.483   -79.83
+New Pareto: false
+Number of Pareto optimal points: 102
+Elapsed time: 130.317 minutes
+Estimated remaining time: 93.5951 minutes
+-----------------------------
+Eval: 293
+Last eval x: 3.45173e-06 1.64615e-06    6.68e-06    5.04e-06       4e-06     5.5e-06        39.7        1.62 4.14981e-06 2.13341e-05
+Pred-S-Eval:
+-83.5306 -10.9455   -67.13
+ 9.16807  6.46992  4.46503
+  -76.57   -10.88   -64.81
+New Pareto: false
+Number of Pareto optimal points: 102
+Elapsed time: 131.617 minutes
+Estimated remaining time: 93.7543 minutes
+-----------------------------
+Eval: 294
+Last eval x: 5.78215e-06     4.3e-06 3.84826e-06    1.26e-06       4e-06     5.5e-06        39.7         6.5    2.33e-06 2.05745e-05
+Pred-S-Eval:
+-41.1923 -3.17346 -88.6988
+ 9.45764  6.41057   5.9363
+  -42.36   -1.272   -89.35
+New Pareto: false
+Number of Pareto optimal points: 102
+Elapsed time: 133.05 minutes
+Estimated remaining time: 93.9978 minutes
+-----------------------------
+Eval: 295
+Last eval x:    3.45e-06 1.45521e-06    6.68e-06 5.03991e-06       4e-06     5.5e-06         159         6.5    2.33e-06 3.61359e-05
+Pred-S-Eval:
+-62.2358 -7.03289 -77.4665
+ 10.3025  6.83126  6.21783
+  -63.89   -6.606   -70.01
+New Pareto: false
+Number of Pareto optimal points: 102
+Elapsed time: 134.683 minutes
+Estimated remaining time: 94.37 minutes
+-----------------------------
+Eval: 296
+Last eval x: 3.48648e-06 2.76556e-06    1.67e-06 3.36541e-06     1.6e-05     5.5e-06        39.7      3.8965 4.52473e-06    4.43e-05
+Pred-S-Eval:
+-64.7691 -14.2779 -73.9332
+ 8.58671  5.99063  5.18856
+  -52.31   -9.244   -84.86
+New Pareto: true
+Number of Pareto optimal points: 103
+Elapsed time: 136.117 minutes
+Estimated remaining time: 94.5895 minutes
+-----------------------------
+Eval: 297
+Last eval x:    3.45e-06 2.48557e-06    1.67e-06 2.85854e-06     1.6e-05     5.5e-06        39.7         6.5 6.94489e-06    4.43e-05
+Pred-S-Eval:
+  -48.17 -3.76244 -90.6701
+ 9.29416  5.32561  5.27545
+  -41.95    -2.92   -88.95
+New Pareto: false
+Number of Pareto optimal points: 103
+Elapsed time: 137.683 minutes
+Estimated remaining time: 94.8899 minutes
+-----------------------------
+Eval: 298
+Last eval x:    3.45e-06  3.9924e-06    1.67e-06 4.27054e-06 1.50669e-05     5.5e-06        39.7     3.91213    2.33e-06 4.41551e-05
+Pred-S-Eval:
+-79.3517 -47.4256  -62.851
+ 7.63175  1.80416  1.80321
+  -84.66   -43.09   -64.05
+New Pareto: true
+Number of Pareto optimal points: 103
+Elapsed time: 139.15 minutes
+Estimated remaining time: 95.1093 minutes
+-----------------------------
+Eval: 299
+Last eval x: 3.78382e-06 4.29939e-06 2.14489e-06 3.83547e-06 4.89272e-06 5.81402e-06     42.6401     2.70859 2.40632e-06 2.97227e-05
+Pred-S-Eval:
+-79.0151 -22.3708 -74.1326
+ 8.36138  4.72851  4.47587
+  -77.09   -34.26   -64.06
+New Pareto: false
+Number of Pareto optimal points: 103
+Elapsed time: 140.7 minutes
+Estimated remaining time: 95.3738 minutes
+-----------------------------
+Eval: 300
+Last eval x:    3.45e-06 3.52869e-06    1.67e-06 3.38265e-06     1.6e-05     5.5e-06     157.738     6.31044 2.34887e-06    1.11e-05
+Pred-S-Eval:
+-40.1973 -2.31472 -91.1322
+ 8.78652  5.39928  5.22888
+  -35.52   -1.928   -90.07
+New Pareto: false
+Number of Pareto optimal points: 103
+Elapsed time: 142.2 minutes
+Estimated remaining time: 95.5926 minutes
+-----------------------------
+Eval: 301
+Last eval x: 5.12774e-06    1.08e-06 6.10218e-06    1.26e-06     1.6e-05 6.26921e-06        39.7     3.56512 7.96695e-06    4.43e-05
+Pred-S-Eval:
+-51.2513 -4.60008 -83.8689
+ 11.5625  6.90411  6.69814
+  -57.16   -2.158   -84.56
+New Pareto: true
+Number of Pareto optimal points: 104
+Elapsed time: 143.667 minutes
+Estimated remaining time: 95.7778 minutes
+-----------------------------
+Eval: 302
+Last eval x: 1.36854e-05 2.62656e-06    6.68e-06 2.02445e-06     1.6e-05     2.2e-05     158.591        1.62     9.3e-06    1.11e-05
+Pred-S-Eval:
+-42.1578 -2.29881  -88.294
+ 9.41086   6.4666   6.0605
+  -43.07  -0.5048   -88.25
+New Pareto: false
+Number of Pareto optimal points: 104
+Elapsed time: 145.25 minutes
+Estimated remaining time: 96.0291 minutes
+-----------------------------
+Eval: 303
+Last eval x: 4.65685e-06 3.15943e-06 2.03811e-06 4.84278e-06     1.6e-05     5.5e-06        39.7         6.5 5.29923e-06    4.43e-05
+Pred-S-Eval:
+-66.9314 -17.1347 -72.9165
+ 9.07063  5.99488  5.31621
+  -85.19   -23.64   -66.38
+New Pareto: false
+Number of Pareto optimal points: 104
+Elapsed time: 146.917 minutes
+Estimated remaining time: 96.3228 minutes
+-----------------------------
+Eval: 304
+Last eval x: 1.12412e-05 3.18229e-06 5.31525e-06 3.58586e-06     1.6e-05     2.2e-05     156.561     4.67301     9.3e-06  1.1215e-05
+Pred-S-Eval:
+-54.9544  -4.8834 -82.6451
+    9.87  6.92317  6.67934
+  -46.61   -1.245   -85.83
+New Pareto: false
+Number of Pareto optimal points: 104
+Elapsed time: 148.55 minutes
+Estimated remaining time: 96.582 minutes
+-----------------------------
+Eval: 305
+Last eval x:    3.45e-06 3.86976e-06    6.68e-06    1.26e-06 4.73933e-06     5.5e-06     81.5251     5.70185     9.3e-06 2.43667e-05
+Pred-S-Eval:
+-34.6261 -2.27486 -89.7182
+ 9.42979  6.34726  5.73935
+  -29.98  -0.3093   -91.31
+New Pareto: false
+Number of Pareto optimal points: 104
+Elapsed time: 150.233 minutes
+Estimated remaining time: 96.861 minutes
+-----------------------------
+Eval: 306
+Last eval x:  5.5012e-06   3.411e-06 5.48771e-06 1.91974e-06       4e-06     5.5e-06         159     2.41322 4.06666e-06    1.11e-05
+Pred-S-Eval:
+-40.3305 -1.32076 -89.8989
+ 8.77446  6.14304  5.49505
+  -39.31  -0.7269   -89.31
+New Pareto: false
+Number of Pareto optimal points: 104
+Elapsed time: 151.867 minutes
+Estimated remaining time: 97.0951 minutes
+-----------------------------
+Eval: 307
+Last eval x: 8.59954e-06 4.09953e-06    6.68e-06 3.43142e-06       4e-06     2.2e-05     129.631        1.62     9.3e-06    1.11e-05
+Pred-S-Eval:
+-46.3193 -3.57942 -86.4422
+ 9.90284  6.72611  6.44084
+  -50.26   -1.626   -82.49
+New Pareto: false
+Number of Pareto optimal points: 104
+Elapsed time: 153.5 minutes
+Estimated remaining time: 97.317 minutes
+-----------------------------
+Eval: 308
+Last eval x:    3.45e-06  3.2152e-06 6.30485e-06    1.26e-06     1.6e-05     5.5e-06     158.038         6.5 8.41925e-06 1.78013e-05
+Pred-S-Eval:
+-28.7358 -2.02564 -89.8935
+ 9.23182  6.37429   5.7156
+  -24.53  -0.1922   -93.13
+New Pareto: true
+Number of Pareto optimal points: 105
+Elapsed time: 155.2 minutes
+Estimated remaining time: 97.5687 minutes
+-----------------------------
+Eval: 309
+Last eval x:  1.1716e-05 4.22493e-06 3.07874e-06 1.93557e-06 1.59818e-05     5.5e-06        39.7         6.5     9.3e-06 2.00161e-05
+Pred-S-Eval:
+-35.8864 -1.56829 -90.0971
+ 8.79719  6.17818   5.4226
+  -37.96  -0.6507   -89.92
+New Pareto: false
+Number of Pareto optimal points: 105
+Elapsed time: 157.033 minutes
+Estimated remaining time: 97.8909 minutes
+-----------------------------
+Eval: 310
+Last eval x:  4.4332e-06     4.3e-06    1.67e-06 4.42555e-06 1.22023e-05 9.83903e-06         159     4.87114 2.56449e-06 1.89963e-05
+Pred-S-Eval:
+-64.0635 -22.1755 -73.7116
+ 7.93416   4.6651  3.73703
+  -49.05   -7.865   -85.29
+New Pareto: true
+Number of Pareto optimal points: 106
+Elapsed time: 158.85 minutes
+Estimated remaining time: 98.1888 minutes
+-----------------------------
+Eval: 311
+Last eval x:    3.45e-06 3.99425e-06    1.67e-06 4.23123e-06       4e-06 1.05053e-05        39.7        1.62    2.33e-06 3.27097e-05
+Pred-S-Eval:
+-82.7679 -39.6526 -56.2768
+ 8.02018  2.89329  2.58489
+   -86.8   -37.47   -60.77
+New Pareto: false
+Number of Pareto optimal points: 106
+Elapsed time: 160.533 minutes
+Estimated remaining time: 98.3914 minutes
+-----------------------------
+Eval: 312
+Last eval x:    3.45e-06 3.74297e-06 2.30531e-06 4.17201e-06 1.45332e-05 1.15137e-05     158.379     2.31936 2.34082e-06    4.43e-05
+Pred-S-Eval:
+-81.5489 -46.1692 -57.9798
+ 7.57668  2.08337  1.71189
+  -75.52   -34.12    -65.2
+New Pareto: false
+Number of Pareto optimal points: 106
+Elapsed time: 162.167 minutes
+Estimated remaining time: 98.5514 minutes
+-----------------------------
+Eval: 313
+Last eval x:    3.45e-06     4.3e-06    1.67e-06    1.26e-06 4.07795e-06     5.5e-06         159        1.62 2.35288e-06    1.11e-05
+Pred-S-Eval:
+-37.5775 -4.18812 -86.5186
+  10.005  6.82465  6.36275
+   -30.2  -0.6963    -91.5
+New Pareto: true
+Number of Pareto optimal points: 107
+Elapsed time: 163.933 minutes
+Estimated remaining time: 98.7803 minutes
+-----------------------------
+Eval: 314
+Last eval x: 5.07417e-06     4.3e-06 6.57302e-06 3.17118e-06 1.41863e-05     2.2e-05        39.7     5.17023 2.39818e-06 2.08314e-05
+Pred-S-Eval:
+ -52.524 -7.99342 -87.1234
+ 8.28287  6.44268  4.86986
+  -57.48    -6.84   -76.67
+New Pareto: false
+Number of Pareto optimal points: 107
+Elapsed time: 165.733 minutes
+Estimated remaining time: 99.0164 minutes
+-----------------------------
+Eval: 315
+Last eval x: 3.61811e-06 3.09745e-06    1.67e-06 1.98468e-06 4.07093e-06     5.5e-06     149.308        1.62  2.3464e-06 2.14412e-05
+Pred-S-Eval:
+-46.3301  -3.6153 -88.3972
+ 8.93556   6.5279  5.70568
+  -43.08   -3.071   -89.03
+New Pareto: true
+Number of Pareto optimal points: 108
+Elapsed time: 167.6 minutes
+Estimated remaining time: 99.279 minutes
+-----------------------------
+Eval: 316
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 2.51751e-06 4.10357e-06     5.5e-06     155.664     2.91746   2.345e-06 2.60722e-05
+Pred-S-Eval:
+-54.6258 -17.0209 -82.0959
+ 8.35013  5.05507  4.95394
+  -45.51     -5.2   -88.08
+New Pareto: true
+Number of Pareto optimal points: 109
+Elapsed time: 169.433 minutes
+Estimated remaining time: 99.5085 minutes
+-----------------------------
+Eval: 317
+Last eval x:    3.45e-06 3.72481e-06 2.40014e-06  2.5374e-06     1.6e-05  2.1623e-05     156.693         6.5 6.78516e-06    4.43e-05
+Pred-S-Eval:
+ -36.8352 -0.711078  -94.6688
+  8.07615   5.41447    4.7567
+   -42.47    -2.707    -88.81
+New Pareto: false
+Number of Pareto optimal points: 109
+Elapsed time: 171.267 minutes
+Estimated remaining time: 99.7249 minutes
+-----------------------------
+Eval: 318
+Last eval x:    3.45e-06  4.2372e-06    1.67e-06 4.28972e-06 1.34834e-05 9.93867e-06     77.4977     4.03494 2.35583e-06 3.44548e-05
+Pred-S-Eval:
+-76.7269 -43.7058 -60.4084
+ 7.67143   2.9081  2.58755
+  -69.22    -34.1   -68.63
+New Pareto: true
+Number of Pareto optimal points: 110
+Elapsed time: 173.117 minutes
+Estimated remaining time: 99.938 minutes
+-----------------------------
+Eval: 319
+Last eval x: 5.44574e-06 2.09285e-06  4.6086e-06    1.26e-06     1.6e-05 5.68989e-06     100.483         6.5 7.62723e-06 2.68198e-05
+Pred-S-Eval:
+ -40.027 -2.08635 -89.8636
+ 8.78307   6.5664  5.59157
+  -38.37  -0.5093   -90.01
+New Pareto: false
+Number of Pareto optimal points: 110
+Elapsed time: 175 minutes
+Estimated remaining time: 100.157 minutes
+-----------------------------
+Eval: 320
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.89296e-06 9.76712e-06     5.5e-06     82.6023        1.62 2.39272e-06    4.43e-05
+Pred-S-Eval:
+-80.7376 -47.7307 -62.4581
+ 7.52015   1.1075 0.895157
+  -78.78   -44.72    -63.2
+New Pareto: true
+Number of Pareto optimal points: 111
+Elapsed time: 176.883 minutes
+Estimated remaining time: 100.363 minutes
+-----------------------------
+Eval: 321
+Last eval x:    3.45e-06 3.32911e-06    6.68e-06 3.95294e-06     1.6e-05     5.5e-06         159         6.5    2.33e-06 1.80546e-05
+Pred-S-Eval:
+-55.5499 -9.50077  -88.344
+   8.261  6.07749  4.37221
+  -54.86   -6.687   -77.06
+New Pareto: false
+Number of Pareto optimal points: 111
+Elapsed time: 178.817 minutes
+Estimated remaining time: 100.584 minutes
+-----------------------------
+Eval: 322
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.61017e-06     1.6e-05     5.5e-06         159         6.5    2.33e-06 4.40949e-05
+Pred-S-Eval:
+-75.1267 -43.0059 -64.7679
+  7.8269  2.05742  2.01143
+  -84.66   -44.04   -66.12
+New Pareto: true
+Number of Pareto optimal points: 109
+Elapsed time: 180.6 minutes
+Estimated remaining time: 100.708 minutes
+-----------------------------
+Eval: 323
+Last eval x: 5.88724e-06     4.3e-06 2.10908e-06 4.66051e-06     1.6e-05 2.18163e-05         159         6.5 7.34097e-06 2.97278e-05
+Pred-S-Eval:
+-53.9953 -7.13371 -81.8783
+ 9.30487  6.91218  6.21448
+   -51.4   -6.257   -83.72
+New Pareto: false
+Number of Pareto optimal points: 109
+Elapsed time: 182.633 minutes
+Estimated remaining time: 100.959 minutes
+-----------------------------
+Eval: 324
+Last eval x:    1.38e-05    1.08e-06 4.73913e-06    1.26e-06     1.6e-05 2.12833e-05         159        1.62 9.27713e-06 2.56639e-05
+Pred-S-Eval:
+-60.6209 -4.72834 -82.3585
+ 10.9273  6.98122   7.0451
+  -87.68    -3.25   -77.82
+New Pareto: false
+Number of Pareto optimal points: 109
+Elapsed time: 184.367 minutes
+Estimated remaining time: 101.031 minutes
+-----------------------------
+Eval: 325
+Last eval x:    3.45e-06 1.58596e-06 3.66167e-06 4.17443e-06     1.6e-05     5.5e-06         159     2.86128 2.52097e-06    4.43e-05
+Pred-S-Eval:
+-61.3699 -8.80564 -77.9892
+ 9.38705  6.64687  6.19561
+  -63.58    -9.88   -73.42
+New Pareto: false
+Number of Pareto optimal points: 109
+Elapsed time: 186.2 minutes
+Estimated remaining time: 101.146 minutes
+-----------------------------
+Eval: 326
+Last eval x: 7.19979e-06 4.06272e-06 3.08093e-06    1.26e-06     1.6e-05     5.5e-06     156.598     1.97614 9.28828e-06    4.43e-05
+Pred-S-Eval:
+-34.5249 -2.88232 -89.5327
+ 9.41748  6.59339  5.81593
+   -36.7  -0.6722   -90.32
+New Pareto: true
+Number of Pareto optimal points: 109
+Elapsed time: 188.133 minutes
+Estimated remaining time: 101.303 minutes
+-----------------------------
+Eval: 327
+Last eval x:    3.45e-06     4.3e-06 3.24107e-06    1.26e-06 1.59641e-05     2.2e-05         159        1.62     9.3e-06 1.54853e-05
+Pred-S-Eval:
+-34.2364  -2.2952 -87.9112
+ 9.76367  5.95211  6.14897
+  -25.65  -0.2532   -92.79
+New Pareto: true
+Number of Pareto optimal points: 110
+Elapsed time: 189.8 minutes
+Estimated remaining time: 101.304 minutes
+-----------------------------
+Eval: 328
+Last eval x: 4.45998e-06 4.22571e-06    1.67e-06 2.19115e-06       4e-06     2.2e-05         159        1.62 2.58845e-06 1.70039e-05
+Pred-S-Eval:
+ -41.998  1.59524 -89.8592
+ 8.25635  5.38045  5.38788
+  -48.01   -4.128   -87.39
+New Pareto: true
+Number of Pareto optimal points: 111
+Elapsed time: 191.65 minutes
+Estimated remaining time: 101.393 minutes
+-----------------------------
+Eval: 329
+Last eval x: 6.45138e-06     4.3e-06    1.67e-06  4.3311e-06 1.15813e-05     5.5e-06         159         6.5 2.33101e-06 3.29672e-05
+Pred-S-Eval:
+-77.1054 -19.6487 -74.9825
+ 8.16991  5.13816  4.05872
+  -72.64   -21.24    -72.5
+New Pareto: true
+Number of Pareto optimal points: 111
+Elapsed time: 193.433 minutes
+Estimated remaining time: 101.435 minutes
+-----------------------------
+Eval: 330
+Last eval x: 3.89928e-06 2.83944e-06    6.68e-06    1.26e-06  7.3236e-06     2.2e-05         159        1.62 7.85518e-06 1.39021e-05
+Pred-S-Eval:
+-30.5215 -1.89575  -90.489
+ 8.82638  5.96082   5.5298
+  -31.36  -0.2517   -91.04
+New Pareto: false
+Number of Pareto optimal points: 111
+Elapsed time: 195.383 minutes
+Estimated remaining time: 101.552 minutes
+-----------------------------
+Eval: 331
+Last eval x:   1.102e-05 1.82889e-06 2.50967e-06 1.27108e-06     1.6e-05     2.2e-05     63.1729         6.5 9.21314e-06    1.11e-05
+Pred-S-Eval:
+-43.5546 -3.27015 -88.1257
+ 9.42279  6.70742  5.84831
+   -34.6  -0.2684   -90.71
+New Pareto: true
+Number of Pareto optimal points: 112
+Elapsed time: 197.35 minutes
+Estimated remaining time: 101.665 minutes
+-----------------------------
+Eval: 332
+Last eval x:    3.45e-06 3.34803e-06  5.9074e-06 4.49269e-06     1.6e-05     5.5e-06         159         6.5 2.56056e-06 3.05537e-05
+Pred-S-Eval:
+-74.4147 -19.8988 -76.9348
+ 7.81773  4.82692   3.8656
+   -87.9   -24.91   -67.09
+New Pareto: true
+Number of Pareto optimal points: 113
+Elapsed time: 199.45 minutes
+Estimated remaining time: 101.834 minutes
+-----------------------------
+Eval: 333
+Last eval x:    1.38e-05    1.08e-06    6.68e-06    1.26e-06       4e-06     5.5e-06     105.842         6.5 8.95231e-06 3.25614e-05
+Pred-S-Eval:
+-79.0496 -4.76654 -78.5782
+ 10.7278  6.63047  6.69351
+  -78.89   -2.437   -75.92
+New Pareto: false
+Number of Pareto optimal points: 113
+Elapsed time: 201.55 minutes
+Estimated remaining time: 101.989 minutes
+-----------------------------
+Eval: 334
+Last eval x: 8.95733e-06     4.3e-06 3.01984e-06    5.04e-06     1.6e-05     2.2e-05         159        1.62 4.65226e-06    1.11e-05
+Pred-S-Eval:
+ -57.732 -6.44264 -80.3935
+ 10.2167  6.85657  6.60068
+  -53.69   -5.223   -80.62
+New Pareto: false
+Number of Pareto optimal points: 113
+Elapsed time: 203.583 minutes
+Estimated remaining time: 102.097 minutes
+-----------------------------
+Eval: 335
+Last eval x: 1.14514e-05    1.08e-06 4.83407e-06 2.01299e-06 1.55966e-05 1.10487e-05        39.7        1.62     9.3e-06 3.57642e-05
+Pred-S-Eval:
+-84.2412 -5.29571 -76.6465
+ 9.92917  6.88083  6.46327
+  -68.88   -2.702   -74.01
+New Pareto: false
+Number of Pareto optimal points: 113
+Elapsed time: 205.617 minutes
+Estimated remaining time: 102.193 minutes
+-----------------------------
+Eval: 336
+Last eval x: 3.51204e-06 3.70975e-06    1.67e-06    1.26e-06 4.50383e-06     5.5e-06         159         6.5  6.7334e-06 1.78729e-05
+Pred-S-Eval:
+-28.6388 -2.58625 -90.4624
+  8.5538  6.47983  5.51174
+  -29.21  -0.4637   -91.76
+New Pareto: true
+Number of Pareto optimal points: 114
+Elapsed time: 207.583 minutes
+Estimated remaining time: 102.243 minutes
+-----------------------------
+Eval: 337
+Last eval x: 3.62701e-06 3.25349e-06    1.67e-06 2.46433e-06 6.86875e-06     5.5e-06        39.7         6.5 2.34568e-06 3.24818e-05
+Pred-S-Eval:
+-58.1142  -11.099 -83.9052
+ 8.21139  5.76406  5.20594
+  -51.88   -8.423   -86.24
+New Pareto: true
+Number of Pareto optimal points: 112
+Elapsed time: 209.6 minutes
+Estimated remaining time: 102.305 minutes
+-----------------------------
+Eval: 338
+Last eval x:    1.38e-05 3.50531e-06    1.67e-06    1.26e-06     1.6e-05     5.5e-06         159         6.5 7.44812e-06 3.63805e-05
+Pred-S-Eval:
+-50.9453 -3.16964 -88.0587
+ 9.09598  6.57235  5.39934
+   -40.8  -0.9774    -89.8
+New Pareto: true
+Number of Pareto optimal points: 113
+Elapsed time: 211.617 minutes
+Estimated remaining time: 102.355 minutes
+-----------------------------
+Eval: 339
+Last eval x:    1.38e-05 4.27245e-06 3.09897e-06 1.96632e-06       4e-06 7.87699e-06     117.145        1.62    2.33e-06    1.11e-05
+Pred-S-Eval:
+-48.4565 -4.23655 -85.4024
+  10.231  6.77844  6.43006
+  -57.34   -4.145   -83.78
+New Pareto: true
+Number of Pareto optimal points: 114
+Elapsed time: 213.717 minutes
+Estimated remaining time: 102.432 minutes
+-----------------------------
+Eval: 340
+Last eval x:  6.1133e-06 3.63542e-06 2.11544e-06 2.01335e-06     1.6e-05     5.5e-06        39.7        1.62     9.3e-06 3.33323e-05
+Pred-S-Eval:
+-36.8542 -2.06924 -89.5425
+ 8.43107  6.39659  5.80558
+  -36.09  -0.9917   -90.25
+New Pareto: true
+Number of Pareto optimal points: 115
+Elapsed time: 215.9 minutes
+Estimated remaining time: 102.537 minutes
+-----------------------------
+Eval: 341
+Last eval x: 7.70551e-06  1.3198e-06  5.6305e-06    1.26e-06     1.6e-05     5.5e-06      109.41     5.05218     9.3e-06    1.11e-05
+Pred-S-Eval:
+-41.8502 -4.33442  -86.298
+ 9.71398  6.79852  5.72681
+  -36.68  -0.2191   -90.24
+New Pareto: false
+Number of Pareto optimal points: 115
+Elapsed time: 218.15 minutes
+Estimated remaining time: 102.659 minutes
+-----------------------------
+Eval: 342
+Last eval x: 5.63317e-06     4.3e-06 5.20417e-06 1.50261e-06 7.34816e-06     2.2e-05     154.211        1.62     9.3e-06  2.1287e-05
+Pred-S-Eval:
+-33.1936 -1.29551 -91.2739
+ 8.52098  6.28737  5.14177
+  -36.41   -0.483   -90.08
+New Pareto: false
+Number of Pareto optimal points: 115
+Elapsed time: 220.317 minutes
+Estimated remaining time: 102.728 minutes
+-----------------------------
+Eval: 343
+Last eval x:    3.45e-06     4.3e-06 2.27267e-06 3.98229e-06       4e-06 1.58972e-05     65.1277        1.62    2.33e-06 3.99871e-05
+Pred-S-Eval:
+-83.7101 -44.0448 -59.5377
+ 7.59927  2.06886   1.9361
+  -71.84   -29.02   -64.73
+New Pareto: false
+Number of Pareto optimal points: 115
+Elapsed time: 222.633 minutes
+Estimated remaining time: 102.854 minutes
+-----------------------------
+Eval: 344
+Last eval x: 4.02257e-06 3.50048e-06 2.00942e-06 3.55538e-06       4e-06     5.5e-06         159        1.62    2.33e-06 3.26337e-05
+Pred-S-Eval:
+-77.4285 -31.4632 -67.6207
+ 7.90626  4.75975  4.17296
+  -87.18    -31.8   -64.95
+New Pareto: true
+Number of Pareto optimal points: 116
+Elapsed time: 224.95 minutes
+Estimated remaining time: 102.965 minutes
+-----------------------------
+Eval: 345
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.44021e-06     1.6e-05  5.6231e-06     40.9414         6.5 6.24299e-06 3.11519e-05
+Pred-S-Eval:
+ -37.733 -4.60444 -92.1477
+ 8.11946  6.29759  5.25139
+  -35.85   -2.123   -89.95
+New Pareto: true
+Number of Pareto optimal points: 117
+Elapsed time: 227.25 minutes
+Estimated remaining time: 103.055 minutes
+-----------------------------
+Eval: 346
+Last eval x: 3.51261e-06 2.71165e-06    1.67e-06 3.02015e-06     1.6e-05     5.5e-06     150.386         6.5     9.3e-06 3.33933e-05
+Pred-S-Eval:
+-44.9406 -4.80325 -87.2941
+ 9.09884  6.76988   6.2902
+   -35.4    -1.45    -90.2
+New Pareto: false
+Number of Pareto optimal points: 117
+Elapsed time: 229.533 minutes
+Estimated remaining time: 103.124 minutes
+-----------------------------
+Eval: 347
+Last eval x: 7.31388e-06     4.3e-06 4.38561e-06 2.24519e-06       4e-06     5.5e-06        39.7         6.5 2.45783e-06 2.72482e-05
+Pred-S-Eval:
+-61.4069 -7.53532 -80.7133
+ 8.62679  6.66083  5.58154
+  -78.86   -16.15   -69.79
+New Pareto: true
+Number of Pareto optimal points: 118
+Elapsed time: 231.583 minutes
+Estimated remaining time: 103.075 minutes
+-----------------------------
+Eval: 348
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 1.41497e-06 8.91972e-06     5.5e-06         159         6.5    2.33e-06  2.4085e-05
+Pred-S-Eval:
+-35.4578 -1.09595 -92.0066
+ 8.51437  6.04512  5.28774
+  -34.18   -1.395    -90.7
+New Pareto: true
+Number of Pareto optimal points: 119
+Elapsed time: 233.75 minutes
+Estimated remaining time: 103.066 minutes
+-----------------------------
+Eval: 349
+Last eval x:    3.45e-06 3.57573e-06    1.67e-06 4.02071e-06     1.6e-05 7.69383e-06         159     6.16483    2.33e-06 3.02833e-05
+Pred-S-Eval:
+-71.2145 -27.7609 -74.9176
+    7.73  4.55571  3.31764
+  -63.01   -23.08    -76.6
+New Pareto: false
+Number of Pareto optimal points: 119
+Elapsed time: 236 minutes
+Estimated remaining time: 103.08 minutes
+-----------------------------
+Eval: 350
+Last eval x:    1.38e-05     4.3e-06    1.67e-06 5.02494e-06       4e-06     5.5e-06         159     6.19125 5.35885e-06 2.72085e-05
+Pred-S-Eval:
+ -63.344 -6.16818 -76.8989
+ 11.6572  7.04183  7.13698
+  -70.54   -9.008   -70.85
+New Pareto: false
+Number of Pareto optimal points: 119
+Elapsed time: 238.2 minutes
+Estimated remaining time: 103.061 minutes
+-----------------------------
+Eval: 351
+Last eval x:    3.45e-06 2.40234e-06    6.68e-06 3.05027e-06     1.6e-05 6.22071e-06        39.7     3.73095 2.41696e-06 2.66006e-05
+Pred-S-Eval:
+-60.4301  -10.189 -73.5395
+  8.6089  6.85393  5.99138
+  -80.39   -18.02   -67.06
+New Pareto: false
+Number of Pareto optimal points: 119
+Elapsed time: 240.6 minutes
+Estimated remaining time: 103.114 minutes
+-----------------------------
+Eval: 352
+Last eval x: 3.88883e-06 2.84884e-06    1.67e-06    5.04e-06 4.30947e-06     2.2e-05     78.8711     5.68959    2.33e-06 3.95122e-05
+Pred-S-Eval:
+-71.2124  -18.231 -72.6704
+ 8.64442  5.19708  4.49521
+  -56.81   -10.45   -76.16
+New Pareto: false
+Number of Pareto optimal points: 119
+Elapsed time: 243.083 minutes
+Estimated remaining time: 103.189 minutes
+-----------------------------
+Eval: 353
+Last eval x: 1.18595e-05     4.3e-06    1.67e-06    1.26e-06       4e-06     5.5e-06         159         6.5 7.14343e-06 2.14492e-05
+Pred-S-Eval:
+-39.6372 -2.60251 -88.7468
+ 9.13652  6.58425  5.95648
+  -35.55  -0.5723   -90.52
+New Pareto: false
+Number of Pareto optimal points: 119
+Elapsed time: 245.55 minutes
+Estimated remaining time: 103.243 minutes
+-----------------------------
+Eval: 354
+Last eval x: 3.55855e-06 3.76538e-06 2.78568e-06 2.49258e-06 4.00241e-06     5.5e-06         159     5.83991    2.33e-06 3.49463e-05
+Pred-S-Eval:
+-63.4413  -20.661 -78.4791
+ 7.94975  4.11608  3.50393
+  -62.78   -16.45   -79.02
+New Pareto: true
+Number of Pareto optimal points: 120
+Elapsed time: 247.867 minutes
+Estimated remaining time: 103.219 minutes
+-----------------------------
+Eval: 355
+Last eval x: 3.48806e-06 1.49058e-06    1.67e-06    1.26e-06     1.6e-05 1.31944e-05         159     2.67141 7.16361e-06 3.82954e-05
+Pred-S-Eval:
+-43.9491 -3.55428 -86.7202
+ 9.18586  6.80751  6.38732
+  -36.41  -0.8902   -90.45
+New Pareto: true
+Number of Pareto optimal points: 121
+Elapsed time: 250.317 minutes
+Estimated remaining time: 103.238 minutes
+-----------------------------
+Eval: 356
+Last eval x: 3.55525e-06 1.66743e-06    1.67e-06    1.26e-06       4e-06     5.5e-06     84.8011        1.62   4.638e-06    4.43e-05
+Pred-S-Eval:
+-45.2525 -4.11637 -86.7501
+ 10.0715  6.67094  6.18632
+  -45.37   -2.371   -89.19
+New Pareto: true
+Number of Pareto optimal points: 122
+Elapsed time: 252.7 minutes
+Estimated remaining time: 103.215 minutes
+-----------------------------
+Eval: 357
+Last eval x:    3.45e-06 3.57271e-06 2.60604e-06 4.29976e-06 4.81155e-06 1.71661e-05     96.7337        1.62    2.33e-06 2.90867e-05
+Pred-S-Eval:
+-82.4668 -42.5164 -56.9327
+ 7.80517  3.84784  2.88211
+  -77.13   -27.98   -62.76
+New Pareto: false
+Number of Pareto optimal points: 122
+Elapsed time: 255.15 minutes
+Estimated remaining time: 103.207 minutes
+-----------------------------
+Eval: 358
+Last eval x:    3.45e-06 3.53881e-06 1.77848e-06 4.34894e-06 1.59263e-05  2.1557e-05     118.958     3.02741 2.36588e-06  3.9529e-05
+Pred-S-Eval:
+-80.8349 -41.3359 -61.8804
+ 7.59588  3.01046  2.14717
+   -86.6    -37.3   -62.95
+New Pareto: true
+Number of Pareto optimal points: 123
+Elapsed time: 257.567 minutes
+Estimated remaining time: 103.171 minutes
+-----------------------------
+Eval: 359
+Last eval x: 3.49144e-06 3.34196e-06    1.67e-06 4.70835e-06     1.6e-05     5.5e-06         159       5.407     9.3e-06    4.43e-05
+Pred-S-Eval:
+-60.9763 -7.04016 -77.9004
+ 10.4488  7.00572   7.1059
+  -42.27   -4.007   -88.01
+New Pareto: false
+Number of Pareto optimal points: 123
+Elapsed time: 260.183 minutes
+Estimated remaining time: 103.201 minutes
+-----------------------------
+Eval: 360
+Last eval x: 3.55209e-06 4.06031e-06    1.67e-06 3.19041e-06 9.18196e-06     5.5e-06     87.3958         6.5 2.46289e-06 3.08895e-05
+Pred-S-Eval:
+-64.0653 -24.2824 -83.7194
+ 7.70654  3.59039  2.81411
+  -49.23   -8.389   -86.47
+New Pareto: true
+Number of Pareto optimal points: 124
+Elapsed time: 262.7 minutes
+Estimated remaining time: 103.177 minutes
+-----------------------------
+Eval: 361
+Last eval x: 9.20941e-06 1.29672e-06 2.54958e-06 1.28432e-06     1.6e-05     5.5e-06        39.7     1.79239 6.87893e-06 1.52281e-05
+Pred-S-Eval:
+-52.0736 -3.92783 -87.6636
+ 9.01224  6.89398  5.91979
+  -42.55  -0.6357    -89.6
+New Pareto: true
+Number of Pareto optimal points: 125
+Elapsed time: 265.233 minutes
+Estimated remaining time: 103.146 minutes
+-----------------------------
+Eval: 362
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.72549e-06     1.6e-05     5.5e-06     111.966     3.01561 2.48307e-06    4.43e-05
+Pred-S-Eval:
+-77.2276 -47.2054 -62.9631
+ 7.67012  2.48174  1.75212
+  -83.87    -46.3   -61.66
+New Pareto: true
+Number of Pareto optimal points: 126
+Elapsed time: 267.833 minutes
+Estimated remaining time: 103.127 minutes
+-----------------------------
+Eval: 363
+Last eval x: 8.16405e-06 1.65407e-06 3.95616e-06    1.26e-06 1.48183e-05     2.2e-05     147.653     4.44906    2.33e-06    1.11e-05
+Pred-S-Eval:
+-50.3188 -5.21909  -82.876
+  10.532  7.04959  6.77997
+  -53.25   -1.751   -87.12
+New Pareto: true
+Number of Pareto optimal points: 127
+Elapsed time: 270.433 minutes
+Estimated remaining time: 103.093 minutes
+-----------------------------
+Eval: 364
+Last eval x:    3.45e-06   4.298e-06    1.67e-06 4.32992e-06  1.2269e-05 7.82184e-06     134.982     3.36065    2.33e-06 4.23528e-05
+Pred-S-Eval:
+-80.1986 -47.0712 -61.7616
+  7.4568  1.52473  1.13907
+  -83.33   -44.86   -62.72
+New Pareto: true
+Number of Pareto optimal points: 128
+Elapsed time: 273.167 minutes
+Estimated remaining time: 103.096 minutes
+-----------------------------
+Eval: 365
+Last eval x: 1.16269e-05  2.6894e-06    1.67e-06    1.26e-06 4.93022e-06     5.5e-06     43.0807        1.62     9.3e-06    1.11e-05
+Pred-S-Eval:
+-34.5602 -2.12446 -88.9643
+ 9.05416  6.44786  5.85026
+  -29.88  -0.2398   -91.61
+New Pareto: true
+Number of Pareto optimal points: 129
+Elapsed time: 275.533 minutes
+Estimated remaining time: 102.947 minutes
+-----------------------------
+Eval: 366
+Last eval x: 1.01339e-05 4.28951e-06 1.80576e-06    1.26e-06     1.6e-05 2.04325e-05     154.315        1.62 6.66175e-06 3.39077e-05
+Pred-S-Eval:
+-41.1318 -2.67956 -88.8591
+ 8.99469  6.71006  5.62879
+   -37.8  -0.8914   -90.16
+New Pareto: true
+Number of Pareto optimal points: 130
+Elapsed time: 278.367 minutes
+Estimated remaining time: 102.958 minutes
+-----------------------------
+Eval: 367
+Last eval x: 8.66444e-06 4.29746e-06    6.68e-06    1.26e-06     1.6e-05     5.5e-06        39.7         6.5     9.3e-06    4.43e-05
+Pred-S-Eval:
+-39.3807 -4.25894  -87.638
+ 9.04229  6.90759   6.1033
+  -39.65  -0.5552   -89.51
+New Pareto: false
+Number of Pareto optimal points: 130
+Elapsed time: 281.1 minutes
+Estimated remaining time: 102.916 minutes
+-----------------------------
+Eval: 368
+Last eval x:    3.45e-06     4.3e-06 1.69371e-06 4.09321e-06 1.20836e-05     2.2e-05         159        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-81.3293 -41.7486 -60.9424
+ 7.46044  1.85384  1.38085
+  -86.23   -44.64   -60.26
+New Pareto: true
+Number of Pareto optimal points: 130
+Elapsed time: 283.55 minutes
+Estimated remaining time: 102.758 minutes
+-----------------------------
+Eval: 369
+Last eval x: 3.80997e-06 1.08591e-06 1.74954e-06    1.26e-06     1.6e-05  1.5905e-05     128.471        1.62    2.33e-06 2.00912e-05
+Pred-S-Eval:
+-47.7481 -4.06532 -86.3408
+  9.7668  6.90098  6.15885
+  -50.94   -3.088   -88.12
+New Pareto: true
+Number of Pareto optimal points: 130
+Elapsed time: 286.133 minutes
+Estimated remaining time: 102.635 minutes
+-----------------------------
+Eval: 370
+Last eval x: 9.16676e-06 4.25465e-06 6.02019e-06  1.4334e-06     1.6e-05     5.5e-06        39.7     4.99256 3.08446e-06 2.71187e-05
+Pred-S-Eval:
+-54.2594 -7.18519 -78.3299
+ 9.20684  6.83398  6.23837
+   -49.9   -1.815   -86.89
+New Pareto: false
+Number of Pareto optimal points: 130
+Elapsed time: 288.983 minutes
+Estimated remaining time: 102.593 minutes
+-----------------------------
+Eval: 371
+Last eval x: 9.62624e-06 3.85655e-06    1.67e-06    1.26e-06     1.6e-05     5.5e-06        39.7        1.62 3.21456e-06  1.4907e-05
+Pred-S-Eval:
+-36.8367 -1.45879 -91.9627
+ 8.65574  6.25808  5.24729
+  -34.67   -0.694   -90.66
+New Pareto: true
+Number of Pareto optimal points: 131
+Elapsed time: 291.583 minutes
+Estimated remaining time: 102.448 minutes
+-----------------------------
+Eval: 372
+Last eval x:    3.45e-06 2.28373e-06    6.68e-06    1.26e-06 1.15437e-05 2.01807e-05     93.9067     4.03349 2.63893e-06 1.55676e-05
+Pred-S-Eval:
+-40.5778 -2.54577 -90.2966
+ 8.80192   6.6006  5.27235
+  -37.64  -0.6575   -89.66
+New Pareto: false
+Number of Pareto optimal points: 131
+Elapsed time: 293.983 minutes
+Estimated remaining time: 102.221 minutes
+-----------------------------
+Eval: 373
+Last eval x:    3.45e-06 1.36313e-06 1.80483e-06 2.61279e-06     1.6e-05 1.95225e-05         159         6.5 3.42101e-06    4.43e-05
+Pred-S-Eval:
+-52.7378 -8.05285 -79.6657
+ 10.1459  6.71509  6.32266
+  -70.88   -12.03   -77.42
+New Pareto: true
+Number of Pareto optimal points: 132
+Elapsed time: 296.8 minutes
+Estimated remaining time: 102.125 minutes
+-----------------------------
+Eval: 374
+Last eval x: 1.27829e-05 4.28138e-06    6.68e-06    1.26e-06       4e-06     5.5e-06         159        1.62 8.71544e-06    4.43e-05
+Pred-S-Eval:
+-50.4319 -4.00205 -85.2531
+ 9.88825  6.85502  6.51444
+  -48.31   -1.011   -87.61
+New Pareto: false
+Number of Pareto optimal points: 132
+Elapsed time: 299.567 minutes
+Estimated remaining time: 101.997 minutes
+-----------------------------
+Eval: 375
+Last eval x: 5.75921e-06 4.26327e-06    1.67e-06    5.04e-06       4e-06     2.2e-05         159         6.5 2.85507e-06    4.43e-05
+Pred-S-Eval:
+-65.1727 -16.7149 -71.2827
+ 9.04175   5.9993  5.08027
+   -58.1   -10.53   -74.13
+New Pareto: false
+Number of Pareto optimal points: 132
+Elapsed time: 302.417 minutes
+Estimated remaining time: 101.884 minutes
+-----------------------------
+Eval: 376
+Last eval x:  3.4789e-06     4.3e-06    1.67e-06 4.43128e-06       4e-06     5.5e-06     158.994         6.5 4.39601e-06    4.43e-05
+Pred-S-Eval:
+-70.2848 -16.4371 -74.0318
+ 8.47562  5.38218  4.43889
+  -74.32   -30.61   -66.63
+New Pareto: false
+Number of Pareto optimal points: 132
+Elapsed time: 305.317 minutes
+Estimated remaining time: 101.772 minutes
+-----------------------------
+Eval: 377
+Last eval x: 6.55996e-06 4.13141e-06    1.67e-06 3.31284e-06     1.6e-05 2.04348e-05         159     5.93128 8.49046e-06    1.11e-05
+Pred-S-Eval:
+-30.8392 -2.39929 -90.9765
+ 8.40434  6.62217  5.31019
+  -32.88  -0.7541   -90.61
+New Pareto: false
+Number of Pareto optimal points: 132
+Elapsed time: 308.083 minutes
+Estimated remaining time: 101.602 minutes
+-----------------------------
+Eval: 378
+Last eval x:  3.9825e-06 4.24853e-06 3.68226e-06 3.72839e-06 6.80679e-06 1.60376e-05         159        1.62    2.33e-06 4.13331e-05
+Pred-S-Eval:
+-83.1055 -36.2731 -59.4102
+ 7.37033  3.13703  1.85326
+  -74.17    -26.1   -64.24
+New Pareto: false
+Number of Pareto optimal points: 132
+Elapsed time: 310.85 minutes
+Estimated remaining time: 101.418 minutes
+-----------------------------
+Eval: 379
+Last eval x: 1.26329e-05 2.61743e-06    1.67e-06    1.26e-06       4e-06     2.2e-05     56.7589         6.5 6.74047e-06    1.11e-05
+Pred-S-Eval:
+-41.9666 -2.51194 -88.7719
+ 9.05523  6.69102  5.54958
+  -38.84   -0.481   -90.05
+New Pareto: true
+Number of Pareto optimal points: 133
+Elapsed time: 313.683 minutes
+Estimated remaining time: 101.242 minutes
+-----------------------------
+Eval: 380
+Last eval x: 8.30893e-06 3.44083e-06 1.87249e-06    1.26e-06       4e-06 1.56775e-05     44.1067     2.75214    2.33e-06 3.80785e-05
+Pred-S-Eval:
+-63.9166 -7.62721 -81.3325
+ 9.29463  6.84391  5.78186
+  -80.53   -15.22   -77.16
+New Pareto: true
+Number of Pareto optimal points: 133
+Elapsed time: 316.367 minutes
+Estimated remaining time: 101.004 minutes
+-----------------------------
+Eval: 381
+Last eval x:    3.45e-06 3.58289e-06 5.24764e-06 1.38107e-06     1.6e-05     2.2e-05         159         6.5 6.60066e-06    1.11e-05
+Pred-S-Eval:
+-28.7584 -1.30666 -89.9184
+ 8.79147  6.12284  5.27869
+  -25.81  -0.2181   -92.66
+New Pareto: true
+Number of Pareto optimal points: 134
+Elapsed time: 319.083 minutes
+Estimated remaining time: 100.763 minutes
+-----------------------------
+Eval: 382
+Last eval x: 7.93528e-06     4.3e-06    1.67e-06  1.7467e-06 4.04316e-06 1.72159e-05     54.2973         6.5  3.9993e-06    4.43e-05
+Pred-S-Eval:
+-67.7116 -8.89093 -79.9573
+ 8.95009  6.58753    5.367
+  -64.22   -10.53   -81.43
+New Pareto: true
+Number of Pareto optimal points: 135
+Elapsed time: 322.083 minutes
+Estimated remaining time: 100.598 minutes
+-----------------------------
+Eval: 383
+Last eval x: 3.45911e-06 4.07242e-06    1.67e-06 4.17543e-06     1.6e-05 1.88013e-05     112.818        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-81.2699 -47.0071 -59.0542
+ 7.33301  1.30238 0.902613
+  -85.72   -44.09   -61.03
+New Pareto: true
+Number of Pareto optimal points: 136
+Elapsed time: 324.9 minutes
+Estimated remaining time: 100.362 minutes
+-----------------------------
+Eval: 384
+Last eval x: 7.71352e-06     4.3e-06    1.67e-06    1.26e-06  4.1446e-06     5.5e-06         159        1.62     9.3e-06    1.11e-05
+Pred-S-Eval:
+-34.3678 -3.75138  -87.337
+ 9.25001  6.91213  6.00954
+  -27.95  -0.2563   -92.08
+New Pareto: true
+Number of Pareto optimal points: 137
+Elapsed time: 327.8 minutes
+Estimated remaining time: 100.137 minutes
+-----------------------------
+Eval: 385
+Last eval x:  3.5028e-06     4.3e-06    1.67e-06 2.35912e-06 1.27079e-05   1.443e-05     39.9863     6.40767 2.57434e-06 3.23396e-05
+Pred-S-Eval:
+-47.1923 -2.48088 -94.7621
+ 7.67057  4.19415  3.78112
+  -43.26   -4.284   -88.74
+New Pareto: true
+Number of Pareto optimal points: 138
+Elapsed time: 330.867 minutes
+Estimated remaining time: 99.9493 minutes
+-----------------------------
+Eval: 386
+Last eval x:    1.38e-05     4.3e-06    1.67e-06 1.47319e-06       4e-06     2.2e-05     136.996        1.62  8.1904e-06 1.12864e-05
+Pred-S-Eval:
+ -36.116  -1.9611 -89.4011
+ 9.25773  6.26646  5.84826
+  -39.47  -0.5728   -89.76
+New Pareto: false
+Number of Pareto optimal points: 138
+Elapsed time: 334.233 minutes
+Estimated remaining time: 99.8359 minutes
+-----------------------------
+Eval: 387
+Last eval x: 7.62051e-06     4.3e-06    1.67e-06    1.26e-06 1.13329e-05     2.2e-05     87.4273        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-61.0314 -9.43314 -82.3553
+ 9.18963  6.22783  5.79865
+  -54.97   -6.898   -86.36
+New Pareto: true
+Number of Pareto optimal points: 139
+Elapsed time: 337.15 minutes
+Estimated remaining time: 99.5728 minutes
+-----------------------------
+Eval: 388
+Last eval x:    3.45e-06     4.3e-06    1.67e-06  4.7145e-06 1.44024e-05     2.2e-05     144.819         6.5    2.33e-06    4.43e-05
+Pred-S-Eval:
+-77.4815 -45.6119 -66.0906
+ 7.54389  1.90975  2.48853
+   -86.5   -41.18   -64.52
+New Pareto: true
+Number of Pareto optimal points: 140
+Elapsed time: 340.417 minutes
+Estimated remaining time: 99.3981 minutes
+-----------------------------
+Eval: 389
+Last eval x: 1.03041e-05    1.08e-06 4.67327e-06    1.26e-06 9.03848e-06 1.12624e-05        39.7        1.62 9.27294e-06    1.11e-05
+Pred-S-Eval:
+-47.4402  -2.7454 -88.8005
+ 9.19965  6.47831  5.13336
+  -42.96  -0.3599   -89.33
+New Pareto: false
+Number of Pareto optimal points: 140
+Elapsed time: 343.567 minutes
+Estimated remaining time: 99.1739 minutes
+-----------------------------
+Eval: 390
+Last eval x: 3.48914e-06 3.43067e-06    1.67e-06 4.34508e-06       4e-06     5.5e-06     64.5283        1.62    2.33e-06 3.34895e-05
+Pred-S-Eval:
+-80.8696 -43.0455 -63.0521
+ 7.55659  3.12668  2.00171
+  -85.81   -35.12    -63.2
+New Pareto: false
+Number of Pareto optimal points: 140
+Elapsed time: 346.667 minutes
+Estimated remaining time: 98.9203 minutes
+-----------------------------
+Eval: 391
+Last eval x:    3.45e-06     4.3e-06 4.63256e-06 4.22431e-06     1.6e-05 8.98962e-06         159         6.5     9.3e-06 3.65005e-05
+Pred-S-Eval:
+-36.9817 -4.05447 -89.1737
+ 9.08488  6.17724  5.66956
+  -43.44   -2.732   -86.56
+New Pareto: false
+Number of Pareto optimal points: 140
+Elapsed time: 350.1 minutes
+Estimated remaining time: 98.7462 minutes
+-----------------------------
+Eval: 392
+Last eval x: 3.62158e-06     4.3e-06    1.67e-06 4.69153e-06 1.23994e-05     5.5e-06     125.894         6.5 2.55015e-06    4.43e-05
+Pred-S-Eval:
+-77.6763 -44.3237 -63.9181
+ 7.43323  2.13111  1.37452
+  -84.98   -41.26   -65.71
+New Pareto: true
+Number of Pareto optimal points: 141
+Elapsed time: 353.383 minutes
+Estimated remaining time: 98.5135 minutes
+-----------------------------
+Eval: 393
+Last eval x:  3.7059e-06 4.16726e-06    1.67e-06 3.93795e-06     1.6e-05     2.2e-05     66.3117     6.46576    2.33e-06    1.11e-05
+Pred-S-Eval:
+-39.3908 -8.71381 -89.8432
+ 8.21387  5.61846  4.82803
+  -39.51   -2.937   -88.91
+New Pareto: false
+Number of Pareto optimal points: 141
+Elapsed time: 356.35 minutes
+Estimated remaining time: 98.1781 minutes
+-----------------------------
+Eval: 394
+Last eval x:    3.45e-06     4.3e-06 3.13308e-06  4.2662e-06 1.35397e-05 5.98556e-06      113.05     3.04512 2.50907e-06 3.79695e-05
+Pred-S-Eval:
+-78.8587 -36.6863 -66.1036
+ 7.32189  2.39714  1.41197
+  -85.63   -40.07    -61.6
+New Pareto: false
+Number of Pareto optimal points: 141
+Elapsed time: 359.167 minutes
+Estimated remaining time: 97.7884 minutes
+-----------------------------
+Eval: 395
+Last eval x: 6.42132e-06  4.0687e-06    6.68e-06    1.26e-06       4e-06     5.5e-06         159         6.5   3.321e-06    4.43e-05
+Pred-S-Eval:
+-58.4924  -5.6285 -84.2972
+  8.8093  6.61016   6.2786
+  -50.33   -2.143   -86.48
+New Pareto: false
+Number of Pareto optimal points: 141
+Elapsed time: 362.65 minutes
+Estimated remaining time: 97.5657 minutes
+-----------------------------
+Eval: 396
+Last eval x:    3.45e-06 3.52791e-06    1.67e-06 4.87411e-06     1.6e-05     2.2e-05         159     4.59795    2.33e-06 3.27982e-05
+Pred-S-Eval:
+ -77.387 -31.4991 -75.3031
+ 7.50175   3.2178  2.62081
+  -85.52   -35.44   -63.14
+New Pareto: false
+Number of Pareto optimal points: 141
+Elapsed time: 365.867 minutes
+Estimated remaining time: 97.2557 minutes
+-----------------------------
+Eval: 397
+Last eval x:    1.38e-05 1.28207e-06 1.67105e-06 4.13132e-06       4e-06 1.35439e-05     152.749     6.47818    2.33e-06 3.70626e-05
+Pred-S-Eval:
+-36.7508 -4.92435 -82.5153
+ 11.3971  6.82637   6.9163
+  -41.03  -0.5909   -88.86
+New Pareto: false
+Number of Pareto optimal points: 141
+Elapsed time: 369.2 minutes
+Estimated remaining time: 96.9616 minutes
+-----------------------------
+Eval: 398
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.92995e-06 1.26692e-05     2.2e-05        39.7     4.06926    2.33e-06    4.43e-05
+Pred-S-Eval:
+-80.8478 -47.2591 -59.0832
+ 7.22974  1.81917  1.42797
+  -84.88    -42.4    -62.6
+New Pareto: true
+Number of Pareto optimal points: 142
+Elapsed time: 372.4 minutes
+Estimated remaining time: 96.6176 minutes
+-----------------------------
+Eval: 399
+Last eval x: 4.13105e-06     4.3e-06    6.68e-06 4.14039e-06     1.6e-05     5.5e-06         159     6.37177    2.33e-06    4.43e-05
+Pred-S-Eval:
+-80.4236 -22.4227 -64.6066
+ 7.91672  5.38731  4.45978
+  -77.22   -21.87   -67.04
+New Pareto: false
+Number of Pareto optimal points: 142
+Elapsed time: 375.667 minutes
+Estimated remaining time: 96.2764 minutes
+-----------------------------
+Eval: 400
+Last eval x: 3.71311e-06     4.3e-06    1.67e-06 3.20909e-06  1.2587e-05     2.2e-05        39.7     2.13948  2.3873e-06 3.44692e-05
+Pred-S-Eval:
+-67.1158  -29.368 -77.2942
+ 7.37003  3.08534  2.13175
+  -56.98   -16.44   -80.97
+New Pareto: true
+Number of Pareto optimal points: 143
+Elapsed time: 378.683 minutes
+Estimated remaining time: 95.8572 minutes
+-----------------------------
+Eval: 401
+Last eval x: 6.52884e-06     4.3e-06 3.83435e-06    5.04e-06     1.6e-05     5.5e-06     153.981     6.49871 2.82406e-06 2.81329e-05
+Pred-S-Eval:
+-70.3764 -18.5719 -76.2961
+ 8.23282  5.47605  4.29898
+  -72.74   -16.35   -66.62
+New Pareto: false
+Number of Pareto optimal points: 143
+Elapsed time: 382.1 minutes
+Estimated remaining time: 95.525 minutes
+-----------------------------
+Eval: 402
+Last eval x: 3.65889e-06 2.34003e-06    1.67e-06 4.41684e-06 1.55741e-05     5.5e-06         159     4.27569 5.90411e-06    4.43e-05
+Pred-S-Eval:
+-68.2581 -12.6536 -74.7722
+ 8.42314   6.1886  5.54351
+  -69.21   -19.56   -71.68
+New Pareto: false
+Number of Pareto optimal points: 143
+Elapsed time: 385.167 minutes
+Estimated remaining time: 95.091 minutes
+-----------------------------
+Eval: 403
+Last eval x: 3.78568e-06     4.3e-06    1.67e-06    1.26e-06       4e-06 5.68068e-06     116.127     2.03112     9.3e-06    1.11e-05
+Pred-S-Eval:
+-33.3432 -3.10716 -89.9915
+ 8.84689  6.61633  5.69462
+  -27.49  -0.2947   -92.21
+New Pareto: true
+Number of Pareto optimal points: 144
+Elapsed time: 388.467 minutes
+Estimated remaining time: 94.7008 minutes
+-----------------------------
+Eval: 404
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 3.65795e-06       4e-06     2.2e-05         159         6.5    2.33e-06 2.62242e-05
+Pred-S-Eval:
+-67.7013 -25.7408 -68.7343
+  7.9454  4.72127  4.27522
+  -84.75   -30.47   -64.39
+New Pareto: false
+Number of Pareto optimal points: 144
+Elapsed time: 391.967 minutes
+Estimated remaining time: 94.3443 minutes
+-----------------------------
+Eval: 405
+Last eval x: 4.03921e-06 2.41773e-06    1.67e-06 3.15375e-06 1.53197e-05     5.5e-06     105.684        1.62 2.48079e-06 3.87481e-05
+Pred-S-Eval:
+-68.7832 -19.2915 -75.1563
+ 7.79476   5.4006  3.73614
+  -83.13   -25.02   -71.08
+New Pareto: true
+Number of Pareto optimal points: 142
+Elapsed time: 395.267 minutes
+Estimated remaining time: 93.9248 minutes
+-----------------------------
+Eval: 406
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.87913e-06 1.31485e-05     2.2e-05     75.4445     2.57495    2.33e-06 3.60347e-05
+Pred-S-Eval:
+-77.5178 -41.6175 -61.7455
+ 7.47156  3.17023  2.28351
+  -85.32   -42.61   -58.77
+New Pareto: false
+Number of Pareto optimal points: 142
+Elapsed time: 398.683 minutes
+Estimated remaining time: 93.5183 minutes
+-----------------------------
+Eval: 407
+Last eval x:  3.6219e-06 4.17548e-06    1.67e-06 4.42042e-06 1.18688e-05 5.83941e-06     106.598        1.62    2.33e-06 4.11795e-05
+Pred-S-Eval:
+  -82.54 -47.3111 -61.0917
+ 7.17602  1.34014 0.884418
+  -84.74    -44.3   -61.56
+New Pareto: true
+Number of Pareto optimal points: 143
+Elapsed time: 402.133 minutes
+Estimated remaining time: 93.1048 minutes
+-----------------------------
+Eval: 408
+Last eval x:    1.38e-05 2.10868e-06    1.67e-06    1.26e-06 1.12009e-05  6.5036e-06     80.3092     2.28572 7.32833e-06    1.11e-05
+Pred-S-Eval:
+-41.4861 -2.85406 -90.5133
+ 8.27257  6.69745  5.47601
+   -32.7  -0.2938   -91.03
+New Pareto: true
+Number of Pareto optimal points: 144
+Elapsed time: 405.833 minutes
+Estimated remaining time: 92.7334 minutes
+-----------------------------
+Eval: 409
+Last eval x:    3.45e-06 2.81678e-06 6.63433e-06    5.04e-06 1.59658e-05 5.57046e-06        39.7        1.62 3.34126e-06 3.33421e-05
+Pred-S-Eval:
+-83.3621 -21.0623  -64.455
+ 7.84304   5.6769  5.02783
+  -79.37   -19.69   -65.47
+New Pareto: false
+Number of Pareto optimal points: 144
+Elapsed time: 409.167 minutes
+Estimated remaining time: 92.2631 minutes
+-----------------------------
+Eval: 410
+Last eval x: 8.28806e-06     4.3e-06 1.75662e-06    1.26e-06 8.14395e-06 1.08867e-05         159     3.47886    2.33e-06    1.11e-05
+Pred-S-Eval:
+-35.6737 -3.61816 -90.6504
+ 8.28403  6.63389  5.28422
+  -34.85  -0.7312   -90.63
+New Pareto: true
+Number of Pareto optimal points: 145
+Elapsed time: 412.867 minutes
+Estimated remaining time: 91.8603 minutes
+-----------------------------
+Eval: 411
+Last eval x: 5.75992e-06     4.3e-06    1.67e-06 2.67304e-06 4.27679e-06 6.38932e-06         159     4.52099 8.72773e-06    1.11e-05
+Pred-S-Eval:
+-37.5617 -2.07044 -90.1839
+ 8.42875  6.44134  5.73536
+  -34.39  -0.7285    -90.4
+New Pareto: false
+Number of Pareto optimal points: 145
+Elapsed time: 416.333 minutes
+Estimated remaining time: 91.3902 minutes
+-----------------------------
+Eval: 412
+Last eval x:    3.45e-06 3.15244e-06    6.68e-06 1.57969e-06       4e-06 5.56916e-06        39.7        1.62 3.83559e-06 4.31217e-05
+Pred-S-Eval:
+-48.8467 -4.19545 -86.9788
+  8.4608   6.5592  5.87235
+  -46.06   -2.118   -86.88
+New Pareto: false
+Number of Pareto optimal points: 145
+Elapsed time: 420.1 minutes
+Estimated remaining time: 90.9706 minutes
+-----------------------------
+Eval: 413
+Last eval x: 3.47204e-06 1.92994e-06  1.9801e-06    1.26e-06       4e-06     5.5e-06         159     3.39708     9.3e-06  3.0773e-05
+Pred-S-Eval:
+-40.3661 -3.97433 -85.9376
+ 9.85282  6.79609  6.50612
+  -35.53  -0.6667   -90.56
+New Pareto: true
+Number of Pareto optimal points: 146
+Elapsed time: 423.517 minutes
+Estimated remaining time: 90.4599 minutes
+-----------------------------
+Eval: 414
+Last eval x: 6.04967e-06 2.94998e-06    1.67e-06 2.04042e-06     1.6e-05     2.2e-05         159     5.02142 4.28601e-06    1.11e-05
+Pred-S-Eval:
+-36.2119 -2.84386  -91.013
+ 8.04194  6.53084   5.4523
+   -33.7  -0.7454   -90.69
+New Pareto: false
+Number of Pareto optimal points: 146
+Elapsed time: 427.233 minutes
+Estimated remaining time: 89.9983 minutes
+-----------------------------
+Eval: 415
+Last eval x: 3.50544e-06     4.3e-06    1.67e-06    1.26e-06       4e-06     5.5e-06         159     5.44302     9.3e-06 2.76636e-05
+Pred-S-Eval:
+-32.1397 -1.68989 -90.7246
+ 8.75374  6.16054  5.41989
+   -31.4  -0.5838   -91.25
+New Pareto: true
+Number of Pareto optimal points: 147
+Elapsed time: 430.55 minutes
+Estimated remaining time: 89.4379 minutes
+-----------------------------
+Eval: 416
+Last eval x:    3.45e-06     4.3e-06 5.19519e-06 1.94908e-06       4e-06 1.19199e-05     41.3578        1.62 7.01263e-06    1.11e-05
+Pred-S-Eval:
+-34.6782 -1.92295 -88.1588
+ 8.27386  6.42955  6.02572
+  -36.19  -0.5858   -89.85
+New Pareto: false
+Number of Pareto optimal points: 147
+Elapsed time: 434.433 minutes
+Estimated remaining time: 88.9803 minutes
+-----------------------------
+Eval: 417
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.41444e-06 1.44494e-05     5.5e-06     121.357     2.13194    2.33e-06    4.43e-05
+Pred-S-Eval:
+-81.8564 -47.3938 -60.6223
+ 7.09615 0.812186 0.597122
+  -83.92   -47.34   -61.61
+New Pareto: true
+Number of Pareto optimal points: 148
+Elapsed time: 438.65 minutes
+Estimated remaining time: 88.5736 minutes
+-----------------------------
+Eval: 418
+Last eval x: 4.20252e-06     4.3e-06 2.43995e-06 2.91894e-06     1.6e-05 5.68548e-06         159     5.97961    2.33e-06    4.43e-05
+Pred-S-Eval:
+-64.4961 -23.7658  -73.558
+ 7.45389  4.54106  2.83199
+  -80.49   -34.06   -69.55
+New Pareto: true
+Number of Pareto optimal points: 146
+Elapsed time: 442.317 minutes
+Estimated remaining time: 88.039 minutes
+-----------------------------
+Eval: 419
+Last eval x:    3.45e-06 3.17421e-06    1.67e-06 4.65843e-06  1.5753e-05     5.5e-06         159         6.5 2.37603e-06    4.43e-05
+Pred-S-Eval:
+-78.4907 -28.2523 -71.2817
+ 7.71097  4.15849  2.73122
+  -71.54   -28.13   -71.53
+New Pareto: true
+Number of Pareto optimal points: 147
+Elapsed time: 445.867 minutes
+Estimated remaining time: 87.4667 minutes
+-----------------------------
+Eval: 420
+Last eval x: 4.80154e-06 2.75666e-06    1.67e-06 2.08265e-06     1.6e-05 7.21754e-06     137.632      5.8571    2.33e-06    4.43e-05
+Pred-S-Eval:
+-61.5387 -13.6532 -80.2885
+ 8.20391  5.76165  4.35997
+  -83.93   -22.11   -76.51
+New Pareto: true
+Number of Pareto optimal points: 146
+Elapsed time: 449.45 minutes
+Estimated remaining time: 86.8865 minutes
+-----------------------------
+Eval: 421
+Last eval x: 4.40406e-06 3.56924e-06    1.67e-06 2.81144e-06 1.48276e-05     5.5e-06        39.7     6.46435 2.49765e-06    4.43e-05
+Pred-S-Eval:
+-69.1101 -26.0065 -78.2877
+ 7.45579  4.22465  2.95985
+  -78.03   -28.18   -72.74
+New Pareto: true
+Number of Pareto optimal points: 146
+Elapsed time: 453.133 minutes
+Estimated remaining time: 86.3111 minutes
+-----------------------------
+Eval: 422
+Last eval x:  1.0078e-05     4.3e-06    6.68e-06    1.26e-06 1.23365e-05 7.45187e-06        39.7         6.5    2.33e-06    1.11e-05
+Pred-S-Eval:
+-38.8966 -2.16478 -89.5475
+  8.6479  6.32193  5.70946
+  -41.28  -0.5964   -89.24
+New Pareto: false
+Number of Pareto optimal points: 146
+Elapsed time: 457.233 minutes
+Estimated remaining time: 85.7991 minutes
+-----------------------------
+Eval: 423
+Last eval x: 3.68969e-06  3.3735e-06    6.68e-06    1.26e-06     1.6e-05 8.32624e-06     131.447      1.9067 3.83267e-06    4.43e-05
+Pred-S-Eval:
+-41.8565 -0.73081 -89.1918
+ 8.35387  6.05234  5.64487
+     -40   -1.167   -88.96
+New Pareto: false
+Number of Pareto optimal points: 146
+Elapsed time: 461.217 minutes
+Estimated remaining time: 85.2486 minutes
+-----------------------------
+Eval: 424
+Last eval x:    3.45e-06     4.3e-06 3.07063e-06 2.43177e-06 1.15684e-05     2.2e-05     144.508        1.62 2.34123e-06 4.40531e-05
+Pred-S-Eval:
+-61.9252 -30.3389 -73.3074
+ 7.46985  3.30272  2.95221
+  -59.54   -15.55   -79.69
+New Pareto: false
+Number of Pareto optimal points: 146
+Elapsed time: 465.217 minutes
+Estimated remaining time: 84.6848 minutes
+-----------------------------
+Eval: 425
+Last eval x: 3.46181e-06 4.29966e-06    1.67e-06 2.26251e-06 4.00125e-06   6.518e-06        39.7     5.33268 4.75214e-06  1.7378e-05
+Pred-S-Eval:
+-37.8362 -1.95755 -90.3774
+ 7.99237  6.46107  5.36891
+  -36.62   -1.425   -90.06
+New Pareto: true
+Number of Pareto optimal points: 147
+Elapsed time: 468.883 minutes
+Estimated remaining time: 84.0451 minutes
+-----------------------------
+Eval: 426
+Last eval x:    3.45e-06     4.3e-06 1.69976e-06    1.26e-06 1.19915e-05 8.39128e-06         159     1.70407 3.74567e-06    4.43e-05
+Pred-S-Eval:
+-35.6716  1.41827  -93.712
+ 7.94556  5.49072  4.50986
+  -34.76   -1.455   -90.61
+New Pareto: true
+Number of Pareto optimal points: 148
+Elapsed time: 473.117 minutes
+Estimated remaining time: 83.4912 minutes
+-----------------------------
+Eval: 427
+Last eval x: 9.58599e-06  2.0292e-06 1.72745e-06   4.259e-06       4e-06 7.12889e-06     101.247     2.73947    2.33e-06    4.43e-05
+Pred-S-Eval:
+   -37.7 -4.66089 -86.4486
+ 10.0617  6.87371  6.35348
+  -50.66   -2.931   -85.17
+New Pareto: false
+Number of Pareto optimal points: 148
+Elapsed time: 477.35 minutes
+Estimated remaining time: 82.92 minutes
+-----------------------------
+Eval: 428
+Last eval x: 1.20644e-05     4.3e-06    6.68e-06    1.26e-06 1.59626e-05 6.24446e-06         159        1.62 7.80382e-06    4.43e-05
+Pred-S-Eval:
+-43.8785  -3.0941 -88.5837
+ 8.63999  6.82148  5.97083
+  -46.12  -0.9038   -88.19
+New Pareto: false
+Number of Pareto optimal points: 148
+Elapsed time: 481.6 minutes
+Estimated remaining time: 82.3344 minutes
+-----------------------------
+Eval: 429
+Last eval x:    3.45e-06 4.10068e-06 2.01455e-06 4.52448e-06       4e-06  5.5432e-06     96.1144        1.62    2.33e-06 3.18531e-05
+Pred-S-Eval:
+-82.2173 -39.0242 -59.3697
+ 7.51289  2.50251   1.9501
+  -87.35   -39.67   -59.99
+New Pareto: false
+Number of Pareto optimal points: 148
+Elapsed time: 485.65 minutes
+Estimated remaining time: 81.6981 minutes
+-----------------------------
+Eval: 430
+Last eval x: 4.24447e-06 1.81506e-06    1.67e-06    1.26e-06 1.29526e-05 5.59761e-06     117.802     6.40219 3.72259e-06    1.11e-05
+Pred-S-Eval:
+-36.9845  -2.1157 -90.2286
+ 8.41618  6.40985  5.25325
+  -29.73  -0.4109   -91.67
+New Pareto: true
+Number of Pareto optimal points: 148
+Elapsed time: 490.117 minutes
+Estimated remaining time: 81.1149 minutes
+-----------------------------
+Eval: 431
+Last eval x: 3.50117e-06     4.3e-06    1.67e-06 4.63037e-06 4.51869e-06 5.68542e-06         159         6.5 4.86211e-06 1.66135e-05
+Pred-S-Eval:
+-58.3828 -9.79453 -77.1827
+ 8.67273  6.73077  5.83841
+  -42.77   -3.583   -87.83
+New Pareto: false
+Number of Pareto optimal points: 148
+Elapsed time: 494.033 minutes
+Estimated remaining time: 80.424 minutes
+-----------------------------
+Eval: 432
+Last eval x: 5.54724e-06 4.20867e-06 6.54163e-06 1.51915e-06     1.6e-05 1.81153e-05     152.012     1.81714 7.12199e-06 2.22021e-05
+Pred-S-Eval:
+-31.0511 -2.32157 -90.6481
+ 8.22537  6.69507  5.44463
+  -34.04  -0.4356   -90.37
+New Pareto: false
+Number of Pareto optimal points: 148
+Elapsed time: 498.15 minutes
+Estimated remaining time: 79.7502 minutes
+-----------------------------
+Eval: 433
+Last eval x: 4.01882e-06     4.3e-06 6.65727e-06    1.26e-06 1.18777e-05     5.5e-06         159        1.62     9.3e-06  1.1195e-05
+Pred-S-Eval:
+ -30.416 -1.61739   -91.57
+ 8.31145  6.15806  5.35064
+  -20.73  -0.1182   -95.08
+New Pareto: true
+Number of Pareto optimal points: 149
+Elapsed time: 502.033 minutes
+Estimated remaining time: 79.0238 minutes
+-----------------------------
+Eval: 434
+Last eval x:    3.45e-06 3.95344e-06 2.15202e-06 4.37203e-06 5.95024e-06 6.98462e-06        39.7        1.62    2.33e-06 3.77339e-05
+Pred-S-Eval:
+-83.1748 -41.3951  -59.213
+ 7.15114  1.80565  1.26208
+  -82.24   -38.45   -62.06
+New Pareto: false
+Number of Pareto optimal points: 149
+Elapsed time: 506.167 minutes
+Estimated remaining time: 78.3214 minutes
+-----------------------------
+Eval: 435
+Last eval x: 3.76182e-06 4.27571e-06    1.67e-06 3.15267e-06 4.03978e-06     5.5e-06     98.1125     1.80514 4.96673e-06    4.43e-05
+Pred-S-Eval:
+-64.8964 -16.8488 -73.8734
+ 8.16798   6.1581  4.95556
+   -51.1   -8.372    -85.3
+New Pareto: false
+Number of Pareto optimal points: 149
+Elapsed time: 510.517 minutes
+Estimated remaining time: 77.6362 minutes
+-----------------------------
+Eval: 436
+Last eval x: 1.05511e-05  3.7897e-06    1.67e-06 1.69991e-06       4e-06 5.91677e-06        39.7        1.62 6.03523e-06    1.11e-05
+Pred-S-Eval:
+-37.4451 -2.19373 -90.3442
+ 7.94527  6.50951  5.35748
+  -34.09  -0.5338   -90.66
+New Pareto: false
+Number of Pareto optimal points: 149
+Elapsed time: 514.867 minutes
+Estimated remaining time: 76.9341 minutes
+-----------------------------
+Eval: 437
+Last eval x:    3.45e-06 4.18208e-06    1.67e-06 4.19202e-06       4e-06 6.02964e-06        39.7        1.62 2.91799e-06 3.58684e-05
+Pred-S-Eval:
+-80.6792  -43.446 -59.4946
+ 7.19933  2.65179  1.65951
+     -79   -37.37   -61.27
+New Pareto: false
+Number of Pareto optimal points: 149
+Elapsed time: 518.9 minutes
+Estimated remaining time: 76.1688 minutes
+-----------------------------
+Eval: 438
+Last eval x:    3.45e-06     4.3e-06    1.67e-06 4.38966e-06 1.45968e-05     5.5e-06     152.371        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-82.2108 -45.7578 -62.2596
+ 7.01099 0.609282 0.451633
+  -83.69   -47.83   -61.21
+New Pareto: true
+Number of Pareto optimal points: 150
+Elapsed time: 523.3 minutes
+Estimated remaining time: 75.4414 minutes
+-----------------------------
+Eval: 439
+Last eval x:    3.45e-06 3.08814e-06 1.68056e-06 3.94937e-06 6.26017e-06 5.89971e-06     136.809     2.60713    2.33e-06 2.03535e-05
+Pred-S-Eval:
+-70.7123 -22.3176 -72.9691
+ 7.61873  4.85329  3.86956
+   -55.5   -12.66   -81.63
+New Pareto: true
+Number of Pareto optimal points: 151
+Elapsed time: 527.767 minutes
+Estimated remaining time: 74.7067 minutes
+-----------------------------
+Eval: 440
+Last eval x: 6.35499e-06 3.22006e-06 6.67189e-06  3.0355e-06     1.6e-05 1.71991e-05     131.152        1.62 6.60895e-06 1.26051e-05
+Pred-S-Eval:
+-40.5464 -2.71869 -90.0285
+ 8.13332  6.80318  5.62994
+  -41.95  -0.9623   -87.56
+New Pareto: false
+Number of Pareto optimal points: 151
+Elapsed time: 532.15 minutes
+Estimated remaining time: 73.9434 minutes
+-----------------------------
+Eval: 441
+Last eval x:    3.45e-06 4.27943e-06    1.67e-06 3.79925e-06 9.93513e-06     5.5e-06         159        1.62 3.67244e-06    1.11e-05
+Pred-S-Eval:
+ -39.6918 -0.386373  -93.0773
+  7.90935   5.76423   4.82331
+   -33.28    -1.564    -90.41
+New Pareto: true
+Number of Pareto optimal points: 152
+Elapsed time: 536.367 minutes
+Estimated remaining time: 73.1409 minutes
+-----------------------------
+Eval: 442
+Last eval x:    3.45e-06 2.56206e-06 4.18369e-06    5.04e-06     1.6e-05     5.5e-06     94.6098      2.8828    2.33e-06 2.69644e-05
+Pred-S-Eval:
+-81.8951  -29.523 -62.4112
+ 7.55967  3.57732  2.78591
+  -71.82   -18.36    -65.6
+New Pareto: false
+Number of Pareto optimal points: 152
+Elapsed time: 540.6 minutes
+Estimated remaining time: 72.3252 minutes
+-----------------------------
+Eval: 443
+Last eval x:    3.45e-06 3.93284e-06 4.61743e-06 2.14651e-06 1.48151e-05 2.09671e-05     134.834         6.5    2.33e-06 4.37188e-05
+Pred-S-Eval:
+-56.6683 -20.4764 -86.5028
+ 7.36135  6.16143  3.02349
+  -55.38   -8.313   -82.22
+New Pareto: false
+Number of Pareto optimal points: 152
+Elapsed time: 545.133 minutes
+Estimated remaining time: 71.5333 minutes
+-----------------------------
+Eval: 444
+Last eval x:    3.45e-06     4.3e-06 4.06647e-06 3.90081e-06  5.6587e-06     5.5e-06      65.427      4.1515    2.33e-06 4.28762e-05
+Pred-S-Eval:
+-81.9831 -30.3172 -64.4644
+ 7.08663  4.60683  1.52024
+  -80.49   -32.57   -64.04
+New Pareto: false
+Number of Pareto optimal points: 152
+Elapsed time: 549.783 minutes
+Estimated remaining time: 70.7396 minutes
+-----------------------------
+Eval: 445
+Last eval x:    3.45e-06     4.3e-06 2.10773e-06    5.04e-06 1.57351e-05     5.5e-06         159     3.94582    2.33e-06 3.51639e-05
+Pred-S-Eval:
+-76.1204 -41.7934 -67.2345
+ 7.40492  3.38228  2.49633
+  -85.84   -43.59   -61.24
+New Pareto: true
+Number of Pareto optimal points: 153
+Elapsed time: 554.233 minutes
+Estimated remaining time: 69.9033 minutes
+-----------------------------
+Eval: 446
+Last eval x:    1.38e-05    1.08e-06    1.67e-06 4.35878e-06     1.6e-05     5.5e-06         159         6.5    2.33e-06 4.04082e-05
+Pred-S-Eval:
+-42.7959 -2.86013 -83.6604
+ 10.9425  6.27823   6.8952
+  -42.55  -0.6032   -88.62
+New Pareto: false
+Number of Pareto optimal points: 153
+Elapsed time: 558.65 minutes
+Estimated remaining time: 69.0466 minutes
+-----------------------------
+Eval: 447
+Last eval x:  3.5453e-06     4.3e-06 3.74062e-06 2.14509e-06 1.39919e-05 7.48132e-06     141.505        1.62 8.00029e-06    1.11e-05
+Pred-S-Eval:
+-29.8253 -1.37672 -92.0834
+ 8.00552  6.00092  4.85239
+  -26.89   -0.357   -92.25
+New Pareto: true
+Number of Pareto optimal points: 154
+Elapsed time: 562.967 minutes
+Estimated remaining time: 68.1619 minutes
+-----------------------------
+Eval: 448
+Last eval x:    3.45e-06   3.101e-06    6.68e-06    1.26e-06     1.6e-05 1.21827e-05        39.7      1.9232 7.93054e-06    1.11e-05
+Pred-S-Eval:
+ -26.4935 -0.942997  -91.2747
+  8.16071   4.84674   5.30877
+   -22.78   -0.1411    -93.93
+New Pareto: true
+Number of Pareto optimal points: 155
+Elapsed time: 567.667 minutes
+Estimated remaining time: 67.3072 minutes
+-----------------------------
+Eval: 449
+Last eval x: 1.28511e-05 1.45862e-06    1.67e-06 2.26797e-06     1.6e-05     5.5e-06        39.7     2.97254     9.3e-06    1.11e-05
+Pred-S-Eval:
+-51.5239 -3.05787 -86.2604
+ 9.92664  6.97468  6.37207
+  -38.96  -0.5444   -89.77
+New Pareto: false
+Number of Pareto optimal points: 155
+Elapsed time: 572.183 minutes
+Estimated remaining time: 66.4141 minutes
+-----------------------------
+Eval: 450
+Last eval x: 8.49316e-06 4.21952e-06    6.68e-06 1.40445e-06 7.64025e-06 5.92986e-06     48.5709     4.45177 7.75322e-06    4.43e-05
+Pred-S-Eval:
+-43.5361 -2.63925 -89.1284
+ 8.05113  6.00791  5.29462
+  -44.29  -0.9319    -88.4
+New Pareto: false
+Number of Pareto optimal points: 155
+Elapsed time: 576.967 minutes
+Estimated remaining time: 65.5352 minutes
+-----------------------------
+Eval: 451
+Last eval x: 5.45048e-06 3.60696e-06 4.70801e-06    1.26e-06     1.6e-05 1.97831e-05         159         6.5     9.3e-06    1.11e-05
+Pred-S-Eval:
+-27.3994 -2.66096 -91.4362
+  8.1529  6.88055  4.90868
+  -26.49   -0.159    -92.5
+New Pareto: true
+Number of Pareto optimal points: 156
+Elapsed time: 581.417 minutes
+Estimated remaining time: 64.6019 minutes
+-----------------------------
+Eval: 452
+Last eval x:    3.45e-06    1.08e-06    1.67e-06    1.26e-06       4e-06 1.60188e-05     129.068        1.62 8.26735e-06 4.23869e-05
+Pred-S-Eval:
+ -46.863 -2.80131 -86.6165
+ 9.69249  6.39976  6.10161
+  -46.17   -1.722   -89.06
+New Pareto: true
+Number of Pareto optimal points: 157
+Elapsed time: 586.383 minutes
+Estimated remaining time: 63.7091 minutes
+-----------------------------
+Eval: 453
+Last eval x: 3.97451e-06     4.3e-06  2.7217e-06 4.71976e-06     1.6e-05 1.02547e-05         159        1.62 2.34653e-06 3.53288e-05
+Pred-S-Eval:
+-79.7683 -40.4504 -61.1069
+ 7.12142  3.32067  1.63484
+  -81.64   -35.87    -61.5
+New Pareto: false
+Number of Pareto optimal points: 157
+Elapsed time: 591.35 minutes
+Estimated remaining time: 62.7982 minutes
+-----------------------------
+Eval: 454
+Last eval x: 4.03157e-06     4.3e-06    1.67e-06    1.26e-06 1.25936e-05     5.5e-06     150.551        1.62  7.3713e-06    1.11e-05
+Pred-S-Eval:
+-25.2511 -1.89414 -92.2765
+ 8.05342  6.13032  4.87134
+  -20.13  -0.2032   -95.54
+New Pareto: true
+Number of Pareto optimal points: 158
+Elapsed time: 596.583 minutes
+Estimated remaining time: 61.8972 minutes
+-----------------------------
+Eval: 455
+Last eval x:    3.45e-06 2.15994e-06    1.67e-06 1.30017e-06  1.0859e-05 8.19712e-06         159     2.41967 8.09526e-06    1.11e-05
+Pred-S-Eval:
+-26.9462 -2.81149 -90.3663
+ 8.69773  6.80676   5.4118
+  -23.65  -0.2239   -93.64
+New Pareto: true
+Number of Pareto optimal points: 159
+Elapsed time: 601.383 minutes
+Estimated remaining time: 60.9331 minutes
+-----------------------------
+Eval: 456
+Last eval x: 3.74172e-06 3.92303e-06 5.60541e-06 3.97295e-06       4e-06 1.85697e-05     111.133     4.42366    2.33e-06  3.9514e-05
+Pred-S-Eval:
+-82.1023 -23.4575 -72.6417
+ 7.28749  6.01568  2.81761
+   -70.8   -17.41   -64.92
+New Pareto: false
+Number of Pareto optimal points: 159
+Elapsed time: 605.95 minutes
+Estimated remaining time: 59.9291 minutes
+-----------------------------
+Eval: 457
+Last eval x:    3.45e-06     4.3e-06 3.92336e-06 3.39139e-06  1.2782e-05     5.5e-06        39.7         6.5    2.33e-06    4.43e-05
+Pred-S-Eval:
+-76.3757  -41.613 -65.1345
+ 7.10814  3.20246  2.19708
+  -83.33   -35.27    -65.1
+New Pareto: false
+Number of Pareto optimal points: 159
+Elapsed time: 610.467 minutes
+Estimated remaining time: 58.9047 minutes
+-----------------------------
+Eval: 458
+Last eval x:    3.45e-06     4.3e-06  2.4315e-06    1.26e-06 1.27564e-05     5.5e-06        39.7         6.5 7.16226e-06    1.11e-05
+Pred-S-Eval:
+-24.6489 -1.78267 -92.4235
+ 7.82222  6.33016  4.45986
+  -20.91  -0.1954   -95.05
+New Pareto: true
+Number of Pareto optimal points: 160
+Elapsed time: 615.533 minutes
+Estimated remaining time: 57.9167 minutes
+-----------------------------
+Eval: 459
+Last eval x: 5.37589e-06 2.88035e-06 1.93882e-06 2.02623e-06       4e-06 8.54302e-06     130.393        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-70.5406 -15.2265 -78.2278
+ 8.29239  6.01899  4.82532
+  -76.02   -18.84   -74.86
+New Pareto: false
+Number of Pareto optimal points: 160
+Elapsed time: 619.883 minutes
+Estimated remaining time: 56.8452 minutes
+-----------------------------
+Eval: 460
+Last eval x:    1.38e-05    1.08e-06    1.67e-06 3.42541e-06 9.06241e-06 6.20334e-06        39.7     4.40725    2.33e-06    4.43e-05
+Pred-S-Eval:
+-45.2514 -2.00496 -84.8069
+ 10.2029  5.75295   6.6132
+  -43.74  -0.6763   -88.62
+New Pareto: false
+Number of Pareto optimal points: 160
+Elapsed time: 624.917 minutes
+Estimated remaining time: 55.8204 minutes
+-----------------------------
+Eval: 461
+Last eval x:    3.45e-06     4.3e-06    1.67e-06    1.26e-06 7.57417e-06     2.2e-05        39.7         6.5 7.71473e-06 1.36498e-05
+Pred-S-Eval:
+-29.1347 -1.19146 -90.5847
+ 7.75911  5.58472  5.10326
+  -32.05  -0.4765    -91.1
+New Pareto: true
+Number of Pareto optimal points: 161
+Elapsed time: 629.8 minutes
+Estimated remaining time: 54.7652 minutes
+-----------------------------
+Eval: 462
+Last eval x: 7.98954e-06  1.8228e-06    1.67e-06    1.26e-06 4.71835e-06     5.5e-06     45.8574     1.95003 4.69162e-06  3.3317e-05
+Pred-S-Eval:
+-65.1827 -6.05924 -83.5738
+ 8.61557  7.12442  5.46851
+   -53.8   -3.195   -87.52
+New Pareto: true
+Number of Pareto optimal points: 161
+Elapsed time: 634.617 minutes
+Estimated remaining time: 53.6877 minutes
+-----------------------------
+Eval: 463
+Last eval x:    3.45e-06 1.09299e-06 4.94013e-06 1.64865e-06 1.14094e-05     2.2e-05     99.9293        1.62     9.3e-06 3.25767e-05
+Pred-S-Eval:
+     -51 -4.80873  -84.184
+ 9.55378  7.22669  6.30802
+  -46.55   -1.214   -87.91
+New Pareto: false
+Number of Pareto optimal points: 161
+Elapsed time: 639.683 minutes
+Estimated remaining time: 52.6146 minutes
+-----------------------------
+Eval: 464
+Last eval x:    3.45e-06 4.21089e-06 4.21792e-06 3.51185e-06 1.37405e-05     5.5e-06        39.7        1.62 4.49055e-06    4.43e-05
+Pred-S-Eval:
+-60.3414 -15.9496 -83.7793
+ 7.43064   6.8265   3.5885
+  -52.16    -7.59   -82.22
+New Pareto: false
+Number of Pareto optimal points: 161
+Elapsed time: 645.167 minutes
+Estimated remaining time: 51.5576 minutes
+-----------------------------
+Eval: 465
+Last eval x: 3.64326e-06     4.3e-06 3.89579e-06 4.09891e-06 1.54407e-05     5.5e-06        39.7         6.5    2.33e-06   1.134e-05
+Pred-S-Eval:
+-40.0698 -8.12228 -87.2819
+ 7.73223  6.94813  4.60768
+  -43.16   -3.035   -87.15
+New Pareto: false
+Number of Pareto optimal points: 161
+Elapsed time: 650.517 minutes
+Estimated remaining time: 50.4711 minutes
+-----------------------------
+Eval: 466
+Last eval x: 4.50892e-06 4.14326e-06 2.53595e-06 3.29048e-06 1.51132e-05     5.5e-06     113.069        1.62    2.33e-06 3.11865e-05
+Pred-S-Eval:
+-64.8114 -27.2636 -77.5441
+ 7.14357  4.66351  2.63516
+  -73.92   -29.09   -67.88
+New Pareto: false
+Number of Pareto optimal points: 161
+Elapsed time: 655.367 minutes
+Estimated remaining time: 49.3287 minutes
+-----------------------------
+Eval: 467
+Last eval x:    3.45e-06 1.99712e-06  4.3081e-06    1.26e-06 1.07093e-05     5.5e-06        39.7         6.5 6.55919e-06 1.40892e-05
+Pred-S-Eval:
+-28.0522 -2.05907 -92.0053
+  7.7169  6.76859  4.89026
+  -29.61  -0.2675   -91.61
+New Pareto: false
+Number of Pareto optimal points: 161
+Elapsed time: 661.05 minutes
+Estimated remaining time: 48.2311 minutes
+-----------------------------
+Eval: 468
+Last eval x:  3.5966e-06    1.08e-06  1.8272e-06 2.08879e-06       4e-06     5.5e-06        39.7     1.93048 6.30174e-06   3.679e-05
+Pred-S-Eval:
+-51.3253 -2.77052 -86.3236
+ 9.09237  6.10745  6.04922
+   -67.9   -8.787   -79.96
+New Pareto: true
+Number of Pareto optimal points: 162
+Elapsed time: 666.45 minutes
+Estimated remaining time: 47.0939 minutes
+-----------------------------
+Eval: 469
+Last eval x: 6.06112e-06     4.3e-06 3.46425e-06  4.5226e-06     1.6e-05     5.5e-06         159         6.5    2.33e-06    1.11e-05
+Pred-S-Eval:
+-52.6164 -12.2639 -81.6005
+  8.1307  6.69509  4.98785
+  -54.62   -7.097   -80.83
+New Pareto: false
+Number of Pareto optimal points: 162
+Elapsed time: 671.767 minutes
+Estimated remaining time: 45.9328 minutes
+-----------------------------
+Eval: 470
+Last eval x: 3.54874e-06 3.36534e-06 2.66694e-06 4.12182e-06 1.06911e-05     5.5e-06     77.8387         6.5    2.33e-06 3.27505e-05
+Pred-S-Eval:
+-78.0486 -33.9604 -72.3456
+ 7.04145  3.27291  2.34337
+  -86.97   -31.13   -66.06
+New Pareto: true
+Number of Pareto optimal points: 163
+Elapsed time: 676.633 minutes
+Estimated remaining time: 44.7242 minutes
+-----------------------------
+Eval: 471
+Last eval x: 4.72923e-06 4.06615e-06 1.99582e-06  2.2129e-06     1.6e-05     5.5e-06     107.359        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-61.6421 -23.9762 -80.9141
+ 7.33129  3.79152  3.32307
+  -63.23   -18.88   -79.69
+New Pareto: true
+Number of Pareto optimal points: 160
+Elapsed time: 681.6 minutes
+Estimated remaining time: 43.5064 minutes
+-----------------------------
+Eval: 472
+Last eval x: 6.81572e-06     4.3e-06 4.54014e-06    1.26e-06     1.6e-05     2.2e-05         159        1.62    2.33e-06 2.53582e-05
+Pred-S-Eval:
+ -44.435 -6.91749 -87.8781
+ 8.49004  6.85042     5.95
+  -45.74   -1.645   -88.51
+New Pareto: false
+Number of Pareto optimal points: 160
+Elapsed time: 686.883 minutes
+Estimated remaining time: 42.2922 minutes
+-----------------------------
+Eval: 473
+Last eval x:    3.45e-06 2.24121e-06 2.00472e-06    1.26e-06     1.6e-05     2.2e-05     122.107     3.62718 8.47716e-06 2.10222e-05
+Pred-S-Eval:
+ -28.453 -1.24403 -90.8796
+ 8.21348  6.10018  5.24104
+  -29.43  -0.3959   -91.71
+New Pareto: true
+Number of Pareto optimal points: 161
+Elapsed time: 692.833 minutes
+Estimated remaining time: 41.1003 minutes
+-----------------------------
+Eval: 474
+Last eval x: 4.73868e-06    1.08e-06    1.67e-06    1.26e-06 1.00042e-05     2.2e-05         159        1.62 5.52387e-06    1.11e-05
+Pred-S-Eval:
+-37.9026 -2.62443 -89.1187
+ 8.52721  6.65495  5.60163
+  -33.92  -0.4159   -90.83
+New Pareto: true
+Number of Pareto optimal points: 162
+Elapsed time: 698.217 minutes
+Estimated remaining time: 39.8559 minutes
+-----------------------------
+Eval: 475
+Last eval x:    1.38e-05     4.3e-06  3.3248e-06    5.04e-06     1.6e-05 1.78628e-05     65.4323        1.62 6.92869e-06    1.11e-05
+Pred-S-Eval:
+-53.5677 -5.47068 -82.9494
+ 9.86481  7.19373  6.28035
+  -56.28   -4.416   -78.52
+New Pareto: false
+Number of Pareto optimal points: 162
+Elapsed time: 703.567 minutes
+Estimated remaining time: 38.5923 minutes
+-----------------------------
+Eval: 476
+Last eval x:    1.38e-05 3.01761e-06    1.67e-06 1.80969e-06 1.52405e-05 1.74649e-05        39.7        1.62 8.83922e-06 1.37511e-05
+Pred-S-Eval:
+ -36.9593 -0.248529  -91.9137
+  7.73058   5.50394   4.84823
+   -34.21   -0.4664    -90.62
+New Pareto: false
+Number of Pareto optimal points: 162
+Elapsed time: 708.933 minutes
+Estimated remaining time: 37.3123 minutes
+-----------------------------
+Eval: 477
+Last eval x: 3.92812e-06    1.08e-06    1.67e-06    5.04e-06     1.6e-05     5.5e-06        39.7     6.45967 6.58687e-06 2.50325e-05
+Pred-S-Eval:
+-79.2452 -8.44817 -70.9658
+ 9.53915  7.02835  5.93697
+  -82.76   -9.941   -71.97
+New Pareto: false
+Number of Pareto optimal points: 162
+Elapsed time: 714.5 minutes
+Estimated remaining time: 36.0252 minutes
+-----------------------------
+Eval: 478
+Last eval x:    3.45e-06    1.08e-06    6.68e-06    5.04e-06     1.6e-05     5.5e-06        39.7     5.72013    2.33e-06 2.19902e-05
+Pred-S-Eval:
+-75.6074 -14.2359 -73.0755
+ 9.74084  6.17637  5.76679
+  -63.57   -5.311    -70.3
+New Pareto: false
+Number of Pareto optimal points: 162
+Elapsed time: 720.3 minutes
+Estimated remaining time: 34.7314 minutes
+-----------------------------
+Eval: 479
+Last eval x: 1.26199e-05 2.28285e-06    1.67e-06    1.26e-06 4.00356e-06 1.82143e-05        39.7     2.24053 5.92258e-06 2.43281e-05
+Pred-S-Eval:
+-61.7789 -3.54948  -85.099
+ 8.53573  6.25579  5.66806
+  -50.25   -1.765   -88.15
+New Pareto: true
+Number of Pareto optimal points: 163
+Elapsed time: 725.967 minutes
+Estimated remaining time: 33.4127 minutes
+-----------------------------
+Eval: 480
+Last eval x:  3.9924e-06 2.39355e-06    1.67e-06 2.97245e-06   4.494e-06 6.17925e-06         159        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+-72.4352 -25.3536 -74.9089
+ 8.04915  4.53904  4.34036
+  -68.52   -18.21   -74.75
+New Pareto: false
+Number of Pareto optimal points: 163
+Elapsed time: 731.583 minutes
+Estimated remaining time: 32.0736 minutes
+-----------------------------
+Eval: 481
+Last eval x: 1.06313e-05 3.25406e-06    1.67e-06    1.26e-06       4e-06 6.97183e-06         159        1.62 7.72825e-06 3.76604e-05
+Pred-S-Eval:
+-46.4323 -2.36366 -88.6407
+ 8.20279  6.07871  5.60042
+  -42.73   -1.229   -89.48
+New Pareto: false
+Number of Pareto optimal points: 163
+Elapsed time: 737.183 minutes
+Estimated remaining time: 30.716 minutes
+-----------------------------
+Eval: 482
+Last eval x:    3.45e-06     4.3e-06 2.70067e-06 4.61811e-06     1.6e-05     5.5e-06         159         6.5    2.33e-06 2.56739e-05
+Pred-S-Eval:
+-66.3447 -26.0703 -82.3112
+   7.216  4.09882  2.15654
+  -63.49   -22.96    -73.6
+New Pareto: false
+Number of Pareto optimal points: 163
+Elapsed time: 742.433 minutes
+Estimated remaining time: 29.3269 minutes
+-----------------------------
+Eval: 483
+Last eval x: 7.29412e-06   2.611e-06    1.67e-06    5.04e-06     1.6e-05 1.23752e-05     91.2269     4.73096    2.33e-06 4.42842e-05
+Pred-S-Eval:
+-54.9824 -7.49977  -84.383
+ 9.18534  6.78914  5.50319
+  -52.28   -5.325   -82.38
+New Pareto: false
+Number of Pareto optimal points: 163
+Elapsed time: 748.133 minutes
+Estimated remaining time: 27.9386 minutes
+-----------------------------
+Eval: 484
+Last eval x: 6.10666e-06 3.08723e-06 1.87557e-06 1.92229e-06     1.6e-05 5.50722e-06         159     2.33289 3.44834e-06 3.42866e-05
+Pred-S-Eval:
+-59.4778 -11.9082 -83.0638
+ 7.59799  6.03228   4.5718
+   -50.9   -4.817   -87.24
+New Pareto: true
+Number of Pareto optimal points: 164
+Elapsed time: 753.85 minutes
+Estimated remaining time: 26.533 minutes
+-----------------------------
+Eval: 485
+Last eval x:    1.38e-05     4.3e-06 2.46312e-06    1.26e-06     1.6e-05 5.76355e-06        39.7     5.56306 2.43245e-06 1.35056e-05
+Pred-S-Eval:
+ -46.267 -4.71955 -85.9414
+ 9.33109  6.79579  6.12911
+  -43.72   -1.153   -89.33
+New Pareto: true
+Number of Pareto optimal points: 164
+Elapsed time: 759.767 minutes
+Estimated remaining time: 25.1163 minutes
+-----------------------------
+Eval: 486
+Last eval x:    3.45e-06     4.3e-06    1.67e-06    5.04e-06 6.65684e-06     2.2e-05        39.7         6.5    2.33e-06 3.16986e-05
+Pred-S-Eval:
+-77.3699 -37.0599 -61.9019
+  7.4426  2.52668  3.69252
+  -87.08   -35.28   -61.55
+New Pareto: false
+Number of Pareto optimal points: 164
+Elapsed time: 765.6 minutes
+Estimated remaining time: 23.6784 minutes
+-----------------------------
+Eval: 487
+Last eval x:    3.45e-06 4.24603e-06    1.67e-06 3.64615e-06 7.42766e-06     2.2e-05        39.7         6.5 2.33007e-06    4.43e-05
+Pred-S-Eval:
+-80.1163 -39.9331 -67.5155
+ 6.97507  1.35063  1.85165
+  -86.81    -37.9   -65.29
+New Pareto: true
+Number of Pareto optimal points: 164
+Elapsed time: 771.483 minutes
+Estimated remaining time: 22.2238 minutes
+-----------------------------
+Eval: 488
+Last eval x:    3.45e-06     4.3e-06 3.52166e-06    5.04e-06     1.6e-05 1.02662e-05         159     6.30384 6.09653e-06 2.51612e-05
+Pred-S-Eval:
+ -43.022 -7.57684 -87.2334
+ 8.16975   6.9194   5.0497
+  -45.61   -4.256   -85.58
+New Pareto: false
+Number of Pareto optimal points: 164
+Elapsed time: 777.35 minutes
+Estimated remaining time: 20.7506 minutes
+-----------------------------
+Eval: 489
+Last eval x:    1.38e-05 3.29547e-06    1.67e-06    1.26e-06     1.6e-05 1.06224e-05        39.7     1.68775 6.24351e-06 4.14166e-05
+Pred-S-Eval:
+-54.1571 -3.30836 -84.7034
+ 8.79435  5.86117  5.97527
+  -47.79   -1.992   -88.59
+New Pareto: false
+Number of Pareto optimal points: 164
+Elapsed time: 783.117 minutes
+Estimated remaining time: 19.257 minutes
+-----------------------------
+Eval: 490
+Last eval x:    3.45e-06     4.3e-06 5.37198e-06 1.91372e-06 1.04791e-05 5.65408e-06     102.836         6.5 4.89852e-06    4.43e-05
+Pred-S-Eval:
+-37.7033 -5.29114 -89.1015
+ 7.70774  6.99921   5.1943
+  -40.51   -1.674    -88.7
+New Pareto: false
+Number of Pareto optimal points: 164
+Elapsed time: 788.767 minutes
+Estimated remaining time: 17.7432 minutes
+-----------------------------
+Eval: 491
+Last eval x: 1.05559e-05 1.08912e-06 1.81148e-06 3.88236e-06     1.6e-05 1.79053e-05     63.2845         6.5    2.33e-06 3.40431e-05
+Pred-S-Eval:
+ -41.812 -4.16896 -88.0795
+ 9.22669  6.91214  6.35885
+  -42.07  -0.7005   -88.58
+New Pareto: false
+Number of Pareto optimal points: 164
+Elapsed time: 794.967 minutes
+Estimated remaining time: 16.2238 minutes
+-----------------------------
+Eval: 492
+Last eval x: 3.86165e-06     4.3e-06 3.27667e-06 3.60722e-06 1.34107e-05     5.5e-06      51.836         6.5 3.95807e-06 3.72523e-05
+Pred-S-Eval:
+-62.3153 -18.5708 -81.4311
+ 7.05951   5.0933  2.60195
+  -53.41   -8.643   -82.74
+New Pareto: true
+Number of Pareto optimal points: 165
+Elapsed time: 801.5 minutes
+Estimated remaining time: 14.6914 minutes
+-----------------------------
+Eval: 493
+Last eval x: 8.68813e-06 2.31574e-06  1.6808e-06 1.36544e-06 6.23139e-06 1.93826e-05     157.152        1.62 7.21209e-06    1.11e-05
+Pred-S-Eval:
+-34.7823 -2.64385 -89.4958
+ 7.90645  6.73191  5.59332
+  -34.34  -0.4048   -90.71
+New Pareto: true
+Number of Pareto optimal points: 166
+Elapsed time: 806.933 minutes
+Estimated remaining time: 13.1209 minutes
+-----------------------------
+Eval: 494
+Last eval x: 5.36091e-06     4.3e-06 1.90333e-06 3.81538e-06 1.33546e-05     5.5e-06     63.5769         6.5 6.03227e-06    4.43e-05
+Pred-S-Eval:
+-58.4853  -10.523 -84.3216
+ 7.63801  6.20151  4.23897
+  -52.03   -7.946   -84.55
+New Pareto: false
+Number of Pareto optimal points: 166
+Elapsed time: 813 minutes
+Estimated remaining time: 11.5436 minutes
+-----------------------------
+Eval: 495
+Last eval x: 8.05186e-06     4.3e-06 4.18611e-06 2.46609e-06     1.6e-05 9.97537e-06     53.2685     5.70478    2.33e-06 2.11811e-05
+Pred-S-Eval:
+-55.3263 -9.58329 -79.5009
+ 7.75593  6.35807  5.10636
+  -70.42   -12.63   -73.01
+New Pareto: false
+Number of Pareto optimal points: 166
+Elapsed time: 818.45 minutes
+Estimated remaining time: 9.94069 minutes
+-----------------------------
+Eval: 496
+Last eval x: 5.41057e-06 2.51779e-06 2.24913e-06  2.7307e-06       4e-06   6.448e-06      45.917         6.5 4.45652e-06 4.32149e-05
+Pred-S-Eval:
+-67.2274 -10.7999  -79.788
+  7.8231  6.31137  4.87737
+  -84.78   -15.62   -73.25
+New Pareto: true
+Number of Pareto optimal points: 166
+Elapsed time: 824.633 minutes
+Estimated remaining time: 8.32963 minutes
+-----------------------------
+Eval: 497
+Last eval x: 1.28377e-05     4.3e-06 1.70326e-06 1.92287e-06 1.58815e-05  1.1203e-05        39.7         6.5 5.71815e-06    1.11e-05
+Pred-S-Eval:
+-36.9734 -2.70873 -88.9071
+ 8.53083  6.45791  5.86717
+  -32.64  -0.5115   -90.89
+New Pareto: true
+Number of Pareto optimal points: 167
+Elapsed time: 830.983 minutes
+Estimated remaining time: 6.70148 minutes
+-----------------------------
+Eval: 498
+Last eval x:    3.45e-06     4.3e-06 5.89648e-06    1.26e-06 8.71644e-06     2.2e-05         159        1.62    2.33e-06    4.43e-05
+Pred-S-Eval:
+ -44.462 -4.16849  -90.866
+ 7.89519   6.3546   5.3016
+   -43.4   -2.178   -88.02
+New Pareto: false
+Number of Pareto optimal points: 167
+Elapsed time: 837.067 minutes
+Estimated remaining time: 5.05272 minutes
+-----------------------------
+Eval: 499
+Last eval x: 4.55441e-06     4.3e-06 2.49574e-06 3.17766e-06 1.31337e-05 7.12226e-06        39.7     4.38351    2.33e-06 3.66066e-05
+Pred-S-Eval:
+-70.7729 -33.1325 -77.8682
+ 6.84543  2.42924  1.95294
+  -82.55   -32.49   -66.37
+New Pareto: true
+Number of Pareto optimal points: 168
+Elapsed time: 843.183 minutes
+Estimated remaining time: 3.38628 minutes
+-----------------------------
+Eval: 500
+Last eval x: 6.18195e-06     4.3e-06 4.34681e-06    1.26e-06 1.52947e-05     5.5e-06         159     3.20284 7.73597e-06    1.11e-05
+Pred-S-Eval:
+-24.1186 -2.34041 -93.0922
+ 7.68887  6.69715  4.97222
+  -25.06  -0.1644   -93.02
+New Pareto: true
+Number of Pareto optimal points: 169
+Elapsed time: 849.717 minutes
+Estimated remaining time: 1.70284 minutes
+-----------------------------
