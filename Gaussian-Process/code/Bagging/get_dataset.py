@@ -55,7 +55,6 @@ def circuit(x):
                 y[i, p] = float(line[i])
 
     return y
->>>>>>> tmp/master
 
 def branin(x):
     a = 1.0
